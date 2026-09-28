@@ -1105,7 +1105,27 @@ const ALBUMS = [
             trans:["我将横渡辽阔的海洋","去与你相会","直到时间的尽头","我都将抵达你身边","你的每一次呼吸里，我都在呼吸着你"] },
         ]
       },
-      { t:"Emmène-moi", lang:"FR" },
+      {
+        t:"Emmène-moi", lang:"FR",
+        note:"「带我走」。在玻璃、黄金与丝绸筑成的牢笼里，穿着华美衣裙的女子独自起舞、冻得发抖。她恳求爱人带她远走——越过冬天、越过边界，驱散沉睡旧世界里的黑鸟与恶狼。她的船不惧逆风。",
+        lyrics: [
+          { role:"Couplet 1", chorus:false,
+            orig:["Prison de verre","D'or et de soie","La robe est belle","Mais moi je danse seule","Transie de froid","Lis sur mes lèvres"],
+            trans:["玻璃的牢笼","黄金与丝绸铸就","衣裙很美","可我独自起舞","冻得发抖","请读我的唇语"] },
+          { role:"Refrain", chorus:true,
+            orig:["Ô emmène-moi","Loin si loin d'ici","Au-delà de l'hiver","Un jour viendra","De nos pas indécis on ira"],
+            trans:["哦，带我走吧","远远地，远离这里","越过冬天","总有一天会到来","我们迟疑的脚步终将启程"] },
+          { role:"Couplet 2", chorus:false,
+            orig:["Prendre la mer","Croiser les doigts","Pour que tu m'aimes encore","Hisse les voiles","Mon bateau ne craint pas","Les vents contraires"],
+            trans:["扬帆入海","双指交叠祈祷","愿你仍然爱我","升起船帆","我的船不惧","那些逆行的风"] },
+          { role:"Refrain", chorus:true,
+            orig:["Ô emmène-moi","Loin si loin d'ici","Au-delà des frontières","Un jour viendra","De nos pas indécis on ira"],
+            trans:["哦，带我走吧","远远地，远离这里","越过重重边界","总有一天会到来","我们迟疑的脚步终将启程"] },
+          { role:"Pont", chorus:false,
+            orig:["Ô emmène-moi","J'ai fait ce rêve encore","Emmène-moi","A mille lieues de nous","Chasse les oiseaux noirs, les loups","Du vieux monde qui s'endort"],
+            trans:["哦，带我走吧","我又做了这个梦","带我走","到千里之外","驱散那些黑鸟、那些恶狼","从这沉睡的旧世界里"] },
+        ]
+      },
       {
         t:"Tristes noces", lang:"FR",
         note:"「悲伤的婚礼」。一则暗黑叙事——一个女子为爱在六月的夜里成了凶手。舞会的小提琴旋转，宾客们身着绸缎起舞；被她所爱的负心人抛弃，她终结了这场婚礼。清晨她将失去一切装束，唯有死亡在她苍白的眼中闪烁。「温柔的士兵，暗影里温柔的狱卒，请听一听这为爱沉沦的女子。」",
@@ -1130,7 +1150,13 @@ const ALBUMS = [
             trans:["旋转吧，旋转","那时钟的指针","新人们还在起舞","而那是死亡","在我苍白的眼中闪烁","别了，我美丽的爱人"] },
         ]
       },
-      { t:"Route de la Soie", lang:"FR" },
+      {
+        t:"Route de la Soie", lang:"Instr.",
+        note:"纯器乐曲，无歌词。",
+        lyrics: [
+          { role:"", chorus:false, orig:["（纯音乐 · 无词）"], trans:["—"] },
+        ]
+      },
       {
         t:"Les passagers du vent", lang:"FR",
         note:"「风的旅客」（专辑收尾曲，歌名亦是同名系列的意象）。血红的天空下，海鸟纷飞，一个孤独的女孩心事黑白分明，思绪像风中的墨滴悄然散去。她在堤岸等待启程的船——「玛丽，靠到我身边来，别去数那些时辰，爱会归来。」而她那些转瞬的爱恋，是否也是风的旅客？",
