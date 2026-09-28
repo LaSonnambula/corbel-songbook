@@ -1,0 +1,15 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# node (only if a local tool ever gets added)
+node_modules/
+npm-debug.log*
+
+# saved lyric source pages (kept locally, not committed)
+*_lyrics.html
+*_lyrics_files/
+downloads/

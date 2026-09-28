@@ -1,0 +1,706 @@
+<title>Corbel Songbook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Noto+Serif+SC:wght@400;500;600&display=swap">
+<style>
+  :root {
+    color-scheme: dark;
+    --ink: #0f1420;
+    --ground: #141a28;
+    --panel: #1a2233;
+    --panel-2: #202a3d;
+    --edge: #2c3852;
+    --edge-soft: #24304698;
+    --parch: #ece3cf;
+    --parch-dim: #b9b3a1;
+    --text: #ded8c8;
+    --text-soft: #a6a290;
+    --gold: #c9a55c;
+    --gold-bright: #e0bd76;
+    --sea: #7bb0a2;
+    --sea-deep: #4d7d72;
+    --wine: #a85a5f;
+    --shadow: 0 18px 48px -22px #000c;
+    --serif-display: "Cormorant", "Georgia", serif;
+    --serif-roman: "Cinzel", "Times New Roman", serif;
+    --serif-src: "EB Garamond", "Georgia", serif;
+    --serif-zh: "Noto Serif SC", "Songti SC", "SimSun", serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background:
+      radial-gradient(1200px 600px at 78% -8%, #1c2740 0%, transparent 60%),
+      radial-gradient(900px 700px at -10% 110%, #17231f 0%, transparent 55%),
+      var(--ground);
+    color: var(--text);
+    font-family: var(--serif-src);
+    font-size: 17px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: inherit; }
+
+  /* ---------- layout shell ---------- */
+  .wrap {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px 80px;
+    display: grid;
+    grid-template-columns: 268px 1fr;
+    gap: 40px;
+    align-items: start;
+  }
+
+  /* ---------- hero ---------- */
+  .hero {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 64px 16px 40px;
+    position: relative;
+  }
+  .hero .kicker {
+    font-family: var(--serif-roman);
+    letter-spacing: .42em;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: var(--gold);
+    margin: 0 0 20px;
+    padding-left: .42em;
+  }
+  .hero h1 {
+    font-family: var(--serif-display);
+    font-weight: 500;
+    font-size: clamp(46px, 8vw, 88px);
+    line-height: .96;
+    margin: 0;
+    color: var(--parch);
+    text-wrap: balance;
+    letter-spacing: .01em;
+  }
+  .hero h1 em {
+    font-style: italic;
+    color: var(--gold-bright);
+  }
+  .hero .sub {
+    font-family: var(--serif-display);
+    font-style: italic;
+    font-size: clamp(18px, 2.6vw, 23px);
+    color: var(--text-soft);
+    margin: 22px auto 0;
+    max-width: 44ch;
+    text-wrap: balance;
+  }
+  .rule {
+    width: 96px; height: 1px;
+    margin: 30px auto 0;
+    background: linear-gradient(90deg, transparent, var(--gold) 20%, var(--gold) 80%, transparent);
+    position: relative;
+  }
+  .rule::after {
+    content: "❧";
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--ground);
+    color: var(--gold);
+    padding: 0 12px;
+    font-size: 14px;
+  }
+
+  /* ---------- sidebar / nav ---------- */
+  .side {
+    position: sticky;
+    top: calc(env(safe-area-inset-top, 0px) + 16px);
+    align-self: start;
+  }
+  .side-inner {
+    background: linear-gradient(180deg, var(--panel), var(--ink));
+    border: 1px solid var(--edge);
+    border-radius: 6px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+  .side h2 {
+    font-family: var(--serif-roman);
+    font-size: 12px;
+    letter-spacing: .28em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin: 0;
+    padding: 18px 20px 12px;
+    border-bottom: 1px solid var(--edge-soft);
+  }
+  .albums { list-style: none; margin: 0; padding: 8px; }
+  .album { margin: 0 0 2px; }
+  .album > button {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    background: none;
+    border: 0;
+    color: var(--parch);
+    font-family: var(--serif-display);
+    font-size: 20px;
+    text-align: left;
+    padding: 10px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background .18s;
+  }
+  .album > button:hover { background: #ffffff0a; }
+  .album > button .yr {
+    font-family: var(--serif-src);
+    font-size: 12px;
+    color: var(--parch-dim);
+    letter-spacing: .04em;
+  }
+  .tracks { list-style: none; margin: 0 0 6px; padding: 0 8px 4px 14px; }
+  .tracks li { margin: 0; }
+  .tracks button {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: 0;
+    border-left: 2px solid transparent;
+    color: var(--text-soft);
+    font-family: var(--serif-src);
+    font-size: 15.5px;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    transition: color .15s, border-color .15s, background .15s;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    align-items: center;
+  }
+  .tracks button:hover { color: var(--parch); background: #ffffff07; }
+  .tracks button.active {
+    color: var(--gold-bright);
+    border-left-color: var(--gold);
+    background: #c9a55c14;
+  }
+  .tracks button .lang {
+    font-size: 10px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--sea);
+    opacity: .8;
+    flex: none;
+  }
+  .tracks button .todo {
+    font-size: 9px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--parch-dim);
+    border: 1px solid var(--edge);
+    border-radius: 20px;
+    padding: 1px 7px;
+    flex: none;
+  }
+
+  /* ---------- main song panel ---------- */
+  .main { min-width: 0; }
+
+  .song-head {
+    margin: 4px 0 26px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--edge-soft);
+  }
+  .song-head .album-tag {
+    font-family: var(--serif-roman);
+    font-size: 11px;
+    letter-spacing: .26em;
+    text-transform: uppercase;
+    color: var(--sea);
+    margin: 0 0 10px;
+  }
+  .song-head h2 {
+    font-family: var(--serif-display);
+    font-weight: 500;
+    font-size: clamp(32px, 5vw, 52px);
+    line-height: 1.02;
+    margin: 0;
+    color: var(--parch);
+    text-wrap: balance;
+  }
+  .song-head .meta {
+    margin: 14px 0 0;
+    font-size: 14.5px;
+    color: var(--text-soft);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 20px;
+    font-style: italic;
+    font-family: var(--serif-display);
+  }
+  .song-head .meta b {
+    font-style: normal;
+    font-weight: 400;
+    color: var(--gold);
+    font-family: var(--serif-roman);
+    font-size: 11px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    margin-right: 6px;
+  }
+
+  .note {
+    background: #1d2740;
+    border: 1px solid var(--edge);
+    border-left: 3px solid var(--sea-deep);
+    border-radius: 4px;
+    padding: 14px 18px;
+    margin: 0 0 30px;
+    font-family: var(--serif-display);
+    font-style: italic;
+    font-size: 16px;
+    color: var(--text-soft);
+  }
+  .note b {
+    font-style: normal;
+    color: var(--sea);
+    font-family: var(--serif-roman);
+    font-size: 11px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  /* stanza grid */
+  .lyrics { display: flex; flex-direction: column; gap: 26px; }
+  .stanza {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 40px;
+    padding: 4px 0;
+    position: relative;
+  }
+  .stanza::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 4px; bottom: 4px;
+    width: 1px;
+    background: var(--edge-soft);
+    transform: translateX(-50%);
+  }
+  .orig, .trans { min-width: 0; }
+  .orig {
+    font-family: var(--serif-src);
+    font-size: 18px;
+    color: var(--parch);
+  }
+  .orig .line { display: block; }
+  .orig i { color: var(--gold); font-style: italic; }
+  .trans {
+    font-family: var(--serif-zh);
+    font-size: 16.5px;
+    line-height: 1.85;
+    color: var(--text);
+  }
+  .trans .line { display: block; }
+  .trans.empty {
+    font-family: var(--serif-display);
+    font-style: italic;
+    color: var(--parch-dim);
+    opacity: .5;
+    align-self: center;
+  }
+  .stanza.chorus .orig,
+  .stanza.chorus .trans { padding-left: 14px; border-left: 2px solid var(--gold); }
+  .stanza.chorus .orig { color: var(--gold-bright); }
+  .stanza .role {
+    grid-column: 1 / -1;
+    font-family: var(--serif-roman);
+    font-size: 10px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: var(--sea);
+    margin-bottom: -6px;
+  }
+
+  /* placeholder empty state for whole song */
+  .placeholder {
+    text-align: center;
+    padding: 40px 20px;
+    border: 1px dashed var(--edge);
+    border-radius: 6px;
+    background: #ffffff05;
+  }
+  .placeholder p {
+    font-family: var(--serif-display);
+    font-style: italic;
+    font-size: 18px;
+    color: var(--text-soft);
+    max-width: 50ch;
+    margin: 0 auto 6px;
+  }
+  .placeholder .how {
+    font-family: var(--serif-src);
+    font-style: normal;
+    font-size: 14px;
+    color: var(--parch-dim);
+    margin-top: 16px;
+  }
+
+  footer {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 24px;
+    border-top: 1px solid var(--edge-soft);
+    color: var(--parch-dim);
+    font-family: var(--serif-display);
+    font-style: italic;
+    font-size: 14px;
+  }
+  footer .harp { color: var(--gold); font-style: normal; font-size: 18px; }
+
+  /* mobile nav toggle */
+  .mobile-bar { display: none; }
+
+  @media (max-width: 860px) {
+    .wrap { grid-template-columns: 1fr; gap: 0; }
+    .hero { padding: 44px 8px 24px; }
+    .side {
+      position: static;
+      margin-bottom: 8px;
+    }
+    .side-inner.collapsed .albums { display: none; }
+    .mobile-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      background: none; border: 0;
+      color: var(--gold);
+      font-family: var(--serif-roman);
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      font-size: 12px;
+      padding: 16px 20px;
+      cursor: pointer;
+    }
+    .stanza { grid-template-columns: 1fr; gap: 6px; }
+    .stanza::before { display: none; }
+    .orig { padding-bottom: 8px; border-bottom: 1px dotted var(--edge); }
+    .main { padding-top: 12px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+  }
+</style>
+
+<div class="wrap">
+  <header class="hero">
+    <p class="kicker">Le Cahier de Chansons</p>
+    <h1>Cécile <em>Corbel</em></h1>
+    <p class="sub">凯尔特竖琴与旧世界的歌 — 专辑歌词原文与私藏中文翻译</p>
+    <div class="rule"></div>
+  </header>
+
+  <nav class="side">
+    <div class="side-inner" id="sideInner">
+      <button class="mobile-bar" id="mobileBar" aria-expanded="true">
+        <span>专辑目录 · Sommaire</span>
+        <span id="mobileCaret">▾</span>
+      </button>
+      <h2>Songbooks</h2>
+      <ul class="albums" id="albumList"></ul>
+    </div>
+  </nav>
+
+  <main class="main" id="main"></main>
+
+  <footer>
+    <div class="harp">♪</div>
+    Un cahier privé · 私人歌本 · 仅供个人欣赏与学习
+  </footer>
+</div>
+
+<script>
+/* =====================================================================
+   DATA MODEL
+   ---------------------------------------------------------------------
+   每首歌一个对象。要"填一首歌"，把 lyrics 改成 stanza 数组即可：
+     lyrics: [
+       { role: "Verse 1",            // 可选，段落标记（Verse/Chorus/Bridge…）
+         chorus: false,              // true = 副歌样式（金色竖线高亮）
+         orig: ["原文第一行", "原文第二行"],
+         trans: ["译文第一行", "译文第二行"] }   // 留空 [] 则显示"待译"
+     ]
+   lyrics 为 null = 整首待录入（显示占位提示）。
+   lang: 原文语言标签。
+   ===================================================================== */
+const ALBUMS = [
+  {
+    title: "SongBook", vol: "vol. 1", year: "2006",
+    songs: [
+      { t:"Blackbird", lang:"EN" },
+      { t:"Bemnoz", lang:"BR" },
+      { t:"The King of the Fairies", lang:"Instr." },
+      {
+        t:"Auchindoun", lang:"SCO",
+        note:"古老的苏格兰民谣（Scots 方言），咏 1592 年 Willie MacIntosh 火烧 Auchindoun 城堡一事。「Halamachadoo…」一段为口传吟唱的拟声衬词，无实义，此处合并示意，实际演唱中多次反复。",
+        lyrics: [
+          { role:"Verse 1", chorus:false,
+            orig:["As I cam' in by Fiddichside,","On a may morning","I spied Willie MacIntosh","An hour before the dawning"],
+            trans:["当我行经菲迪赫河畔，","在一个五月的清晨","我望见威利·麦金托什","破晓前的一个时辰"] },
+          { role:"Verse 2", chorus:false,
+            orig:["As I cam' in by Auchindoun","On a may morning","Auchindoun was in a bleeze","An hour before the dawning"],
+            trans:["当我行至奥金顿，","在一个五月的清晨","奥金顿已燃作一片火海","破晓前的一个时辰"] },
+          { role:"Verse 3 — 劝阻", chorus:false,
+            orig:["Turn agin, turn agin,","Turn agin I bid ye","If ye burn Auchindoun,","Huntly he will heid ye"],
+            trans:["回头吧，回头吧，","我求你回头","你若烧了奥金顿，","亨特利定要取你首级"] },
+          { role:"Refrain 拟声叠句", chorus:true,
+            orig:["Halamachadoo hoo-ra-bhi","Oh hoo-rabha-hi-na hoo-rabha hin","Halamchadoo hoo-ra-bhi","Oh decko decko dandy"],
+            trans:["（口传吟唱衬词，无实义）","哈拉玛查嘟 呼——啦——嘿","哦 呼啦巴嘿那 呼啦巴嗨","哦 迪科迪科丹迪"] },
+          { role:"Verse 4 — 回应", chorus:false,
+            orig:["Heid me or hang me,","That shall never fear me","I will burn Auchindoun","Though the life leaves me"],
+            trans:["砍我头也好，绞死我也罢，","都吓不倒我分毫","我定要烧了奥金顿","哪怕为此丢了性命"] },
+          { role:"", chorus:false,
+            orig:["（其后重复 Verse 1 / Verse 2 与拟声叠句，直至歌末）"],
+            trans:["（副歌与首二段循环反复，收束全曲）"] },
+        ]
+      },
+      { t:"Le vent m'emporte", lang:"FR/BR" },
+      { t:"She Moved Through the Fair", lang:"EN" },
+      { t:"Three Ravens", lang:"EN" },
+      { t:"Red Rose", lang:"EN" },
+      { t:"C'hoant dimeziñ", lang:"BR" },
+    ]
+  },
+  {
+    title: "SongBook", vol: "vol. 2", year: "2008",
+    songs: [
+      {
+        t:"La fille damnée", lang:"FR",
+        note:"哥特叙事谣：铁匠为一位来客钉马蹄，副歌里「被诅咒的姑娘」在夜里歌唱；随后揭晓——那来客竟是他死去埋葬的女儿 Jeanne 的亡魂，回来求父亲焚身、扬灰入风，方得超度。副歌全曲反复，此处只列一次。",
+        lyrics: [
+          { role:"Couplet 1 — 对话", chorus:false,
+            orig:["« Dis-moi combien, combien de deniers","forgeron, pour ferrer mon coursier ? »","« C'est cinq sols pour vous, mon prince","seulement cinq sols et un denier. »"],
+            trans:["「告诉我，要多少、多少个银币，","铁匠，才能为我的坐骑钉上马蹄？」","「于您只需五枚苏，我的王子，","只要五枚苏，外加一枚银币。」"] },
+          { role:"Refrain（全曲反复）", chorus:true,
+            orig:["J'entends chanter,","j'entends chanter","la fille damnée","j'entends chanter.","À la lune montante","j'entends l'oiseau chanter.","Ma jolie, ma si jolie,","file dans la nuit."],
+            trans:["我听见歌声，","我听见有人歌唱","那被诅咒的姑娘","我听见她在歌唱。","向着渐升的月亮","我听见夜鸟啼鸣。","我的美人啊，我这般美丽的人，","在夜里纺着纱线。"] },
+          { role:"Couplet 2 — 预言", chorus:false,
+            orig:["« Au premier fer que tu mettras","\"mon bon père\" il va t'appeler.","Au premier clou que tu poseras,","il va t'appeler \"mon père\". »"],
+            trans:["「当你钉上第一只马蹄，","他便要唤你『我的好父亲』。","当你敲下第一枚马钉，","他便要唤你一声『父亲』。」"] },
+          { role:"Couplet 3 — 相认", chorus:false,
+            orig:["« Qui est-ce, diable, qui m'appelle \"père\" ?","Dis-moi qui est-il sur-le-champ. »","« C'est ta fille, ta chère fille Jeanne,","ta fille morte et enterrée. »"],
+            trans:["「究竟是谁，见鬼，唤我『父亲』？","快告诉我他到底是谁。」","「是你的女儿，你亲爱的让娜，","你那已死去、已入土的女儿。」"] },
+          { role:"Couplet 4 — 缘由", chorus:false,
+            orig:["« Dis-moi, ma fille, qui t'a damnée","là-bas sur la lande et les blés ? »","« C'est cet homme, le long de la mer,","chaque jour, il venait me trouver. »"],
+            trans:["「告诉我，女儿，是谁令你堕入沉沦，","在那片荒野与麦田之上？」","「是那个男人，沿着海岸而来，","日复一日，前来纠缠于我。」"] },
+          { role:"Couplet 5 — 遗愿", chorus:false,
+            orig:["« Prenez mon corps, mon cœur et ma robe,","sous la lune, il faut les brûler.","À la brume, vous jetterez mes cendres.","Enfin, au vent vous les jetterez. »"],
+            trans:["「取走我的身躯、我的心与我的裙裳，","趁着月色，将它们付之一炬。","趁着晨雾，把我的骨灰撒去。","最后，让它们随风飘散。」"] },
+        ]
+      },
+      {
+        t:"Sans faire un bruit", lang:"FR",
+        note:"一则冬夜的叙事诗：骄傲的姑娘随无地骑士走到世界尽头，宁死不属于人，终在破晓前化作雪狐，消融于冬天。",
+        lyrics: [
+          { role:"Couplet 1", chorus:false,
+            orig:["On raconte l'histoire d'une fille belle et fière,","D'un chevalier sans terre qui l'emmena","Il l'enlève tout au bord, au bord de la terre","À la frontière du nord elle le suivra"],
+            trans:["人们传说着一个美丽而骄傲的姑娘，","和一位无地的骑士，把她带走","他将她掳到尽头，大地的尽头","在北方的边界，她愿追随他而去"] },
+          { role:"Refrain", chorus:true,
+            orig:["Sans faire un bruit, la neige tombera et j'attends","Que la nuit et la ronde des heures me ramènent à toi"],
+            trans:["不发出一点声响，雪将落下，而我等待——","等黑夜与时辰的轮转，将我送回你身旁"] },
+          { role:"Couplet 2 — 对话", chorus:false,
+            orig:["« Toi, ma belle, si tu renonces à la mer","Je serai ton trésor, ton père, ton roi »","« Jamais ne serai tienne, jamais ne serai tout à toi","Trois heures avant le jour, je m'enfuirai »"],
+            trans:["「你，我的美人，若你愿舍弃大海，","我便是你的珍宝、你的父、你的王」","「我永不属于你，永不整个属于你——","破晓前三个时辰，我便要逃离」"] },
+          { role:"Refrain", chorus:true,
+            orig:["Sans faire un bruit, la neige tombera et j'attends","Que la nuit et la ronde des heures me ramènent à toi","Et quand, sans faire un bruit, la neige doucement s'en ira","C'est la nuit et la ronde des heures qui te ramènera"],
+            trans:["不发出一点声响，雪将落下，而我等待——","等黑夜与时辰的轮转，将我送回你身旁","而当雪不发一声，悄悄消融离去","便是黑夜与时辰的轮转，将你送回我身旁"] },
+          { role:"Couplet 3", chorus:false,
+            orig:["Trois heures avant le jour, elle se fond dans l'hiver","Et en renard de neige elle se changea"],
+            trans:["破晓前三个时辰，她消融于冬天","化作一只雪白的狐，就此变了模样"] },
+          { role:"Refrain", chorus:true,
+            orig:["Sans faire un bruit, la neige tombera et j'attends","Que la nuit et la ronde des heures me ramènent à toi","Et quand, sans faire un bruit, la neige doucement s'en ira","C'est la nuit et la ronde des heures qui te ramènera"],
+            trans:["不发出一点声响，雪将落下，而我等待——","等黑夜与时辰的轮转，将我送回你身旁","而当雪不发一声，悄悄消融离去","便是黑夜与时辰的轮转，将你送回我身旁"] },
+          { role:"Coda", chorus:false,
+            orig:["Sans faire un bruit, la nuit j'attends","Sans faire un bruit, bien loin d'ici j'attends","Sans faire un bruit, la nuit j'attends","Sans faire un bruit, bien loin d'ici j'attends"],
+            trans:["不发出一点声响，我在夜里等待","不发出一点声响，在远离此地的地方等待","不发出一点声响，我在夜里等待","不发出一点声响，在远离此地的地方等待"] },
+        ]
+      },
+      { t:"Elisabetha", lang:"LA/IT" },
+      { t:"Sweet Song", lang:"EN" },
+      { t:"Painted Veil", lang:"EN" },
+      { t:"I See the Great Mountains", lang:"EN" },
+      { t:"En la mar", lang:"ES" },
+    ]
+  },
+  {
+    title: "SongBook", vol: "vol. 3 — Renaissance", year: "2011",
+    songs: [
+      {
+        t:"Brian Boru", lang:"FR",
+        note:"以爱尔兰最后的至高王 Brian Boru（941–1014）为象征，唱回归故土、渡海归乡之志。结尾「E keltia」为凯尔特语，意为「致凯尔特」。",
+        lyrics: [
+          { role:"Couplet 1", chorus:false,
+            orig:["Comme le chant des pierres","Qui résonnent en silence","Comme l'eau qui serpente","Et qui gronde sous moi","Tu sais je reviendrai","Dans ma terre d'enfance","Au pays des rêves","Des fées et des rois"],
+            trans:["如那石头的吟唱","在寂静中回响","如那蜿蜒的流水","在我脚下低鸣","你知道，我终会归来","回到我童年的土地","回到那梦之国度","精灵与君王的疆土"] },
+          { role:"Couplet 2", chorus:false,
+            orig:["Là-bas mon amour","Loin de la ville","Il fait plus froid","Et les jours sont fragiles","Brumes d'été","Les clochers des îles","Tu verras","J'irai là-bas"],
+            trans:["在那里，我的爱人","远离尘世的喧嚣","那里更冷些","日子也更脆弱","夏日的薄雾","岛屿上的钟楼","你会看到的","我终将去往那里"] },
+          { role:"Refrain", chorus:true,
+            orig:["Comme Brian Boru","Roi de l'Irlande","Je prendrai la mer","Et je rendrai les armes","Brian Boru","Bientôt je serai de retour","E keltia"],
+            trans:["如那布莱恩·博鲁","爱尔兰的王","我将扬帆入海","放下手中的刀兵","布莱恩·博鲁","不久我便要归来","致凯尔特"] },
+        ]
+      },
+      { t:"Sweet Amaryllis", lang:"EN" },
+      { t:"La Belle s'est endormie", lang:"FR" },
+      { t:"Where Have You Been?", lang:"EN" },
+      { t:"My Lullaby", lang:"EN" },
+    ]
+  },
+  {
+    title: "SongBook", vol: "vol. 4 — Roses", year: "2013",
+    songs: [
+      { t:"Les Capitaines", lang:"FR" },
+      { t:"The Riddle", lang:"EN" },
+      { t:"Francesco", lang:"IT" },
+      {
+        t:"Jenovefa", lang:"EN",
+        note:"布列塔尼传说悲歌（歌名 Jenovefa 即布列塔尼语的「热诺薇法／Geneviève」，歌词为英语）。康沃尔公爵之女热诺薇法深爱 Kerblez 的 Yannick，他却已成为 Nizon 的神父、归于上帝。她跪求无果，郁郁而终；此后神父常独立于墓碑之间，在她坟前哭泣。",
+        lyrics: [
+          { role:"Verse 1", chorus:false,
+            orig:["The Duke of Cornwall has pretty daughters","Jenovefa by far is the prettiest","She deeply loves Yannick of Kerblez","She has deeply loved him for many years"],
+            trans:["康沃尔公爵有几位标致的女儿","热诺薇法是其中最美的一个","她深深爱着凯尔布莱兹的雅尼克","这许多年来一直深深地爱着他"] },
+          { role:"Verse 2", chorus:false,
+            orig:["Jenovefa stands at her doorstep","Embroidering a fine lace dress","Yannick, oh Yannick, is a priest in Nizon","Holy words he reads, holy words he wants"],
+            trans:["热诺薇法伫立在她的门前","绣着一件精致的蕾丝衣裙","雅尼克，哦雅尼克，已是尼宗的神父","他诵读圣言，他一心向着圣言"] },
+          { role:"Verse 3 — 对话", chorus:false,
+            orig:["\"Yannick, my sweet love, did you lose the ring","This ring I gave you last night on the hill?\"","\"Jenovefa, I can't take your ring","I'm in God's hands now; I belong to him.\""],
+            trans:["「雅尼克，我甜蜜的爱人，你可曾丢了那枚戒指——","昨夜我在山冈上交给你的那一枚？」","「热诺薇法，我不能收下你的戒指","我如今在上帝手中，我已属于他。」"] },
+          { role:"Verse 4 — 哀求", chorus:false,
+            orig:["Jenovefa falls down on her knees","\"Oh, my dear fellow, I beg you to stay!","Give up your vows, otherwise I will die","I will join my Lord in ethereal skies.\""],
+            trans:["热诺薇法双膝跪倒在地","「哦，我亲爱的人，我求你留下！","放弃你的誓愿吧，否则我将死去","我将去缥缈的天国追随我的主。」"] },
+          { role:"Verse 5 — 结局", chorus:false,
+            orig:["Now Lord Yannick of Kerblez is a priest in Nizon","And many a time I've seen him alone","Standing there, in the midst of tombs","Crying on the grave of Jenovefa"],
+            trans:["如今凯尔布莱兹的雅尼克大人是尼宗的神父","我曾无数次见他孤身一人","伫立在那里，在重重墓碑之间","伏在热诺薇法的坟前哭泣"] },
+          { role:"Refrain", chorus:true,
+            orig:["Jenovefa, oh-oh-oh","Jenovefa, oh-oh-oh","Jenovefa, oh-oh-oh","Jenovefa"],
+            trans:["热诺薇法，哦——哦——哦","热诺薇法，哦——哦——哦","热诺薇法，哦——哦——哦","热诺薇法"] },
+        ]
+      },
+    ]
+  },
+];
+
+/* ---------- render ---------- */
+const albumList = document.getElementById("albumList");
+const main = document.getElementById("main");
+let current = null;
+
+function songId(ai, si){ return "s"+ai+"_"+si; }
+
+function buildNav(){
+  ALBUMS.forEach((al, ai) => {
+    const li = document.createElement("li");
+    li.className = "album";
+    const btn = document.createElement("button");
+    btn.innerHTML = `<span>${al.title} <span class="yr">${al.vol} · ${al.year}</span></span>`;
+    li.appendChild(btn);
+    const ul = document.createElement("ul");
+    ul.className = "tracks";
+    al.songs.forEach((s, si) => {
+      const tli = document.createElement("li");
+      const tb = document.createElement("button");
+      tb.id = "nav_"+songId(ai,si);
+      const done = Array.isArray(s.lyrics) && s.lyrics.length;
+      tb.innerHTML = `<span>${s.t}</span>` +
+        (done ? `<span class="lang">${s.lang||""}</span>`
+              : `<span class="todo">待录</span>`);
+      tb.addEventListener("click", () => selectSong(ai, si));
+      tli.appendChild(tb);
+      ul.appendChild(tli);
+    });
+    li.appendChild(ul);
+    albumList.appendChild(li);
+  });
+}
+
+function selectSong(ai, si){
+  const al = ALBUMS[ai], s = al.songs[si];
+  document.querySelectorAll(".tracks button").forEach(b => b.classList.remove("active"));
+  const nav = document.getElementById("nav_"+songId(ai,si));
+  if (nav) nav.classList.add("active");
+  current = [ai,si];
+
+  let html = `<div class="song-head">
+      <p class="album-tag">${al.title} ${al.vol} · ${al.year}</p>
+      <h2>${s.t}</h2>
+      <div class="meta"><span><b>原文</b>${langName(s.lang)}</span></div>
+    </div>`;
+
+  if (s.note) {
+    html += `<div class="note"><b>Note · 备注</b>${s.note}</div>`;
+  }
+
+  if (Array.isArray(s.lyrics) && s.lyrics.length) {
+    html += `<div class="lyrics">`;
+    s.lyrics.forEach(st => {
+      html += `<div class="stanza${st.chorus ? " chorus":""}">`;
+      if (st.role) html += `<div class="role">${st.role}</div>`;
+      html += `<div class="orig">${(st.orig||[]).map(l=>`<span class="line">${l||"&nbsp;"}</span>`).join("")}</div>`;
+      const hasT = st.trans && st.trans.length && st.trans.some(x=>x&&x.trim());
+      html += hasT
+        ? `<div class="trans">${st.trans.map(l=>`<span class="line">${l||"&nbsp;"}</span>`).join("")}</div>`
+        : `<div class="trans empty">待译…</div>`;
+      html += `</div>`;
+    });
+    html += `</div>`;
+  } else {
+    html += `<div class="placeholder">
+      <p>这首《${s.t}》还没有录入歌词。</p>
+      <p class="how">把它的原文歌词贴给 Claude，就会翻译好、按原文／中文逐段对照填进这里。</p>
+    </div>`;
+  }
+
+  main.innerHTML = html;
+  main.scrollIntoView({behavior:"smooth", block:"start"});
+  // collapse mobile nav after pick
+  if (window.matchMedia("(max-width: 860px)").matches){
+    sideInner.classList.add("collapsed");
+    mobileBar.setAttribute("aria-expanded","false");
+    mobileCaret.textContent = "▸";
+  }
+  try { localStorage.setItem("cc_last", ai+","+si); } catch(e){}
+}
+
+function langName(code){
+  const m = {EN:"英语",FR:"法语",BR:"布列塔尼语","FR/BR":"法语／布列塔尼语",
+    IT:"意大利语","LA/IT":"拉丁语／意大利语",ES:"西班牙语",SCO:"苏格兰语","Instr.":"器乐"};
+  return " · " + (m[code] || code || "—");
+}
+
+/* mobile toggle */
+const sideInner = document.getElementById("sideInner");
+const mobileBar = document.getElementById("mobileBar");
+const mobileCaret = document.getElementById("mobileCaret");
+mobileBar.addEventListener("click", () => {
+  const c = sideInner.classList.toggle("collapsed");
+  mobileBar.setAttribute("aria-expanded", String(!c));
+  mobileCaret.textContent = c ? "▸" : "▾";
+});
+
+buildNav();
+// open last-viewed, else the demo song (Jenovefa)
+let start = [3,3];
+try {
+  const saved = localStorage.getItem("cc_last");
+  if (saved){ const [a,b]=saved.split(",").map(Number);
+    if (ALBUMS[a] && ALBUMS[a].songs[b]) start=[a,b]; }
+} catch(e){}
+selectSong(start[0], start[1]);
+</script>
