@@ -1557,8 +1557,45 @@ const ALBUMS = [
             trans:["五月来临了，鸟儿在歌唱","玫瑰与蓟花交缠，交缠","在地下，相拥着，鸟儿始终歌唱","皮埃尔与玛丽昂沉沉睡去"] },
         ]
       },
-      { t:"The Berry", lang:"EN" },
-      { t:"Waterfalls", lang:"EN" },
+      {
+        t:"The Berry", lang:"EN",
+        note:"英语，古老的福音／民谣风叠句。「哦，哀悼者，我们到河边去吧」——伴着采浆果、月亮沉入白杨、星辰坠落的意象，如一支古调的循环吟唱。（与 The Moorings & Manran 合作）",
+        lyrics: [
+          { role:"Refrain", chorus:true,
+            orig:["Oh Mourner let's go down","To the river, to the river","To the river let's go down"],
+            trans:["哦，哀悼者，我们下去吧","到河边去，到河边去","到河边，我们下去吧"] },
+          { role:"", chorus:false,
+            orig:["Feelin' happy, feelin' sad","Let's go down, let's go down","To the river, to the river","Oh Mourner let's go down"],
+            trans:["或欢欣，或哀伤","我们下去吧，我们下去吧","到河边去，到河边去","哦，哀悼者，我们下去吧"] },
+          { role:"Verse 1", chorus:false,
+            orig:["One morning I was a' walkin' down","Walkin' down, walkin' down","Saw a berry a' hangin' down","Pick the berry, pick the berry","Sweet as the honey in the comb"],
+            trans:["一天清晨我沿路走下","走下，走下","看见一颗浆果垂悬着","摘下浆果，摘下浆果","甜如蜂巢里的蜜"] },
+          { role:"Verse 2", chorus:false,
+            orig:["Mary, girl, you know my name","Show me the spring that never dry","Moon went into the poplar tree","You'll see the stars a' fallin' down"],
+            trans:["玛丽，姑娘，你知道我的名字","请让我看那永不干涸的泉","月亮沉入了白杨树","你会看见繁星坠落"] },
+          { role:"Verse 3", chorus:false,
+            orig:["Wonder where my father gone","Won't be long, won't be long","'Till the stars a' fallin' down","Stars a' fallin', stars a' fallin'","See the stars a' fallin' down"],
+            trans:["不知我的父亲去了何方","不会太久，不会太久","便到繁星坠落之时","星辰坠落，星辰坠落","看那繁星坠落而下"] },
+          { role:"Coda", chorus:false,
+            orig:["Mary, girl, you know my heart","Show me the spring that never dry","Moon went into the poplar tree","You'll see the stars a' fallin' down"],
+            trans:["玛丽，姑娘，你懂我的心","请让我看那永不干涸的泉","月亮沉入了白杨树","你会看见繁星坠落"] },
+        ]
+      },
+      {
+        t:"Waterfalls", lang:"EN",
+        note:"英语。别去追逐瀑布与彩虹——黄金、白银、翡翠不长在恋人的庭院里，我宁要月光花与紫色的毛地黄，宁要今夜你的一个吻。皮靴、钻石、皮草填不满我孤独的心，我只想在河岸采一朵睡莲，把花插进发间。",
+        lyrics: [
+          { role:"Verse 1", chorus:false,
+            orig:["Yellow gold, silver, emerald","Don't grow in lovers' yard","I'd rather have moonflowers, purple foxgloves","One kiss from you tonight"],
+            trans:["黄金、白银、翡翠","不生长在恋人的庭院里","我宁要月光花，宁要紫色的毛地黄","宁要今夜你的一个吻"] },
+          { role:"Refrain", chorus:true,
+            orig:["Oh please don't go chasing waterfalls","Chasing waterfalls or rainbows","Tell me how beautiful","How beautiful is morning light"],
+            trans:["哦，请别去追逐瀑布","别去追逐瀑布或彩虹","告诉我，那是多么美","那清晨的光是多么美"] },
+          { role:"Verse 2", chorus:false,
+            orig:["Leather boots, diamonds, fur coats","Don't fill my lonely heart","Wanna pick water lily on the river bank","Put some flowers in my hair"],
+            trans:["皮靴、钻石、皮草","填不满我孤独的心","我只想在河岸采一朵睡莲","把几朵花插进我的发间"] },
+        ]
+      },
       {
         t:"La fille sans nom", lang:"FR/EN",
         note:"「无名女孩」（与 Faada Freddy 合唱，法英交织）。天为她的屋顶，地为她的床，别去呼唤她——她是那无名的女孩。她穿一袭夏裙、散着长发、自由地走；忘了自己出生的季节，随手挑一个名字；她只是路过，把你的心带走。",
@@ -1604,7 +1641,21 @@ const ALBUMS = [
             trans:["我是漫过平原的洪流","是崖顶盘旋的鹰","我是甲下的一根刺","是山冈上的一片火光"] },
         ]
       },
-      { t:"Liam", lang:"FR" },
+      {
+        t:"Liam", lang:"FR/EN",
+        note:"布列塔尼水手 Liam 的挽歌（法英交织）。他随姑娘漂泊、随风去爱，如今军港里还有伙计们记得他。「可怜的 Liam，你扬帆走了，别了水手，farewell；可怜的 Liam，在暹罗街上，人们唱着『别了，farewell』。」暹罗街（rue de Siam）是布雷斯特的著名街道。此后我在布雷斯特的咖啡馆里借酒消愁，为他饮下最后一杯。",
+        lyrics: [
+          { role:"Couplet 1", chorus:false,
+            orig:["Il a vogué au gré des filles, aimé au gré du vent","Le cœur en rade, en quarantaine","Et dans l'arsenal y a des gars qui se souviennent","Et pleure une dernière fois le pauvre Liam"],
+            trans:["他随姑娘漂泊，随风去爱","心搁浅在港湾，隔离在检疫之中","军港里还有些伙计记得他","为可怜的 Liam 最后一次落泪"] },
+          { role:"Refrain", chorus:true,
+            orig:["Poor Liam, tu as mis les voiles","Adieu marin, farewell","Pauvre Liam, dans la rue de Siam","On chante : « adieu, farewell »"],
+            trans:["可怜的 Liam，你扬帆走了","别了，水手，farewell","可怜的 Liam，在暹罗街上","人们唱着：「别了，farewell」"] },
+          { role:"Couplet 2", chorus:false,
+            orig:["J'ai noyé mon chagrin depuis, dans les cafés de Brest","Des yeux couleur de pluie, ce qu'il me reste","C'est du vague à l'âme, quelques larmes que l'on verse","Pour boire une dernière fois au pauvre Liam"],
+            trans:["从那以后，我在布雷斯特的咖啡馆里借酒消愁","一双雨色的眼睛，是我剩下的一切","是满心的怅惘，是人们洒下的几滴泪","为可怜的 Liam 饮下最后一杯"] },
+        ]
+      },
       {
         t:"Dwelling of the Moon", lang:"EN",
         note:"「月之居所」。满是凯尔特神话意象的咒吟——加利翁的溪流、贤者的足踵、精灵的土丘、Nuada（爱尔兰神话中达努神族的王）的臂弯。「我曾来到青春之山，很久以前，我诞生于努阿达的怀抱。」在烛火与炉火之间，在月亮的居所里。",
@@ -1635,7 +1686,18 @@ const ALBUMS = [
             trans:["爸爸总告诉我","姑娘，永远别认输","他对我说","小姑娘，别让他们偷走你的灵魂"] },
         ]
       },
-      { t:"Under the Lake", lang:"EN" },
+      {
+        t:"Under the Lake", lang:"EN",
+        note:"专辑收尾曲（与 Poppy Seeds 合作）。凯尔特「水马／湖中精灵」的意象——我要到湖边去，那白马奔行的地方，把我的爱、把许久以前所有破碎的诺言，抛进跃动的浪里。若你来到湖边，请告诉那狂野的山中之王：我已随精灵而去，在杨柳与松影飘移的地方，你会听见我的声音，在湖底呼唤。",
+        lyrics: [
+          { role:"Verse 1", chorus:false,
+            orig:["I'll go down by the lake","Where the white horses go","Among the dancing waves","I will throw my love","All the promises broken","A long time ago","All the territories nobody knows"],
+            trans:["我要到湖边去","那白马奔行的地方","在跃动的浪涛之间","我要抛下我的爱","还有所有破碎的诺言","那许久以前的","所有无人知晓的疆域"] },
+          { role:"Verse 2", chorus:false,
+            orig:["If you come by the lake","Where the white horses go","Tell the wild mountain king","I'm away with ghosts","Where shadows are drifting","On willows and pines","You'll hear my voice calling","Under the lake"],
+            trans:["若你来到湖边","那白马奔行的地方","请告诉那狂野的山中之王","我已随精灵而去","在杨柳与松影","飘移的地方","你会听见我的声音在呼唤","在湖底"] },
+        ]
+      },
     ]
   },
 ];
