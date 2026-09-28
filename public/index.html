@@ -771,7 +771,24 @@ const ALBUMS = [
             trans:["别了，甜美的阿玛丽莉丝","既然分离是你的意愿","哦，沉重的消息","这里已没有我停留之地","可还请再一次","在我与你别离之前","就在我与你别离之前"] },
         ]
       },
-      { t:"La Belle s'est endormie", lang:"FR" },
+      {
+        t:"La Belle s'est endormie", lang:"FR",
+        note:"法国传统民谣。熟睡在玫瑰花床上的美人，白如雪、美如昼，三个上尉都想向她求爱；最年轻的一个牵起她的白手，许诺带她去巴黎。首段在末尾回还，如古谣的循环。",
+        lyrics: [
+          { role:"Couplet 1", chorus:false,
+            orig:["La Belle s'est endormie","Sur un beau lit de roses.","Blanche comme la neige,","Belle comme le jour.","Ils sont trois capitaines","Qui veulent lui faire la cour."],
+            trans:["美人已沉沉睡去","睡在一张华美的玫瑰花床上。","白得像雪，","美得像白昼。","有三个上尉，","都想向她求爱。"] },
+          { role:"Couplet 2", chorus:false,
+            orig:["Le plus jeune des trois","La prend par sa main blanche :","\"Montez, montez, la Belle","Sur mon beau cheval gris.","À Paris je vous mène","Dans un fort beau logis.\""],
+            trans:["三人中最年轻的那个","牵起她雪白的手：","「上马吧，上马吧，美人，","坐上我这匹漂亮的灰马。","我要带你去巴黎，","住进一处极美的居所。」"] },
+          { role:"Couplet 3", chorus:false,
+            orig:["Finissant ce discours,","Le capitaine rentre :","\"Mangez, buvez, la Belle","Selon votre appétit.","Avec le capitaine","Vous passerez la nuit.\""],
+            trans:["说完这番话，","上尉走了进来：","「吃吧，喝吧，美人，","尽你所愿。","今夜你将与这上尉","共度良宵。」"] },
+          { role:"Reprise", chorus:false,
+            orig:["La Belle s'est endormie","Sur un beau lit de roses.","Blanche comme la neige,","Belle comme le jour.","Ils sont trois capitaines","Qui veulent lui faire la cour."],
+            trans:["美人已沉沉睡去","睡在一张华美的玫瑰花床上。","白得像雪，","美得像白昼。","有三个上尉，","都想向她求爱。"] },
+        ]
+      },
       { t:"Where Have You Been?", lang:"EN" },
       {
         t:"My Lullaby", lang:"EN",
@@ -790,9 +807,49 @@ const ALBUMS = [
   {
     title: "SongBook", vol: "vol. 4 — Roses", year: "2013",
     songs: [
-      { t:"Les Capitaines", lang:"FR" },
+      {
+        t:"Les Capitaines", lang:"FR",
+        note:"法语。孤独的水手向月亮微笑，眼里只映着大海；远航的船长们一去不返。她盼有一天他能爱上自己，却又劝人别听浪谷深处海妖的歌声——「笔直而骄傲，大海的骑士」。",
+        lyrics: [
+          { role:"Couplet 1", chorus:false,
+            orig:["Il sourit à la lune - elle est","Sa compagne d'infortune -- ce soir","Si dans ces yeux on voit la mer - souvent","C'est qu'il ne rêve que d'océan"],
+            trans:["他向月亮微笑——今夜","她是他患难与共的伴侣","若人们常在他眼中看见大海","那是因为他梦里只有海洋"] },
+          { role:"", chorus:false,
+            orig:["Des marins solitaires","Dérobés par la mer"],
+            trans:["一个个孤独的水手","被大海夺了去"] },
+          { role:"Refrain", chorus:true,
+            orig:["Les capitaines au long cours partent et jamais ne reviennent","Pourtant un jour, j'aimerais qu'il m'aime","N'écoutez pas le chant des sirènes","Au creux des vagues"],
+            trans:["远航的船长们启程而去，再也不曾归来","然而有一天，我多希望他能爱我","别去听那海妖的歌声","在浪谷的深处"] },
+          { role:"Couplet 2", chorus:false,
+            orig:["Des caravelles dans la tête - un bateau","Aux voiles blanche pourquoi pas e ho e ho","Il lance des bouteilles à la mer - parfois","Il ne rêve que de là-bas"],
+            trans:["脑海里满是三桅帆船——一条船","扬着白帆，何乐不为，唉呵 唉呵","他有时把漂流瓶抛入大海","他梦里只有远方"] },
+          { role:"", chorus:false,
+            orig:["Sous le vent","Droits et fiers","Cavaliers de la mer"],
+            trans:["顺着风","笔直而骄傲","大海的骑士"] },
+          { role:"Refrain", chorus:true,
+            orig:["Les capitaines au long cours partent et jamais ne reviennent","Pourtant un jour, j'aimerais qu'il m'aime","N'écoutez pas le chant des sirènes"],
+            trans:["远航的船长们启程而去，再也不曾归来","然而有一天，我多希望他能爱我","别去听那海妖的歌声"] },
+        ]
+      },
       { t:"The Riddle", lang:"EN" },
-      { t:"Francesco", lang:"IT" },
+      {
+        t:"Francesco", lang:"EN",
+        note:"歌名为意大利语，歌词是英语。一首坠入爱河的痴心誓言——你一个眼神，我的心便永属于你；纵使天塌星陨、狂风骤雨，我都会在你身边。",
+        lyrics: [
+          { role:"Verse 1", chorus:false,
+            orig:["Just one look from your eyes","And my heart is yours forever","Just one word from your mouth","You're my every dream come true"],
+            trans:["只你眼中的一瞥","我的心便永远属于你","只你口中的一个字","你便是我所有成真的梦"] },
+          { role:"Refrain", chorus:true,
+            orig:["And the sky may fall","And the stars may, too","You are always in my mind","And the wind may blow","And the storms may come","I'll always be there for you"],
+            trans:["纵使天空会崩塌","纵使星辰也陨落","你始终在我心中","纵使狂风会吹起","纵使风暴会到来","我永远都会在你身边"] },
+          { role:"Verse 2", chorus:false,
+            orig:["Is this a fairy tale?","I must be dreaming if it's true","Are you an angel","Sent from heaven just for me?"],
+            trans:["这是一则童话吗？","若这是真的，我一定在做梦","你是一位天使吗","专为我从天堂降临？"] },
+          { role:"Refrain", chorus:true,
+            orig:["And the sky may fall","And the stars may, too","You are always in my mind","And the wind may blow","And the storms may come","I'll always be there for you","I'll always be there for you"],
+            trans:["纵使天空会崩塌","纵使星辰也陨落","你始终在我心中","纵使狂风会吹起","纵使风暴会到来","我永远都会在你身边","我永远都会在你身边"] },
+        ]
+      },
       {
         t:"Jenovefa", lang:"EN",
         note:"布列塔尼传说悲歌（歌名 Jenovefa 即布列塔尼语的「热诺薇法／Geneviève」，歌词为英语）。康沃尔公爵之女热诺薇法深爱 Kerblez 的 Yannick，他却已成为 Nizon 的神父、归于上帝。她跪求无果，郁郁而终；此后神父常独立于墓碑之间，在她坟前哭泣。",
