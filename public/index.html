@@ -155,13 +155,35 @@
     transition: background .18s;
   }
   .album > button:hover { background: #ffffff0a; }
+  .album > button .caret {
+    flex: none;
+    margin-left: auto;
+    font-size: 11px;
+    line-height: 1;
+    color: var(--parch-dim);
+    transition: transform .2s ease, color .18s;
+    transform: rotate(0deg);
+  }
+  .album.open > button .caret { transform: rotate(90deg); color: var(--gold); }
+  .album > button:hover .caret { color: var(--parch); }
   .album > button .yr {
     font-family: var(--serif-src);
     font-size: 12px;
     color: var(--parch-dim);
     letter-spacing: .04em;
   }
-  .tracks { list-style: none; margin: 0 0 6px; padding: 0 8px 4px 14px; }
+  .tracks {
+    list-style: none;
+    margin: 0 0 6px;
+    padding: 0 8px 4px 14px;
+    display: grid;
+    grid-template-rows: 0fr;
+    opacity: 0;
+    transition: grid-template-rows .24s ease, opacity .2s ease, margin .24s ease;
+  }
+  .tracks > .tracks-inner { overflow: hidden; min-height: 0; }
+  .album.open > .tracks { grid-template-rows: 1fr; opacity: 1; }
+  .album:not(.open) > .tracks { margin-bottom: 0; }
   .tracks li { margin: 0; }
   .tracks button {
     width: 100%;
@@ -1714,10 +1736,16 @@ function buildNav(){
     const li = document.createElement("li");
     li.className = "album";
     const btn = document.createElement("button");
-    btn.innerHTML = `<span>${al.title} <span class="yr">${al.vol} · ${al.year}</span></span>`;
+    btn.setAttribute("aria-expanded", "false");
+    btn.innerHTML = `<span>${al.title} <span class="yr">${al.vol} · ${al.year}</span></span>` +
+      `<span class="caret" aria-hidden="true">▸</span>`;
+    btn.addEventListener("click", () => toggleAlbum(ai));
     li.appendChild(btn);
     const ul = document.createElement("ul");
     ul.className = "tracks";
+    const inner = document.createElement("div");
+    inner.className = "tracks-inner";
+    ul.appendChild(inner);
     al.songs.forEach((s, si) => {
       const tli = document.createElement("li");
       const tb = document.createElement("button");
@@ -1728,15 +1756,32 @@ function buildNav(){
               : `<span class="todo">待录</span>`);
       tb.addEventListener("click", () => selectSong(ai, si));
       tli.appendChild(tb);
-      ul.appendChild(tli);
+      inner.appendChild(tli);
     });
     li.appendChild(ul);
     albumList.appendChild(li);
   });
 }
 
+function toggleAlbum(ai){
+  const li = albumList.children[ai];
+  if (!li) return;
+  const open = li.classList.toggle("open");
+  const btn = li.querySelector("button");
+  if (btn) btn.setAttribute("aria-expanded", String(open));
+}
+
+function openAlbum(ai){
+  const li = albumList.children[ai];
+  if (!li || li.classList.contains("open")) return;
+  li.classList.add("open");
+  const btn = li.querySelector("button");
+  if (btn) btn.setAttribute("aria-expanded", "true");
+}
+
 function selectSong(ai, si){
   const al = ALBUMS[ai], s = al.songs[si];
+  openAlbum(ai);
   document.querySelectorAll(".tracks button").forEach(b => b.classList.remove("active"));
   const nav = document.getElementById("nav_"+songId(ai,si));
   if (nav) nav.classList.add("active");
