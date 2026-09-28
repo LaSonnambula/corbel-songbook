@@ -496,10 +496,84 @@ const ALBUMS = [
             trans:["（副歌与首二段循环反复，收束全曲）"] },
         ]
       },
-      { t:"Le vent m'emporte", lang:"FR/BR" },
-      { t:"She Moved Through the Fair", lang:"EN" },
-      { t:"Three Ravens", lang:"EN" },
-      { t:"Red Rose", lang:"EN" },
+      {
+        t:"Le vent m'emporte", lang:"FR/BR",
+        note:"法语、爱尔兰盖尔语与布列塔尼语三语交织。「风把我带向别处」——风只编织谎言，在梦的深处歌唱；一面又一面镜子里，记忆与悔恨交叠。盖尔语句 Dún do shúil a rún mo chroí 意为「闭上你的眼吧，我心爱的人」；布列塔尼语句意为「我被带往海上……随风而去，在西方的岸边」。",
+        lyrics: [
+          { role:"Couplet 1", chorus:false,
+            orig:["Si le vent demeure ici","Dún do shúil a rún mo chroí","Il ne tisse que des mensonges","Il chante au creux des songes"],
+            trans:["若这风停留于此","闭上你的眼吧，我心爱的人","它只会编织谎言","在梦的深处歌唱"] },
+          { role:"Couplet 2", chorus:false,
+            orig:["Et miroir après miroir","Tu sais les souvenirs se mêlent","Et je cherche nos ombres qui dorment","Avant que le jour ne vienne"],
+            trans:["一面又一面镜子里","你知道，记忆彼此交叠","我寻找着我们沉睡的影子","趁白昼尚未到来"] },
+          { role:"Refrain", chorus:true,
+            orig:["Le vent m'emporte ailleurs","Kaset oan war ar mor","Perdue à jamais","A ya gan(t) an avel","War aodou ar c'hornog"],
+            trans:["风把我带向别处","我被带往海上","永远地迷失","随风而去","在西方的岸边"] },
+          { role:"Couplet 3", chorus:false,
+            orig:["Et le vent m'aura menti","Dún do shúil a rún mo chroí","Il ne reste que des mensonges","Cachés au creux des songes"],
+            trans:["风终究欺骗了我","闭上你的眼吧，我心爱的人","只剩下谎言","藏在梦的深处"] },
+          { role:"Couplet 4", chorus:false,
+            orig:["Et miroir après miroir","Tu sais où les regrets me mènent","Et j'entends nos ombres sans les voir","Avant que le jour ne vienne"],
+            trans:["一面又一面镜子里","你知道悔恨把我引向何方","我听见我们的影子，却看不见它们","趁白昼尚未到来"] },
+        ]
+      },
+      {
+        t:"She Moved Through the Fair", lang:"EN",
+        note:"著名的爱尔兰传统亡灵情歌。恋人许下婚约后离世，末段化作亡魂夜里归来，轻声重复那句「不会太久了，爱人，就到我们的婚期」。",
+        lyrics: [
+          { role:"Verse 1", chorus:false,
+            orig:["My young love said to me, \"My mother won't mind","And my father won't slight you for your lack of kind\"","And she stepped away from me and this she did say","\"It will not be long, love, till our wedding day\""],
+            trans:["我年轻的爱人对我说：「我母亲不会介意，","我父亲也不会因你出身寒微而轻慢你」","她从我身边款步走开，说出这样一句话：","「不会太久了，爱人，就到我们的婚期」"] },
+          { role:"Verse 2", chorus:false,
+            orig:["As she stepped away from me and she moved through the fair","And fondly I watched her move here and move there","And then she turned homeward with one star awake","Like the swan in the evening moves over the lake"],
+            trans:["她从我身边走开，穿行于集市之中","我含情脉脉地望她这里那里地走动","随后她转身归家，一颗星子悄然醒来","宛如暮色中的天鹅，滑过湖面"] },
+          { role:"Verse 3", chorus:false,
+            orig:["The people were saying no two e'er were wed","But one had a sorrow that never was said","And I smiled as she passed with her goods and her gear","And that was the last time that I saw of my dear"],
+            trans:["人们都说，从没有这样一对璧人","可其中一人怀着一桩说不出口的哀愁","她带着行装走过，我向她微笑","那是我最后一次见到我的爱人"] },
+          { role:"Verse 4 — 亡魂归来", chorus:false,
+            orig:["Last night she came to me my dead love came in","So softly she came that her feet made no din","As she laid her hand on me and this she did say","\"It will not be long, love, till our wedding day\""],
+            trans:["昨夜她来到我身边，我死去的爱人走了进来","她来得那样轻，脚步没有一丝声响","她把手放在我身上，说出这样一句话：","「不会太久了，爱人，就到我们的婚期」"] },
+        ]
+      },
+      {
+        t:"Three Ravens", lang:"EN",
+        note:"古英语叙事民谣（The Three Ravens，17 世纪）。三只乌鸦欲以战死骑士为食，却见忠犬伏于其脚、猎鹰盘旋守护，无鸟敢近；末段一头怀孕母鹿将骑士葬于晨祷前，自己也在暮祷时分死去。「Downe a downe…」为无实义的古调叠句。原文保留古英语拼写。",
+        lyrics: [
+          { role:"Refrain 叠句", chorus:true,
+            orig:["Downe a downe hay downe","They were as blacke as they might be","Downe a downe hay downe","With a downe derrie down derrie","Downe a downe hay downe","There were three ravens sat on a tree","Downe a downe hay downe","With a downe derrie downe"],
+            trans:["（古调叠句，Downe a downe… 无实义）","它们黑得不能再黑","（叠句）","（叠句）","（叠句）","三只乌鸦栖在树上","（叠句）","（叠句）"] },
+          { role:"Verse 1", chorus:false,
+            orig:["The one of them said to his mate","\"Where shall we our breakefast take?\"","\"Downe in yonder greene field","There lies a knight slain vnder his shield\""],
+            trans:["其中一只对同伴说：","「我们到哪儿去用早餐？」","「就在那边的绿色田野里，","躺着一位战死的骑士，伏在他的盾牌之下」"] },
+          { role:"Verse 2", chorus:false,
+            orig:["\"His hounds they lie downe at his feete","So well they can their master keepe","His haukes they flie so eagerly","There's no fowle dare him to come nie\""],
+            trans:["「他的猎犬伏在他脚边，","那样忠心地守护着主人；","他的猎鹰急切地盘旋，","没有一只飞禽敢靠近他」"] },
+          { role:"Verse 3 — 结局", chorus:false,
+            orig:["Downe there comes a fallow doe","As great with yong as she might goe","She buried him before the prime","She was dead herselfe ere euen-song time"],
+            trans:["一头黄褐色的母鹿走来，","身怀六甲，步履蹒跚；","她在晨祷之前将他埋葬，","自己也在暮祷时分死去"] },
+        ]
+      },
+      {
+        t:"Red Rose", lang:"EN",
+        note:"改编自苏格兰诗人罗伯特·彭斯（Robert Burns）名诗《A Red, Red Rose》（1794）。以红玫瑰与乐曲喻爱，誓言纵使沧海枯竭、岩石熔于骄阳，此情不渝。保留 Scots 拼写（a'=all，wi'=with，o'=of）。",
+        lyrics: [
+          { role:"Verse 1", chorus:false,
+            orig:["My love's like a red rose","That's newly sprung in June","My love's like a melody","That's sweetly played in tune"],
+            trans:["我的爱人像一朵红玫瑰","在六月里新绽","我的爱人像一支乐曲","甜美地合着旋律奏响"] },
+          { role:"Verse 2", chorus:false,
+            orig:["As fair as thou, my bonnie lass","So deep in love am I","And I will love thee still, my dear"],
+            trans:["你有多美，我俊俏的姑娘","我便爱得有多深","我将永远爱你，我亲爱的"] },
+          { role:"Verse 3", chorus:false,
+            orig:["Fare thee well, my only love","And fare thee well a while","And I will come again, my love","Tho' it ware ten thousand mile"],
+            trans:["别了，我唯一的爱人","暂且别过一时","我定会再归来，我的爱","纵使相隔一万里"] },
+          { role:"Verse 4", chorus:false,
+            orig:["Till a' the seas gang dry, my dear","And the rocks melt wi' the sun","I will love thee still, my dear","While the sands o' life shall run"],
+            trans:["直到沧海枯竭，我亲爱的","直到岩石熔于骄阳","我将永远爱你，我亲爱的","只要生命的沙漏还在流淌"] },
+          { role:"Reprise", chorus:false,
+            orig:["My love's like a red rose","That's newly sprung in June","My love's like a melody"],
+            trans:["我的爱人像一朵红玫瑰","在六月里新绽","我的爱人像一支乐曲"] },
+        ]
+      },
       { t:"C'hoant dimeziñ", lang:"BR" },
     ]
   },
@@ -557,11 +631,108 @@ const ALBUMS = [
             trans:["不发出一点声响，我在夜里等待","不发出一点声响，在远离此地的地方等待","不发出一点声响，我在夜里等待","不发出一点声响，在远离此地的地方等待"] },
         ]
       },
-      { t:"Elisabetha", lang:"LA/IT" },
-      { t:"Sweet Song", lang:"EN" },
-      { t:"Painted Veil", lang:"EN" },
-      { t:"I See the Great Mountains", lang:"EN" },
-      { t:"En la mar", lang:"ES" },
+      {
+        t:"Elisabetha", lang:"FR",
+        note:"一名被指为女巫、即将于九月前被处以绞刑的女子的哀歌。人们说她的灵魂已然沉沦、被天使弃绝，说她能号令天雨、说她就是黑暗与邪恶。反复的「Elisabetha」是她的名字。",
+        lyrics: [
+          { role:"Couplet 1", chorus:false,
+            orig:["Quand le jour s'achève","Sur le monde ici-bas","Quand la lune est ronde","Il y a des ombres","Mêlées à mes pas","Des tapis de brume"],
+            trans:["当白昼终了","在这尘世之上","当月亮圆满","便有一片片阴影","与我的脚步交缠","还有铺展的薄雾"] },
+          { role:"Couplet 2", chorus:false,
+            orig:["On dit que je serai pendue","Avant septembre","On dit mon âme perdue","Privée des anges"],
+            trans:["人们说我会被绞死","在九月来临之前","人们说我的灵魂已沉沦","为天使所弃绝"] },
+          { role:"Refrain", chorus:true,
+            orig:["Elisabetha","Elisabetha"],
+            trans:["伊丽莎白塔","伊丽莎白塔"] },
+          { role:"Couplet 3", chorus:false,
+            orig:["Quand la nuit s'achève","Dans la cage où je dors","Quand le soleil monte","Il y a des hommes","Qui me montrent du doigt","Qui hurlent à la honte"],
+            trans:["当黑夜终了","在囚禁我沉睡的笼里","当太阳升起","便有一群人","对我指指点点","嘶喊着羞辱"] },
+          { role:"Couplet 4", chorus:false,
+            orig:["On dit que j'ordonne au ciel","Quand la pluie tombe","On dit je suis le mal","Je suis la sombre"],
+            trans:["人们说是我号令了天空","才落下这场雨","人们说我就是邪恶","我就是那黑暗"] },
+          { role:"Refrain", chorus:true,
+            orig:["Elisabetha","Elisabetha","Elisabetha","Elisabetha","Elisabetha","Elisabetha"],
+            trans:["伊丽莎白塔","伊丽莎白塔","伊丽莎白塔","伊丽莎白塔","伊丽莎白塔","伊丽莎白塔"] },
+        ]
+      },
+      {
+        t:"Sweet Song", lang:"EN",
+        note:"星空下的恋人之约。愿在最高的树顶筑一处栖身之所，仰望夜空入眠，做山间的恋人，听夜莺唱那支甜美的歌。",
+        lyrics: [
+          { role:"Verse 1", chorus:false,
+            orig:["By the hills and lands","Where my heart has gently grown.","And where the trees are in bloom forever.","I could spend my whole life with you.","Under a shady grove just waiting for the stars."],
+            trans:["在这片丘陵与大地之间","我的心在这里悄然长大","在这里，树木永远繁花盛开","我愿与你共度一生","在浓荫的林间，只静静等候繁星"] },
+          { role:"Bridge", chorus:false,
+            orig:["We would have a shelter at the top of the highest tree.","We would look at the sky before we sleep."],
+            trans:["我们要在最高的树顶，有一处栖身的居所","入睡之前，我们一同仰望天空"] },
+          { role:"Refrain", chorus:true,
+            orig:["Promise me, we will live underneath the stars.","The nightengale will sing, \"La la la la la\".","It's a sweet song.","Underneath the stars,","We would be lovers from the hill."],
+            trans:["答应我，我们将栖居于繁星之下","夜莺会唱起「啦 啦 啦 啦 啦」","那是一支甜美的歌","在繁星之下","我们将是那山间的恋人"] },
+          { role:"Verse 2", chorus:false,
+            orig:["By the hazy mountains my love's sweetly grown","And where the secrets are kept forever.","I could spend a lifetime with you","under a white maple tree staring at the skies."],
+            trans:["在朦胧的群山间，我的爱甜美地生长","在这里，秘密被永远珍藏","我愿与你共度此生","在一棵白枫树下，凝望天空"] },
+        ]
+      },
+      {
+        t:"Painted Veil", lang:"EN",
+        note:"「画中面纱」——迷恋于虚妄幻影的三重变奏：老实人爱上一位姑娘、高贵者觊觎财富、少女沉溺于水中自己的倒影。三者都爱上了一个影子、一层画出来的面纱，把爱人囚于金笼，多年绝望，到头来连对方的名字都不知道。",
+        lyrics: [
+          { role:"Verse 1 — 老实人", chorus:false,
+            orig:["Once there was an honest man","Fallen in love with a bonny maid","He spread gold and flowers in her hair","A painted veil","She's a painted veil"],
+            trans:["从前有一个老实人","爱上了一位标致的姑娘","他在她发间撒满金子与花朵","一层画中的面纱","她是一层画中的面纱"] },
+          { role:"", chorus:false,
+            orig:["He walks in her steps, spies on her dreams","Builds a gilded cage","He's crazy in love with a stranger","This is a fancy in a mirror"],
+            trans:["他跟着她的脚步，窥探她的梦","筑起一座镀金的笼","他疯狂地爱着一个陌生人","这不过是镜中的一场幻想"] },
+          { role:"Refrain", chorus:true,
+            orig:["He adores her, she's a bird in a cage","And years have gone in despair, his love is vain","Because he's a blind man, he don't know her name","Fallen in love with a shadow, a painted veil"],
+            trans:["他崇拜着她，她是笼中的鸟","岁月在绝望中流逝，他的爱是徒然","因为他是个瞎子，他不知道她的名字","爱上了一个影子，一层画中的面纱"] },
+          { role:"Verse 2 — 高贵者", chorus:false,
+            orig:["Once there was a noble man","Fallen in love with a wealthy maid","He stole gold and diamonds from her hands","A painted veil","It's a painted veil"],
+            trans:["从前有一个高贵的人","爱上了一位富有的姑娘","他从她手中窃走金子与钻石","一层画中的面纱","那是一层画中的面纱"] },
+          { role:"Verse 3 — 少女", chorus:false,
+            orig:["Once there was a young, pretty maid","She saw her face on the bright water","She spent days and years staring at herself","A painted veil","She's a painted veil"],
+            trans:["从前有一个年轻美丽的姑娘","她在明亮的水面看见自己的脸","日复一日、年复一年地凝望自己","一层画中的面纱","她是一层画中的面纱"] },
+          { role:"Coda", chorus:false,
+            orig:["I adore her, she's a bird in a cage","The years have gone in despair, my love is vain","Because she's a blind lady, she don't know my name","Fallen in love with a shadow, a painted veil"],
+            trans:["我崇拜着她，她是笼中的鸟","岁月在绝望中流逝，我的爱是徒然","因为她是个瞎眼的女子，她不知道我的名字","爱上了一个影子，一层画中的面纱"] },
+        ]
+      },
+      {
+        t:"I See the Great Mountains", lang:"GD/EN",
+        note:"改编自苏格兰盖尔语思乡名谣《Chì Mi na Mòrbheanna》（John Cameron 作，「远方的山」）。盖尔语叠句 O chì, chì mi na mòrbheanna 意为「我望见，我望见那壮阔的群山」；主歌为英译，游子遥望故乡的荒野、森林、雾中的鹿群，听见母语之声，那比黄金更珍贵。",
+        lyrics: [
+          { role:"Refrain 盖尔语叠句", chorus:true,
+            orig:["O chi chi mi na morbheanna","O chi chi mi na corrbheanna","O chi chi mi na coireachan","Chi mi na sgorran fo cheo"],
+            trans:["哦，我望见，我望见那壮阔的群山","我望见那高耸的峰峦","我望见那一道道山谷","我望见云雾笼罩的峭壁"] },
+          { role:"Verse 1", chorus:false,
+            orig:["I see wilds, I see forests","I see fields ready for harvest","I see deer on the corries","All wrapped in garments of fog"],
+            trans:["我望见荒野，我望见森林","我望见等待收割的田地","我望见山谷间的鹿群","全都裹在雾的衣衫里"] },
+          { role:"Verse 2", chorus:false,
+            orig:["I see the place where I was born","I hear the sound of my native tongue","Feel love and warm welcoming","Worth more to me than fine gold"],
+            trans:["我望见我出生的地方","我听见我母语的声音","感到爱与温暖的迎接","于我而言，那比黄金更珍贵"] },
+        ]
+      },
+      {
+        t:"En la mar", lang:"ES",
+        note:"西班牙语（塞法迪犹太/地中海传统风）情谣。海中一座塔，塔上一扇窗，窗里一位爱慕水手的姑娘。「给我你的手，鸽子」——求登上她的巢，与独眠的她相伴。",
+        lyrics: [
+          { role:"Copla 1", chorus:false,
+            orig:["En la mar hay una torre","En la torre una ventana","En la ventana hay una hija","Que a los marineros ama"],
+            trans:["海中有一座塔","塔上有一扇窗","窗里有一位姑娘","她爱慕着水手们"] },
+          { role:"Estribillo", chorus:true,
+            orig:["Las estrellas del cielo","Una y una se hacen dos"],
+            trans:["天上的星辰","一颗又一颗，两两成双"] },
+          { role:"Copla 2", chorus:false,
+            orig:["Dame tu mano paloma","Para subir a tu nido","Maldicha que duermes sola","Vengo a dormir contigo"],
+            trans:["给我你的手，我的鸽子","让我登上你的巢","可怜你独自安眠","我来与你相伴入梦"] },
+          { role:"Copla 3", chorus:false,
+            orig:["Si la mar era de leche","Los barquitos de canela","Pescaría las mis dolores","Con palabrillas de amor"],
+            trans:["若大海是乳汁做的","小船是肉桂做的","我要把我的忧伤钓起","用一句句爱的低语"] },
+          { role:"Estribillo", chorus:true,
+            orig:["Las estrellas del cielo","Una y una se hacen dos"],
+            trans:["天上的星辰","一颗又一颗，两两成双"] },
+        ]
+      },
     ]
   },
   {
@@ -582,10 +753,38 @@ const ALBUMS = [
             trans:["如那布莱恩·博鲁","爱尔兰的王","我将扬帆入海","放下手中的刀兵","布莱恩·博鲁","不久我便要归来","致凯尔特"] },
         ]
       },
-      { t:"Sweet Amaryllis", lang:"EN" },
+      {
+        t:"Sweet Amaryllis", lang:"EN/FR",
+        note:"取意文艺复兴牧歌《Adieu, Sweet Amaryllis》（John Wilbye, 1598）。英语、法语交替吟唱的告别曲——既是你的意愿要分离，便在破晓前离去，海的呜咽混入我的哀伤。",
+        lyrics: [
+          { role:"Verse 1 (EN)", chorus:false,
+            orig:["Adieu, sweet Amaryllis","For since to part your will is","Oh, heavy tiding","Here is for me no biding","Yet once again","Ere that I part with you","Ere that I part with you"],
+            trans:["别了，甜美的阿玛丽莉丝","既然分离是你的意愿","哦，沉重的消息","这里已没有我停留之地","可还请再一次","在我与你别离之前","在我与你别离之前"] },
+          { role:"Verse 2 (FR)", chorus:false,
+            orig:["Adieu, belle Amaryllis","Te souviens-tu de nos promesses ?","Mon cœur est lourd","Et les sanglots de l'océan se prennent","Dans ma peine","Je pars avant que l'aube","Que l'aube ne vienne"],
+            trans:["别了，美丽的阿玛丽莉丝","你还记得我们的誓言吗？","我的心沉重","大海的呜咽","缠入我的哀伤","我要在破晓前离去","趁曙光尚未到来"] },
+          { role:"Refrain (EN)", chorus:true,
+            orig:["Oh, heavy tiding","Here is for me no biding","Yet once again","Ere that I part with you","Ere that I part with you"],
+            trans:["哦，沉重的消息","这里已没有我停留之地","可还请再一次","在我与你别离之前","在我与你别离之前"] },
+          { role:"Reprise (EN)", chorus:false,
+            orig:["Adieu, sweet Amaryllis","For since to part your will is","Oh, heavy tiding","Here is for me no biding","Yet once again","Ere that I part with you","And ere I part with you"],
+            trans:["别了，甜美的阿玛丽莉丝","既然分离是你的意愿","哦，沉重的消息","这里已没有我停留之地","可还请再一次","在我与你别离之前","就在我与你别离之前"] },
+        ]
+      },
       { t:"La Belle s'est endormie", lang:"FR" },
       { t:"Where Have You Been?", lang:"EN" },
-      { t:"My Lullaby", lang:"EN" },
+      {
+        t:"My Lullaby", lang:"EN",
+        note:"一支温柔的摇篮曲。世界冷酷、尘埃弥漫，夜如面纱笼罩大地；而心底始终漂着一支挥之不去的小曲——「晚安，甜美的孩子，我守护着你，别害怕」。",
+        lyrics: [
+          { role:"Verse 1", chorus:false,
+            orig:["The world is cruel, dust fills the air","Night has come like a veil on the earth","There is a song floating in my mind","A little song I can't get out of my head","And I say..."],
+            trans:["世界冷酷，尘埃弥漫","夜已降临，如一层面纱覆在大地","有一支歌在我心头漂浮","一支我怎么也忘不掉的小曲","于是我轻声唱……"] },
+          { role:"Refrain", chorus:true,
+            orig:["Goodnight sweet darling, goodnight my babe","I'll watch over you, don't be afraid","Always a song floating in my mind","This little song I can't get out of my head","And I say..."],
+            trans:["晚安，甜美的宝贝，晚安，我的孩子","我会守护着你，别害怕","总有一支歌在我心头漂浮","这支我怎么也忘不掉的小曲","于是我轻声唱……"] },
+        ]
+      },
     ]
   },
   {
@@ -705,7 +904,8 @@ function selectSong(ai, si){
 
 function langName(code){
   const m = {EN:"英语",FR:"法语",BR:"布列塔尼语","FR/BR":"法语／布列塔尼语",
-    IT:"意大利语","LA/IT":"拉丁语／意大利语",ES:"西班牙语",SCO:"苏格兰语","Instr.":"器乐"};
+    IT:"意大利语","LA/IT":"拉丁语／意大利语",ES:"西班牙语",SCO:"苏格兰语",
+    GD:"苏格兰盖尔语","GD/EN":"苏格兰盖尔语／英语","EN/FR":"英语／法语","Instr.":"器乐"};
   return " · " + (m[code] || code || "—");
 }
 
