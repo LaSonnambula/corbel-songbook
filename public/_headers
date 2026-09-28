@@ -1,5 +1,0 @@
-# Cloudflare Pages 响应头
-# 个人自用，防止被搜索引擎收录
-/*
-  X-Robots-Tag: noindex, nofollow
-  Referrer-Policy: no-referrer

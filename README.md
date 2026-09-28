@@ -8,25 +8,27 @@ Cécile Corbel 各专辑歌词原文与私藏中文翻译对照网站。单页�
 corbel-songbook/
 ├── public/
 │   ├── index.html      # 整个网站（单文件，含全部数据与样式）
-│   └── _headers        # Cloudflare Pages 响应头
+│   ├── robots.txt      # 禁止搜索引擎收录
+│   └── .nojekyll       # 关闭 GitHub Pages 的 Jekyll 处理
+├── .github/workflows/
+│   └── deploy.yml      # GitHub Actions 自动部署到 Pages
 ├── README.md
 └── .gitignore
 ```
 
 网站是**单文件**的：所有歌词数据、翻译、样式、脚本都在 `public/index.html` 里。歌词数据在文件底部 `<script>` 里的 `ALBUMS` 数组中，每首歌一个对象。
 
-## 部署（Cloudflare Pages）
+## 部署（GitHub Pages via Actions）
 
-本仓库连接到 Cloudflare Pages，`main` 分支一 push 即自动部署。
+本仓库通过 `.github/workflows/deploy.yml` 自动部署：`main` 分支一 push，GitHub Actions 就把 `public/` 目录发布为站点。
 
-- **Build command**：留空（无需构建）
-- **Build output directory**：`public`
-- **Framework preset**：None
+**首次启用**（在 GitHub 仓库网页上）：
+1. 仓库 **Settings → Pages → Build and deployment → Source** 选 **GitHub Actions**。
+2. push 后在 **Actions** 标签看部署进度，成功后 Pages 里显示网址（形如 `https://<用户名>.github.io/corbel-songbook/`）。
 
-本地预览：任意静态服务器指向 `public/`，例如
-```
-npx serve public
-```
+> 仓库虽公开，但 `robots.txt` + `index.html` 里的 `noindex` meta 会阻止搜索引擎收录。
+
+本地预览：任意静态服务器指向 `public/`，例如 `npx serve public`。
 
 ## 添加/修改一首歌的歌词
 
@@ -56,4 +58,4 @@ npx serve public
 
 ## 版权
 
-歌词版权归原作者所有。本站仅供个人欣赏与学习，不对外分发。仓库设为私有。
+歌词版权归原作者所有。本站仅供个人欣赏与学习。仓库公开托管于 GitHub Pages，但已用 robots/noindex 阻止搜索引擎收录，不主动对外分发。
