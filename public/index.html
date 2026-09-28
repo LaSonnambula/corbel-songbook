@@ -446,7 +446,30 @@ const ALBUMS = [
   {
     title: "SongBook", vol: "vol. 1", year: "2006",
     songs: [
-      { t:"Blackbird", lang:"EN" },
+      {
+        t:"Blackbird", lang:"EN",
+        note:"爱尔兰传统民谣（又名 I Am a Young Maiden）。被抛下的少女盼自己化作一只黑鸟，能鸣唱、能追随爱人远航的船，在桅顶筑巢，向他扑扇双翼。副歌全曲反复，此处只列一次。",
+        lyrics: [
+          { role:"Verse 1", chorus:false,
+            orig:["I am a young maiden, my story is sad","For once I was carefree and in love with a lad"],
+            trans:["我是个年轻的姑娘，我的故事很悲伤","曾几何时我无忧无虑，深爱着一个少年郎"] },
+          { role:"Verse 2", chorus:false,
+            orig:["He courted me sweetly, by night and by day","But now he has left me and gone far away"],
+            trans:["他温柔地追求我，无论白昼与黑夜","可如今他抛下了我，去了遥远的地方"] },
+          { role:"Refrain（全曲反复）", chorus:true,
+            orig:["Oh if I was a blackbird, could whistle and sing","I'd follow the vessel my true love sails in","And in the top rigging I would there build my nest","And I'd flutter my wings to his broad golden chest"],
+            trans:["哦，若我是一只黑鸟，能鸣唱、能啼啭","我要追随我真爱远航的那条船","在最高的桅索之上，我要在那里筑巢","向他宽阔金亮的胸膛，扑扇我的双翼"] },
+          { role:"Verse 3", chorus:false,
+            orig:["He sailed o'er the ocean, his fortune to seek","I missed his caresses and his kiss on my cheek"],
+            trans:["他远渡重洋，去追寻他的前程","我思念他的爱抚，他印在我脸颊的吻"] },
+          { role:"Verse 4", chorus:false,
+            orig:["Then he offered to marry and to stay by my side","But then in the morning he sailed with the tide"],
+            trans:["后来他答应娶我，答应留在我身旁","可到了清晨，他却随着潮水扬帆远航"] },
+          { role:"Coda", chorus:false,
+            orig:["I am a young maiden, my story is sad"],
+            trans:["我是个年轻的姑娘，我的故事很悲伤"] },
+        ]
+      },
       { t:"Bemnoz", lang:"BR" },
       { t:"The King of the Fairies", lang:"Instr." },
       {
