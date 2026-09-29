@@ -7,7 +7,9 @@ Cécile Corbel 各专辑歌词原文与私藏中文翻译对照网站。单页�
 ```
 corbel-songbook/
 ├── public/
-│   ├── index.html      # 整个网站（单文件，含全部数据与样式）
+│   ├── index.html      # 页面结构 + 样式 + 渲染逻辑（不含歌词数据）
+│   ├── data/
+│   │   └── albums.js   # 全部专辑与歌词数据（window.ALBUMS 数组）
 │   ├── robots.txt      # 禁止搜索引擎收录
 │   └── .nojekyll       # 关闭 GitHub Pages 的 Jekyll 处理
 ├── .github/workflows/
@@ -16,7 +18,9 @@ corbel-songbook/
 └── .gitignore
 ```
 
-网站是**单文件**的：所有歌词数据、翻译、样式、脚本都在 `public/index.html` 里。歌词数据在文件底部 `<script>` 里的 `ALBUMS` 数组中，每首歌一个对象。
+**数据与代码分离，但仍是零依赖静态站**（双击 `index.html` 即可打开，无需服务器或构建）：
+- `public/data/albums.js` —— 全部歌词数据，一个 `window.ALBUMS` 数组，每首歌一个对象。**改歌词只动这个文件。**
+- `public/index.html` —— 页面骨架、样式（`<style>`）和渲染逻辑（`buildNav`/`selectSong` 等），用 `<script src="data/albums.js">` 引入数据。改样式或交互只动这里。
 
 ## 部署（GitHub Pages via Actions）
 
@@ -34,7 +38,7 @@ corbel-songbook/
 
 1. 在浏览器打开该歌在 lyricstranslate.com 的歌词页，`Ctrl+S` 存成 HTML（Cloudflare 挡直接抓取，必须真实浏览器保存）。
 2. 歌词原文在保存文件的 `<div class="ltf">` 容器里，`<div class="ll-x-y">` 每个是一行。
-3. 按下面的数据格式，把对象填进 `public/index.html` 的 `ALBUMS` 数组对应专辑的 `songs` 里。
+3. 按下面的数据格式，把对象填进 `public/data/albums.js` 的 `ALBUMS` 数组对应专辑的 `songs` 里。
 
 ### 数据格式
 
