@@ -295,6 +295,14 @@ window.ALBUMS = [
             trans:["就已一心想着","去找个心上人","（反复，末尾以此收束）"] },
         ]
       },
+      { t:"Suil a roon", lang:"GA",
+        note:"爱尔兰传统民谣（Siúil a Rún，vol.1 第 1 曲）。英语主歌 + 爱尔兰盖尔语副歌的离别哀歌。歌词待录。" },
+      { t:"O stor mo chroi", lang:"GA",
+        note:"爱尔兰传统民谣（A Stór Mo Chroí「我心之宝」，vol.1 第 6 曲）。写离乡与思念。歌词待录。" },
+      { t:"Dellum Down", lang:"EN",
+        note:"传统民谣（vol.1 第 10 曲）。歌词待录。" },
+      { t:"Valse des Ondines", lang:"Instr.",
+        note:"「水精灵华尔兹」（vol.1 第 12 曲）。纯竖琴器乐，与 Harpe Celtique 同名曲同源，无歌词。" },
     ]
   },
   {
@@ -453,6 +461,18 @@ window.ALBUMS = [
             trans:["天上的星辰","一颗又一颗，两两成双"] },
         ]
       },
+      { t:"Mary", lang:"EN",
+        note:"vol.2 第 1 曲（Cécile Corbel 原创）。歌词待录。" },
+      { t:"Lovers' farewell", lang:"EN",
+        note:"vol.2 第 2 曲（Jimme O'Neill / CC）。恋人的告别。歌词待录。" },
+      { t:"Innocence", lang:"EN",
+        note:"vol.2 第 8 曲（CC 原创）。歌词待录。" },
+      { t:"The Great Selkie", lang:"EN",
+        note:"vol.2 第 10 曲。苏格兰传统谣《The Great Selkie of Sule Skerry》——海豹人（selkie）传说。歌词待录。" },
+      { t:"Raggle Taggle Gypsy", lang:"EN",
+        note:"vol.2 第 11 曲。著名英/爱传统谣——贵妇抛下荣华随吉普赛人私奔。歌词待录。" },
+      { t:"Corpus Christi Carol", lang:"EN",
+        note:"vol.2 第 12 曲。中世纪英语圣诗（猎鹰与流血骑士的神秘意象）。歌词待录。" },
     ]
   },
   {
@@ -642,6 +662,22 @@ window.ALBUMS = [
             trans:["热诺薇法，哦——哦——哦","热诺薇法，哦——哦——哦","热诺薇法，哦——哦——哦","热诺薇法"] },
         ]
       },
+      { t:"Garden District", lang:"EN",
+        note:"vol.4 第 4 曲。歌词待录。" },
+      { t:"Prayer", lang:"EN",
+        note:"vol.4 第 5 曲（「Dear Lord, my fortress be…」）。歌词待录。" },
+      { t:"Folia", lang:"FR",
+        note:"vol.4 第 6 曲。歌词待录。" },
+      { t:"Hija Mia", lang:"LAD",
+        note:"vol.4 第 7 曲。拉迪诺语，与 Harpe Celtique《Hija mia》同曲的另一版本。歌词待录。" },
+      { t:"Le Long de l'Eau", lang:"FR",
+        note:"vol.4 第 8 曲。歌词待录。" },
+      { t:"À Suivre", lang:"FR",
+        note:"vol.4 第 9 曲。歌词待录。" },
+      { t:"La Ballade de Rose", lang:"FR",
+        note:"vol.4 第 11 曲。歌词待录。" },
+      { t:"Eirin", lang:"FR",
+        note:"vol.4 第 12 曲。歌词待录。" },
     ]
   },
   {
