@@ -462,6 +462,26 @@ let current = null;
 
 function songId(ai, si){ return "s"+ai+"_"+si; }
 
+/* ---- 跨专辑同曲：ref 引用同一份数据 ---- */
+// 建立 id → {song, album} 索引（源歌需带唯一 id）
+const SONG_BY_ID = {};
+ALBUMS.forEach(al => al.songs.forEach(s => { if (s.id) SONG_BY_ID[s.id] = { song: s, album: al }; }));
+// 解析一首歌：若带 ref，则借用源歌的 lyrics/lang/transOnly（本条目自己的 t/note/lang 优先），
+// 并返回源歌所属专辑信息，供页面标注「与《…》同曲」。
+function resolveSong(s){
+  if (!s || !s.ref) return { song: s, sameAs: null };
+  const src = SONG_BY_ID[s.ref];
+  if (!src) return { song: s, sameAs: null };   // 源不存在则退化为原样（避免崩）
+  const merged = {
+    t: s.t || src.song.t,
+    lang: s.lang || src.song.lang,
+    note: s.note || src.song.note,
+    transOnly: ('transOnly' in s) ? s.transOnly : src.song.transOnly,
+    lyrics: src.song.lyrics
+  };
+  return { song: merged, sameAs: src.album };
+}
+
 function buildNav(){
   ALBUMS.forEach((al, ai) => {
     const li = document.createElement("li");
@@ -481,9 +501,10 @@ function buildNav(){
       const tli = document.createElement("li");
       const tb = document.createElement("button");
       tb.id = "nav_"+songId(ai,si);
-      const done = Array.isArray(s.lyrics) && s.lyrics.length;
+      const rs = resolveSong(s).song;          // 解析 ref，用源歌判断是否已录
+      const done = Array.isArray(rs.lyrics) && rs.lyrics.length;
       tb.innerHTML = `<span>${s.t}</span>` +
-        (done ? `<span class="lang">${langLabel(s.lang)}</span>`
+        (done ? `<span class="lang">${langLabel(rs.lang)}</span>`
               : `<span class="todo">待录</span>`);
       tb.addEventListener("click", () => selectSong(ai, si));
       tli.appendChild(tb);
@@ -511,7 +532,9 @@ function openAlbum(ai){
 }
 
 function selectSong(ai, si){
-  const al = ALBUMS[ai], s = al.songs[si];
+  const al = ALBUMS[ai], raw = al.songs[si];
+  const resolved = resolveSong(raw);
+  const s = resolved.song;                 // 解析后的歌（ref 已借用源歌数据）
   openAlbum(ai);
   document.querySelectorAll(".tracks button").forEach(b => b.classList.remove("active"));
   const nav = document.getElementById("nav_"+songId(ai,si));
@@ -523,6 +546,11 @@ function selectSong(ai, si){
       <h2>${s.t}</h2>
       <div class="meta"><span><b>${s.transOnly ? "语言" : "原文"}</b>${langName(s.lang)}${s.transOnly ? " · 仅中文译文" : ""}</span></div>
     </div>`;
+
+  if (resolved.sameAs) {
+    const src = resolved.sameAs;
+    html += `<div class="note"><b>同曲 · Same Song</b>与《${src.title}${src.vol ? " "+src.vol : ""}》中的同名曲为同一录音，歌词共用一份数据。</div>`;
+  }
 
   if (s.note) {
     html += `<div class="note"><b>Note · 备注</b>${s.note}</div>`;
