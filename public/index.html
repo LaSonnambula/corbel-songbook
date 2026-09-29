@@ -315,6 +315,8 @@
     background: var(--edge-soft);
     transform: translateX(-50%);
   }
+  .stanza.trans-only { grid-template-columns: 1fr; }
+  .stanza.trans-only::before { display: none; }
   .orig, .trans { min-width: 0; }
   .orig {
     font-family: var(--serif-src);
@@ -2136,6 +2138,47 @@ const ALBUMS = [
     ]
   },
   {
+    title: "La Fille du Verseau", vol: "专辑", year: "2023",
+    note: "《水瓶座的女孩》2023，一张黑暗电影感的概念专辑，词曲由 Laurent Tixier 创作，Cécile Corbel 演唱并编曲，风格与她自己的凯尔特民谣很不一样。这是当代在售专辑，本站只收录中文翻译供个人对照，不镜像法语原文（原文请对照你手中的 CD／流媒体）。",
+    songs: [
+      { t:"Le Louvetier", lang:"FR",
+        note:"「猎狼人」——一首民谣叙事体的歌。清晨，一位猎狼官持矛荷枪进入大森林打猎，却在林边听见哀鸣，发现一个倒地的男人自称是「巫魔夜会（sabbat）的受害者」，恳求他用一颗镀金的银弹结束自己的痛苦。猎狼人没有开枪，而是从背袋里取出斯佩尔特小麦面包递给他；狼人吃下面包后剧烈痉挛、变形，挣脱了月亮的恶咒，重新找回了自己的灵魂——是「以善意破咒」的温柔反转。（本专辑仅录中文译文）",
+        transOnly:true,
+        lyrics:[
+          { role:"", chorus:false,
+            trans:["从前有一位猎狼官，动身去平原上打猎（复）","他清晨出发，带着一支矛和一根木棒","腰间一只弹药盒，猎枪斜挎在肩上（复）"] },
+          { role:"", chorus:false,
+            trans:["刚到大森林的边缘，他就听见了像是哀鸣的声音（复）","像一声哀鸣，像一个人声，像一头走投无路的野兽","像一支离奇的歌，从某个邪恶的童话里飘出来（复）"] },
+          { role:"", chorus:false,
+            trans:["可他何等惊愕——竟看见一个男人倒在地上（复）","那人苦苦哀求一死，说自己是巫魔夜会的受害者","「要想了结此事，就请用一颗镀金的子弹打死我吧」（复）"] },
+          { role:"", chorus:false,
+            trans:["猎狼人走近这个模样古怪的男人（复）","却把手伸进背袋，取出面包递给他","那狼人惊讶极了，对方竟把斯佩尔特麦面包递给了自己（复）"] },
+          { role:"", chorus:false,
+            trans:["等他吃完，那狼人捂住了肚子（复）","捂住头，捂住脚，接着开始变形","挣脱了那道恶咒，这个人重新找回了自己的灵魂（复）"] },
+          { role:"", chorus:true,
+            trans:["「谢谢你，猎狼人，你把我从苦难中救了出来（复）","靠你给我的那块面包，我体内的狼被释放了","你把我从厄运里、从月亮的魔咒里救了出来」（复）"] },
+        ] },
+      { t:"Vanikoro", lang:"FR",
+        note:"「瓦尼科罗」——南太平洋所罗门群岛中的一座珊瑚岛，1788 年法国航海家拉佩鲁兹（La Pérouse）探险队两艘船在此触礁失踪，是法国航海史上著名的谜案。歌词待录（这次只下到了网页附件文件夹、没存到 .html，重新用浏览器 Ctrl+S 存一次即可；本专辑仅录中文译文）。",
+        transOnly:true },
+      { t:"La Dame Blanche", lang:"FR",
+        note:"「白衣夫人」——布列塔尼／凯尔特民间传说里的幽灵女子，常在夜里现身林间小径。全曲是一首夜色氛围诗：夜降临小路与村庄，一扇门开向另一片风景，古老无年岁的橡树低语，旧墙边翻开新的一页；副歌里「我听见白衣夫人在栗树高枝上歌唱，白貂在榛树丛的深处轻颤」。末段写在绝望、看不见一丝光亮时，于心中寻一簇黑暗中的火焰，好让记忆与希望永不熄灭。（本专辑仅录中文译文）",
+        transOnly:true,
+        lyrics:[
+          { role:"", chorus:false,
+            trans:["当夜色降临，落在我们的小径上","落在我们林荫覆盖的小路上","当夜以一只幽暗的手，让群犬噤声","让所有影子隐去，直到又一个清晨"] },
+          { role:"", chorus:false,
+            trans:["当夜色降临，落在我们的小村庄","当那扇门打开，通向另外的风景","当低语传来——来自一棵无年岁的老橡树","在我们古老的墙垣旁，又翻过了一页"] },
+          { role:"", chorus:true,
+            trans:["我听见白衣夫人在歌唱，从栗树的高枝上","还有白貂在轻颤，在榛树枝丛的深处"] },
+          { role:"", chorus:false,
+            trans:["当夜色降临，而我陷入绝望","再也看不见哪怕一丝光亮","我便在心中寻找，黑暗里的一簇火焰","只为让记忆与希望，永不熄灭"] },
+          { role:"", chorus:true,
+            trans:["我听见白衣夫人在歌唱，从栗树的高枝上","还有白貂在轻颤，在榛树枝丛的深处"] },
+        ] },
+    ]
+  },
+  {
     title: "Graal", vol: "专辑", year: "2024",
     songs: [
       { t:"Demoiselle (La Ballade de Viviane)", lang:"FR",
@@ -2368,7 +2411,7 @@ function selectSong(ai, si){
   let html = `<div class="song-head">
       <p class="album-tag">${al.title} ${al.vol} · ${al.year}</p>
       <h2>${s.t}</h2>
-      <div class="meta"><span><b>原文</b>${langName(s.lang)}</span></div>
+      <div class="meta"><span><b>${s.transOnly ? "语言" : "原文"}</b>${langName(s.lang)}${s.transOnly ? " · 仅中文译文" : ""}</span></div>
     </div>`;
 
   if (s.note) {
@@ -2377,10 +2420,12 @@ function selectSong(ai, si){
 
   if (Array.isArray(s.lyrics) && s.lyrics.length) {
     html += `<div class="lyrics">`;
+    const noOrig = s.transOnly || s.lyrics.every(st => !(st.orig && st.orig.length));
     s.lyrics.forEach(st => {
-      html += `<div class="stanza${st.chorus ? " chorus":""}">`;
+      html += `<div class="stanza${st.chorus ? " chorus":""}${noOrig ? " trans-only":""}">`;
       if (st.role) html += `<div class="role">${st.role}</div>`;
-      html += `<div class="orig">${(st.orig||[]).map(l=>`<span class="line">${l||"&nbsp;"}</span>`).join("")}</div>`;
+      if (!noOrig)
+        html += `<div class="orig">${(st.orig||[]).map(l=>`<span class="line">${l||"&nbsp;"}</span>`).join("")}</div>`;
       const hasT = st.trans && st.trans.length && st.trans.some(x=>x&&x.trim());
       html += hasT
         ? `<div class="trans">${st.trans.map(l=>`<span class="line">${l||"&nbsp;"}</span>`).join("")}</div>`
