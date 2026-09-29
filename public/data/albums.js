@@ -16,7 +16,7 @@ window.ALBUMS = [
     title: "Harpe Celtique et Chants du Monde", vol: "专辑", year: "2005",
     note: "《凯尔特竖琴与世界之歌》，Cécile Corbel 最早的作品之一（Keltia Musique 发行）。以凯尔特竖琴演绎世界各地的传统民歌，语言很杂——布列塔尼语、希伯来语、拉迪诺语（犹太-西班牙语）、法语等，另含一首纯器乐。",
     songs: [
-      { t:"An hini a garan", lang:"BR",
+      { t:"An hini a garan", lang:["BR"],
         note:"「我所爱的人」——布列塔尼语经典传统情歌。我所爱的人，儿时同在村里、两小无猜，我的心只钟情于他一人；如今他去了远方谋生、再不回来，我便这样一遍遍唱着，唱给我所爱的人。（中文据 lyricstranslate 的英译转出。）",
         lyrics:[
           { role:"", chorus:false,
@@ -29,7 +29,7 @@ window.ALBUMS = [
             orig:["An hini a garan","Un deiz 'n eus va losket","Aet eo d'ar broioù pell","D'ur vro n'an'vezan ket","Aet eo d'ar broioù pell","Da c'hounit e vara","Kollet kollet un deiz","An hini a garan"],
             trans:["我所爱的人","有一天他离我而去","去了遥远的国度","去了我不认得的地方","去了遥远的国度","去挣他的口粮","有一天，就这样失去了","我所爱的人"] },
         ] },
-      { t:"Bran", lang:"BR",
+      { t:"Bran", lang:["BR"],
         note:"「乌鸦」——布列塔尼语传统歌谣，与 SongBook vol.1《Bemnoz》同一文本来源（Bran 即布列塔尼语「乌鸦」）。凯尔卢昂（Kerlouan）战场荒原上一棵橡树，每到夜里海鸟便聚集其上——黑白羽毛、头上带着一滴血，一只灰黑的老母乌鸦领着一只小乌鸦一同飞来；它们从海那头远远飞来，双翅被打湿、精疲力竭，唱着一支歌，比辽阔大海的静默还要美。（中文据 lyricstranslate 的英译转出。）",
         lyrics:[
           { role:"", chorus:false,
@@ -45,7 +45,7 @@ window.ALBUMS = [
             orig:["Hag an evned a gan ur c'han","Ken kaer ma tav ar mor ledan","Ar mor ledan"],
             trans:["这些鸟儿唱起一支歌","比辽阔大海的静默还要美","那辽阔的大海"] },
         ] },
-      { t:"Shir al Etz", lang:"HE",
+      { t:"Shir al Etz", lang:["HE"],
         note:"「树之歌」（שיר על עץ）——希伯来语，旋律源自著名的意第绪歌谣《Oyfn Veg Shteyt a Boym》（路边立着一棵树，Itzik Manger 词）。路边一棵树，树冠低垂，鸟儿都弃它而去、飞向南、西、也许东方，只剩风轻抚它低垂的树冠；孩子于是对母亲说：让我也变作一只鸟吧，我要飞到那树上、再不离开，为它啾唱一支欢快的歌，好安慰它。",
         lyrics:[
           { role:"", chorus:false,
@@ -61,7 +61,7 @@ window.ALBUMS = [
             orig:["אל העץ אעופה לי, לא אנוד ממנו","אצייץ לו שיר עליז ואנחמהו"],
             trans:["飞到那棵树上去，再不离开它","为它啾唱一支欢快的歌，好安慰它"] },
         ] },
-      { t:"Hija mia", lang:"LAD",
+      { t:"Hija mia", lang:["LAD"],
         note:"「我的女儿」——拉迪诺语（犹太-西班牙语／塞法迪传统）。一位母亲拦阻投海的女儿：我的女儿、我的心肝，别投进大海里，海正起着风暴，会把你卷走。女儿却答：随它卷我、随它带我到七寻深的海底，随黑沥青把我吞没吧——只为从爱里得救。副歌反复呼唤「我的女儿」。",
         lyrics:[
           { role:"", chorus:false,
@@ -80,7 +80,7 @@ window.ALBUMS = [
             orig:["Que m'engluta pege preto","Que m'engluta pege preto","Para salvar del amor","Para salvar del amor"],
             trans:["随那黑沥青把我吞没","随那黑沥青把我吞没","只为从爱里得救","只为从爱里得救"] },
         ] },
-      { t:"Je m'endors", lang:"FR",
+      { t:"Je m'endors", lang:["FR"],
         note:"「我睡去」——法语，带有北美卡津（Cajun／路易斯安那法语）民谣色彩。困倦又饥渴，日已西沉、你却从远方归来；一句戏谑的问答「怎么了，金发美人？怎么了，褐发美人？——好的都归金发，褐发什么也捞不着」。中间一段唱克劳利（Crowley，路易斯安那地名）的人总在路上、图谋不轨，兜里揣着铅壶和废铁。",
         lyrics:[
           { role:"", chorus:false,
@@ -93,7 +93,7 @@ window.ALBUMS = [
             orig:["Je m'endors, je m'endors et j'ai soif et j'ai faim.","Le soleil est couché et tu viens loin de la maison.","Bye-bye, oui belle blonde, bye-bye,","oui belle brune :","c'est tout pour les blondes ;","c'est rien pour les brunes."],
             trans:["我睡去，我睡去，又渴又饿。","太阳已经落下，你却从远方归来。","再见了，金发美人，再见，","褐发美人：","好的全归金发；","褐发什么也捞不着。"] },
         ] },
-      { t:"Valse des ondines", lang:"Instr.",
+      { t:"Valse des ondines", lang:["Instr."],
         note:"「水精灵华尔兹」——纯竖琴器乐曲，无歌词。",
         lyrics:[
           { role:"", chorus:false, orig:["（纯音乐 · 无词）"], trans:["—"] },
@@ -104,7 +104,7 @@ window.ALBUMS = [
     title: "SongBook", vol: "vol. 1", year: "2006",
     songs: [
       {
-        t:"Blackbird", lang:"EN",
+        t:"Blackbird", lang:["EN"],
         note:"爱尔兰传统民谣（又名 I Am a Young Maiden）。被抛下的少女盼自己化作一只黑鸟，能鸣唱、能追随爱人远航的船，在桅顶筑巢，向他扑扇双翼。副歌全曲反复，此处只列一次。",
         lyrics: [
           { role:"Verse 1", chorus:false,
@@ -128,7 +128,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Bemnoz", lang:"BR",
+        t:"Bemnoz", lang:["BR"],
         note:"布列塔尼语传统情歌（SongBook vol.1，Bemnoz 意为「每一夜」）。每夜就寝，我只是哭泣，思念着我所爱的人；我天天走进「爱之林」（Bois d'Amour / Coat-an-Amour），盼见你来打水，见你穿林而来，我便把心事留在树叶上。——你把秘密说给无足轻重的东西听，说给林中的树叶；一旦风雨来袭，你的秘密就散失了，年轻人。倒不如把它们写进我心里，它们会深深地留在那儿，我温柔的书生。（中文据 lyricstranslate 的英译转出。）",
         lyrics: [
           { role:"", chorus:false,
@@ -146,7 +146,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"The King of the Fairies", lang:"EN",
+        t:"The King of the Fairies", lang:["EN"],
         note:"取材自苏格兰传说人物「真实的托马斯」（True Thomas / Thomas the Rhymer，13 世纪厄尔斯顿的诗人预言家）。相传他随仙后走入精灵国度、七年后归返；埃尔登橡树下，龙生金翼、河流成乳、蜜与酒长流——精灵之王守着不可泄露的秘密。「Lully lullay」为古摇篮曲式的吟唱衬词。",
         lyrics: [
           { role:"Verse 1", chorus:false,
@@ -170,7 +170,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Auchindoun", lang:"SCO",
+        t:"Auchindoun", lang:["SCO"],
         note:"古老的苏格兰民谣（Scots 方言），咏 1592 年 Willie MacIntosh 火烧 Auchindoun 城堡一事。「Halamachadoo…」一段为口传吟唱的拟声衬词，无实义，此处合并示意，实际演唱中多次反复。",
         lyrics: [
           { role:"Verse 1", chorus:false,
@@ -194,7 +194,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Le vent m'emporte", lang:"FR/BR",
+        t:"Le vent m'emporte", lang:["FR","BR"],
         note:"法语、爱尔兰盖尔语与布列塔尼语三语交织。「风把我带向别处」——风只编织谎言，在梦的深处歌唱；一面又一面镜子里，记忆与悔恨交叠。盖尔语句 Dún do shúil a rún mo chroí 意为「闭上你的眼吧，我心爱的人」；布列塔尼语句意为「我被带往海上……随风而去，在西方的岸边」。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -215,7 +215,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"She Moved Through the Fair", lang:"EN",
+        t:"She Moved Through the Fair", lang:["EN"],
         note:"著名的爱尔兰传统亡灵情歌。恋人许下婚约后离世，末段化作亡魂夜里归来，轻声重复那句「不会太久了，爱人，就到我们的婚期」。",
         lyrics: [
           { role:"Verse 1", chorus:false,
@@ -233,7 +233,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Three Ravens", lang:"EN",
+        t:"Three Ravens", lang:["EN"],
         note:"古英语叙事民谣（The Three Ravens，17 世纪）。三只乌鸦欲以战死骑士为食，却见忠犬伏于其脚、猎鹰盘旋守护，无鸟敢近；末段一头怀孕母鹿将骑士葬于晨祷前，自己也在暮祷时分死去。「Downe a downe…」为无实义的古调叠句。原文保留古英语拼写。",
         lyrics: [
           { role:"Refrain 叠句", chorus:true,
@@ -251,7 +251,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Red Rose", lang:"EN",
+        t:"Red Rose", lang:["EN"],
         note:"改编自苏格兰诗人罗伯特·彭斯（Robert Burns）名诗《A Red, Red Rose》（1794）。以红玫瑰与乐曲喻爱，誓言纵使沧海枯竭、岩石熔于骄阳，此情不渝。保留 Scots 拼写（a'=all，wi'=with，o'=of）。",
         lyrics: [
           { role:"Verse 1", chorus:false,
@@ -272,7 +272,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"C'hoant dimeziñ", lang:"BR",
+        t:"C'hoant dimeziñ", lang:["BR"],
         note:"布列塔尼语传统歌谣（SongBook vol.1，歌名意为「想要出嫁」）。女儿与父母的对话：女儿说「我早就对你们——父亲、母亲——说过了，你们若不肯把我嫁出去、成全我的心愿，我就披上道袍、进修道院去；那我的那些追求者，就只能带着他们的念想留在原地了」；父母答「太年轻啦，我的女儿，我看你还太小，就已一心想着找个心上人」。（中文据 lyricstranslate 的法译转出。）",
         lyrics: [
           { role:"女儿", chorus:false,
@@ -295,7 +295,7 @@ window.ALBUMS = [
             trans:["就已一心想着","去找个心上人","（反复，末尾以此收束）"] },
         ]
       },
-      { t:"Suil a roon", lang:"EN/GA",
+      { t:"Suil a roon", lang:["EN","GA"],
         note:"vol.1 第 1 曲。著名爱尔兰传统离别哀歌（Siúil a Rún）——英语主歌 + 爱尔兰盖尔语副歌。姑娘的爱人远赴法国从军，归期渺茫；她愿变卖纺车、渔具，为爱人买一柄钢剑。盖尔语叠句 Siúil a rún 意为「走吧，我的爱」：「悄悄地走、静静地走，走到门口、随我而逃，愿你平安，我的心上人」。副歌全曲反复，此处只列一次。",
         lyrics: [
           { role:"", chorus:false,
@@ -314,7 +314,7 @@ window.ALBUMS = [
             orig:["But now my love has gone to France","To try his fortune to advance","If he e'er comes back it's but a chance","And a blessing walk with you, my love"],
             trans:["可如今我的爱人已去了法国","去搏一搏他的前程","他若还能回来，也不过是侥幸","愿福佑与你同行，我的爱"] },
         ] },
-      { t:"O stor mo chroi", lang:"EN",
+      { t:"O stor mo chroi", lang:["EN"],
         note:"vol.1 第 6 曲。爱尔兰谣《A Stór Mo Chroí》（意为「我心之宝」，Brian O'Higgins 词），一首写给远行游子的思念之歌：异乡纵然明亮富丽、遍地黄金，你仍会思念故土与那份永不老去的爱；当暮霭笼罩山海，愿你回头望向爱尔兰的海岸、望向你留下的人——「回来吧，回到永远爱你的人身边」。",
         lyrics: [
           { role:"", chorus:false,
@@ -330,7 +330,7 @@ window.ALBUMS = [
             orig:["For the sound of a voice that is surely miss","For somebody's quick returning","A ruin, a ruin, oh won't you come back soon","To the one who will always love you"],
             trans:["为了那一个必定被思念的声音","为了某个人快快归来","我的爱，我的爱，哦，你可愿早些回来","回到那永远爱你的人身边"] },
         ] },
-      { t:"Dellum Down", lang:"EN",
+      { t:"Dellum Down", lang:["EN"],
         note:"vol.1 第 10 曲。传统猎野猪谣——林中有一头会吃人肉、吸人血的野猪，Bangrum 拔出木刀发誓要取它性命；野猪凶猛来袭，破开橡树与白蜡树。「Dellum down」是无实义的叠句衬词。副歌与叠句反复，此处只列骨架。",
         lyrics: [
           { role:"", chorus:false,
@@ -343,7 +343,7 @@ window.ALBUMS = [
             orig:["The wild boar came in such a flash","Dellum down, dellum down","The wild boar came in such a flash","He broke his way through oak and ash","Dellum down, dellum down","Dellum down, dellum down"],
             trans:["那野猪来得那样迅疾","嘀啰当，嘀啰当","那野猪来得那样迅疾","一路破开橡树与白蜡树","嘀啰当，嘀啰当","嘀啰当，嘀啰当"] },
         ] },
-      { t:"Valse des Ondines", lang:"Instr.",
+      { t:"Valse des Ondines", lang:["Instr."],
         note:"「水精灵华尔兹」（vol.1 第 12 曲）。纯竖琴器乐，与 Harpe Celtique 同名曲同源，无歌词。" },
     ]
   },
@@ -351,7 +351,7 @@ window.ALBUMS = [
     title: "SongBook", vol: "vol. 2", year: "2008",
     songs: [
       {
-        t:"La fille damnée", lang:"FR",
+        t:"La fille damnée", lang:["FR"],
         note:"哥特叙事谣：铁匠为一位来客钉马蹄，副歌里「被诅咒的姑娘」在夜里歌唱；随后揭晓——那来客竟是他死去埋葬的女儿 Jeanne 的亡魂，回来求父亲焚身、扬灰入风，方得超度。副歌全曲反复，此处只列一次。",
         lyrics: [
           { role:"Couplet 1 — 对话", chorus:false,
@@ -375,7 +375,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Sans faire un bruit", lang:"FR",
+        t:"Sans faire un bruit", lang:["FR"],
         note:"一则冬夜的叙事诗：骄傲的姑娘随无地骑士走到世界尽头，宁死不属于人，终在破晓前化作雪狐，消融于冬天。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -402,7 +402,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Elisabetha", lang:"FR",
+        t:"Elisabetha", lang:["FR"],
         note:"一名被指为女巫、即将于九月前被处以绞刑的女子的哀歌。人们说她的灵魂已然沉沦、被天使弃绝，说她能号令天雨、说她就是黑暗与邪恶。反复的「Elisabetha」是她的名字。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -426,7 +426,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Sweet Song", lang:"EN",
+        t:"Sweet Song", lang:["EN"],
         note:"星空下的恋人之约。愿在最高的树顶筑一处栖身之所，仰望夜空入眠，做山间的恋人，听夜莺唱那支甜美的歌。",
         lyrics: [
           { role:"Verse 1", chorus:false,
@@ -444,7 +444,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Painted Veil", lang:"EN",
+        t:"Painted Veil", lang:["EN"],
         note:"「画中面纱」——迷恋于虚妄幻影的三重变奏：老实人爱上一位姑娘、高贵者觊觎财富、少女沉溺于水中自己的倒影。三者都爱上了一个影子、一层画出来的面纱，把爱人囚于金笼，多年绝望，到头来连对方的名字都不知道。",
         lyrics: [
           { role:"Verse 1 — 老实人", chorus:false,
@@ -468,7 +468,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"I See the Great Mountains", lang:"GD/EN",
+        t:"I See the Great Mountains", lang:["GD","EN"],
         note:"改编自苏格兰盖尔语思乡名谣《Chì Mi na Mòrbheanna》（John Cameron 作，「远方的山」）。盖尔语叠句 O chì, chì mi na mòrbheanna 意为「我望见，我望见那壮阔的群山」；主歌为英译，游子遥望故乡的荒野、森林、雾中的鹿群，听见母语之声，那比黄金更珍贵。",
         lyrics: [
           { role:"Refrain 盖尔语叠句", chorus:true,
@@ -483,7 +483,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"En la mar", lang:"ES",
+        t:"En la mar", lang:["ES"],
         note:"西班牙语（塞法迪犹太/地中海传统风）情谣。海中一座塔，塔上一扇窗，窗里一位爱慕水手的姑娘。「给我你的手，鸽子」——求登上她的巢，与独眠的她相伴。",
         lyrics: [
           { role:"Copla 1", chorus:false,
@@ -503,16 +503,16 @@ window.ALBUMS = [
             trans:["天上的星辰","一颗又一颗，两两成双"] },
         ]
       },
-      { t:"Mary", lang:"EN",
+      { t:"Mary", lang:["EN"],
         note:"vol.2 第 1 曲（Cécile Corbel 原创）。歌词待录。" },
-      { t:"Lovers' farewell", lang:"EN",
+      { t:"Lovers' farewell", lang:["EN"],
         note:"vol.2 第 2 曲（Jimme O'Neill / CC）。恋人的告别。歌词待录。" },
-      { t:"Innocence", lang:"Instr.",
+      { t:"Innocence", lang:["Instr."],
         note:"vol.2 第 8 曲。纯竖琴器乐曲，无歌词。",
         lyrics: [
           { role:"", chorus:false, orig:["（纯音乐 · 无词）"], trans:["—"] },
         ] },
-      { t:"The Great Selkie", lang:"EN",
+      { t:"The Great Selkie", lang:["EN"],
         note:"vol.2 第 10 曲。著名的苏格兰／奥克尼传统谣（The Great Silkie of Sule Skerry）——海豹人（selkie / silkie）传说：一位人间乳母独自唱着摇篮曲，孩子的父亲忽然现身，自陈「我在陆上是人，在海里是海豹，家在苏尔礁（Sule Skerry）」；他留下一袋金子换走幼子，说某个晴朗夏晨会回来带走儿子、教他游泳踏浪。原文保留 Scots 古拼写（bairn=孩子、na weel=不好、quothe=说道）。",
         lyrics: [
           { role:"", chorus:false,
@@ -534,7 +534,7 @@ window.ALBUMS = [
             orig:["\"It shall come to pass on a bright summer's morn","When the sun shines bright on every stone","I will come and take my wee son","And I'll teach him how to swim the foam\""],
             trans:["「总有一个晴朗的夏日清晨","当阳光明亮地照在每一块石头上","我会回来带走我小小的儿子","教他如何在浪花里游泳踏涛」"] },
         ] },
-      { t:"Raggle Taggle Gypsy", lang:"EN",
+      { t:"Raggle Taggle Gypsy", lang:["EN"],
         note:"vol.2 第 11 曲。著名的英／爱传统谣。三个吉普赛人来到门前唱歌，贵妇换上皮衣随他们私奔；领主归来追寻，骑遍东西南北，终在旷野寻见她。他质问她怎能抛下鹅绒床、新婚夫君与家产钱财，她答「这些我都不在乎，今夜我宁躺在旷野、在吉普赛人怀里，只求那黄脸吉普赛人一个吻」。「raggle taggle」意为衣衫褴褛、放荡不羁。",
         lyrics: [
           { role:"Verse 1", chorus:false,
@@ -565,7 +565,7 @@ window.ALBUMS = [
             orig:["\"What care I for my house and my land?","What care I for my money-o?","I'd rather have a kiss from the yellow gypsy's lips","I'm away wi' the raggle taggle gypsy-o!\""],
             trans:["「我哪在乎什么房子、田地？","哪在乎什么钱财，噢？","我宁愿要那黄脸吉普赛人唇上的一个吻","我要随这褴褛不羁的吉普赛人走了，噢！」"] },
         ] },
-      { t:"Corpus Christi Carol", lang:"EN",
+      { t:"Corpus Christi Carol", lang:["EN"],
         note:"vol.2 第 12 曲。中世纪英语圣诗（猎鹰与流血骑士的神秘意象）。歌词待录。" },
     ]
   },
@@ -573,7 +573,7 @@ window.ALBUMS = [
     title: "SongBook", vol: "vol. 3 — Renaissance", year: "2011",
     songs: [
       {
-        t:"Brian Boru", lang:"FR",
+        t:"Brian Boru", lang:["FR"],
         note:"以爱尔兰最后的至高王 Brian Boru（941–1014）为象征，唱回归故土、渡海归乡之志。结尾「E keltia」为凯尔特语，意为「致凯尔特」。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -588,7 +588,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Sweet Amaryllis", lang:"EN/FR",
+        t:"Sweet Amaryllis", lang:["EN","FR"],
         note:"取意文艺复兴牧歌《Adieu, Sweet Amaryllis》（John Wilbye, 1598）。英语、法语交替吟唱的告别曲——既是你的意愿要分离，便在破晓前离去，海的呜咽混入我的哀伤。",
         lyrics: [
           { role:"Verse 1 (EN)", chorus:false,
@@ -606,7 +606,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"La Belle s'est endormie", lang:"FR",
+        t:"La Belle s'est endormie", lang:["FR"],
         note:"法国传统民谣。熟睡在玫瑰花床上的美人，白如雪、美如昼，三个上尉都想向她求爱；最年轻的一个牵起她的白手，许诺带她去巴黎。首段在末尾回还，如古谣的循环。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -623,7 +623,7 @@ window.ALBUMS = [
             trans:["美人已沉沉睡去","睡在一张华美的玫瑰花床上。","白得像雪，","美得像白昼。","有三个上尉，","都想向她求爱。"] },
         ]
       },
-      { t:"Where Have You Been?", lang:"FR/EN",
+      { t:"Where Have You Been?", lang:["FR","EN"],
         note:"寻觅远方爱人的思念之歌，法语主体、英语副歌交织。我的思念随时日远行、语言与情感都混作一团；我走过一条条不归的路、拾起银色的贝壳、向诸神与半人马、向繁星苦苦祈祷、施下咒语，只为离你更近一点。副歌一遍遍追问「我的爱，你究竟去了哪里？我渡过大海、翻过群山，却寻不见你的踪影」。副歌全曲反复，此处只列一次。",
         lyrics:[
           { role:"Couplet 1", chorus:false,
@@ -643,7 +643,7 @@ window.ALBUMS = [
             trans:["我在路上拾起一枚枚银色的贝壳","有时听见大海的声音","我那样用力地向繁星祈祷","绞着双手，只为离你更近一点"] },
         ] },
       {
-        t:"My Lullaby", lang:"EN",
+        t:"My Lullaby", lang:["EN"],
         note:"一支温柔的摇篮曲。世界冷酷、尘埃弥漫，夜如面纱笼罩大地；而心底始终漂着一支挥之不去的小曲——「晚安，甜美的孩子，我守护着你，别害怕」。",
         lyrics: [
           { role:"Verse 1", chorus:false,
@@ -655,7 +655,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Little Soldier", lang:"EN",
+        t:"Little Soldier", lang:["EN"],
         note:"英语，一首反战哀歌。勇敢的小兵为王冠而战、唱着歌march下山；同样陈旧的盔甲、同样的旗骄傲地飘。「你可听见山谷深处的鼓声？你的赞歌响彻冬日的天空，在清晨的露水里。」而后小兵倒在地上、客死他乡，血染的战场、红旗缓缓飘落。",
         lyrics: [
           { role:"Verse 1 — 出征", chorus:false,
@@ -673,7 +673,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Yarim Gitti", lang:"TR",
+        t:"Yarim Gitti", lang:["TR"],
         note:"专辑收尾的现场曲，翻唱土耳其传统民歌。全曲由一段核心歌词反复吟唱（现场版反复约三遍，此处只列一次）：「我的爱人去了泉边，去揭开我的伤口……你有什么心愿我都给你，只求从你手中饮一口水。」叠句「Yar yar yar aman」意为「爱人啊，爱人，唉——」，是土耳其民歌常见的哀叹衬词。（中文据土耳其原文与 lyricstranslate 英译转出。）",
         lyrics: [
           { role:"全曲反复（约三遍）", chorus:false,
@@ -690,7 +690,7 @@ window.ALBUMS = [
     title: "SongBook", vol: "vol. 4 — Roses", year: "2013",
     songs: [
       {
-        t:"Les Capitaines", lang:"FR",
+        t:"Les Capitaines", lang:["FR"],
         note:"法语。孤独的水手向月亮微笑，眼里只映着大海；远航的船长们一去不返。她盼有一天他能爱上自己，却又劝人别听浪谷深处海妖的歌声——「笔直而骄傲，大海的骑士」。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -713,9 +713,9 @@ window.ALBUMS = [
             trans:["远航的船长们启程而去，再也不曾归来","然而有一天，我多希望他能爱我","别去听那海妖的歌声"] },
         ]
       },
-      { t:"The Riddle", lang:"EN" },
+      { t:"The Riddle", lang:["EN"] },
       {
-        t:"Francesco", lang:"EN",
+        t:"Francesco", lang:["EN"],
         note:"歌名为意大利语，歌词是英语。一首坠入爱河的痴心誓言——你一个眼神，我的心便永属于你；纵使天塌星陨、狂风骤雨，我都会在你身边。",
         lyrics: [
           { role:"Verse 1", chorus:false,
@@ -733,7 +733,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Jenovefa", lang:"EN",
+        t:"Jenovefa", lang:["EN"],
         note:"布列塔尼传说悲歌（歌名 Jenovefa 即布列塔尼语的「热诺薇法／Geneviève」，歌词为英语）。康沃尔公爵之女热诺薇法深爱 Kerblez 的 Yannick，他却已成为 Nizon 的神父、归于上帝。她跪求无果，郁郁而终；此后神父常独立于墓碑之间，在她坟前哭泣。",
         lyrics: [
           { role:"Verse 1", chorus:false,
@@ -756,7 +756,7 @@ window.ALBUMS = [
             trans:["热诺薇法，哦——哦——哦","热诺薇法，哦——哦——哦","热诺薇法，哦——哦——哦","热诺薇法"] },
         ]
       },
-      { t:"Garden District", lang:"FR",
+      { t:"Garden District", lang:["FR"],
         note:"vol.4 第 4 曲（歌名英语——新奥尔良的花园区，歌词法语）。一首关于占卜女巫的暗色歌：夜幕与征兆降临，她穿上「懂得起舞者」的灰袍，以纸牌、蜡与炭在暗中施术、凭空造出一个情人；「恶在我灵魂里燃烧，无火的燃烧」，画十字、在沙上留痕，牌里的王后、侍从与国王向她低语。",
         lyrics: [
           { role:"", chorus:false,
@@ -778,7 +778,7 @@ window.ALBUMS = [
             orig:["Et le mal brûle dans mon âme","Brûle dans mon coeur","Sans aucune flamme","Signe de croix, traces sur le sable","Les figures qui me parlent","Reine, valet ou roi"],
             trans:["恶在我的灵魂里燃烧","在我心里燃烧","却没有一丝火焰","画一个十字，在沙上留下痕迹","那些向我低语的牌面","王后、侍从，或是国王"] },
         ] },
-      { t:"Prayer", lang:"EN",
+      { t:"Prayer", lang:["EN"],
         note:"vol.4 第 5 曲。一首简短的祈祷：「亲爱的主，做我的堡垒，环护我的心与家。主啊，请对我好，这片海如此辽阔，而我的船如此渺小。」爱如一个陌生人叩响我的门，我睁大双眼、敞开心扉。（lyricstranslate 页面只收录了开头两段，此处仅录该部分。）",
         lyrics: [
           { role:"", chorus:false,
@@ -788,11 +788,11 @@ window.ALBUMS = [
             orig:["Love is a stranger","Knocking at my door","My eyes open wide","My heart's open wide"],
             trans:["爱是一个陌生人","叩响我的门","我睁大双眼","我敞开心扉"] },
         ] },
-      { t:"Folia", lang:"FR",
+      { t:"Folia", lang:["FR"],
         note:"vol.4 第 6 曲。歌词待录。" },
-      { t:"Hija Mia", lang:"LAD",
+      { t:"Hija Mia", lang:["LAD"],
         note:"vol.4 第 7 曲。拉迪诺语，与 Harpe Celtique《Hija mia》同曲的另一版本。歌词待录。" },
-      { t:"Le Long de l'Eau", lang:"FR",
+      { t:"Le Long de l'Eau", lang:["FR"],
         note:"vol.4 第 8 曲。「沿着水流」——写一支遗失的旋律（「Mélo Mélodie」）：写在纸上的几个音符，随水漂走、被留在身后；漂流的情感乘风飞去，飞向白鸟、飞向云朵诞生的地方、飞向所有河流汇入海洋的所在。末段那支旋律「像一个太阳，她诉说着我们、她本是为了让你爱我，她甚至能改变我们的人生」。",
         lyrics: [
           { role:"", chorus:false,
@@ -814,9 +814,9 @@ window.ALBUMS = [
             orig:["Elle comme un soleil","Elle parlait de nous, ma mélo mélodie","Elle c'était pour que tu m'aimes","Et elle pouvait même changer nos vies"],
             trans:["她像一个太阳","她诉说着我们，我的旋律呀旋律","她本是为了让你爱我","她甚至能够改变我们的人生"] },
         ] },
-      { t:"À Suivre", lang:"FR",
+      { t:"À Suivre", lang:["FR"],
         note:"vol.4 第 9 曲。歌词待录。" },
-      { t:"La Ballade de Rose", lang:"FR",
+      { t:"La Ballade de Rose", lang:["FR"],
         note:"vol.4 第 11 曲。「萝丝的歌谣」——以倒数（十→一）串起一个叫 Rose 的姑娘的一生：十岁上学、九点的钟声下等待爱情，八个殷勤的男孩、七个向她求爱，可爱情始终不来；她在小本子上记下六桩太沉的伤心、五点小小的烦恼，收起四张照片、放回三张……最后在教堂里一片片摘下玫瑰花瓣，枝上再无玫瑰。反复句「她等着爱情，可爱情不来」。结尾笔锋一转：「她曾等着爱情——而我只等一件事，我一直在等，等你的一个吻。」",
         lyrics: [
           { role:"Couplet 1 — 十 / 九", chorus:false,
@@ -838,7 +838,7 @@ window.ALBUMS = [
             orig:["Rose se lève","Elle prend son cartable","Elle court, comme en rêve","Les cheveux aux vent","Elle attendait l'amour","Je n'attends qu'une chose","Moi j'attends toujours","Un baiser de toi","J'attends toujours","Un baiser de toi"],
             trans:["萝丝起床了","背起她的书包","像在梦里一样奔跑","头发迎着风","她曾一直等着爱情","而我只等一件事","我一直在等","等你的一个吻","我一直在等","等你的一个吻"] },
         ] },
-      { t:"Eirin", lang:"FR",
+      { t:"Eirin", lang:["FR"],
         note:"vol.4 第 12 曲。歌词待录。" },
     ]
   },
@@ -846,7 +846,7 @@ window.ALBUMS = [
     title: "La Fiancée", vol: "专辑", year: "2014",
     songs: [
       {
-        t:"Entendez-vous ?", lang:"FR",
+        t:"Entendez-vous ?", lang:["FR"],
         note:"如童谣与寓言的开场曲。一个被遗弃的孩子睡在橡树下，群星彻夜守望；歌者向「风大人」祈求，把孩子托在微风的背上送走。「你们可听见，那上方——这如交响乐般的歌声？通往天国的门，是否将一直紧闭？」",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -876,7 +876,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Jardin secret", lang:"FR",
+        t:"Jardin secret", lang:["FR"],
         note:"「秘密花园」。心藏于一座上锁的花园，钥匙被藏起，门始终紧闭。玫瑰娇脆不可触碰；她梦想走到事物的另一面，去偷取玫瑰的芬芳，抹去时光留下的灰暗——答案就藏在石下、荆棘与欧石南丛的深处。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -900,7 +900,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Ballerina", lang:"FR",
+        t:"Ballerina", lang:["FR"],
         note:"歌名为英语，歌词是法语。月升之夜，将心放进一只纯真的音乐盒——它的歌声乘风飞旋，宛如一个芭蕾舞女。时光不知疲倦地跳着它无形的舞，把忧伤化作旋律；即便泪水盈眶，也别哭，我们会把泪水收集起来。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -927,7 +927,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Neige", lang:"FR",
+        t:"Neige", lang:["FR"],
         note:"「雪」。困于灰暗、尘埃与倦怠的城市里，一个女孩梦想着广袤的平原、无垠的天空、狂野的骏马与彼岸。落下的雪像一道咒语、一个覆护她的白色斗篷、一个落在肌肤上的冰冷之吻。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -951,7 +951,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"La Lettre", lang:"FR",
+        t:"La Lettre", lang:["FR"],
         note:"「那封信」。一封在破晓时分写就的情书——越看你，越爱你，爱到快要发狂。写信人其实离你并不远：就住在你楼下。她说，若不能属于你，纵死也无妨；请让我在你贞洁的唇上，留下一个关于你的记忆。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -969,7 +969,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"La fille du miroir", lang:"FR",
+        t:"La fille du miroir", lang:["FR"],
         note:"「镜中女」。带着一声叹息、一幅关于你的旧影出走，抛下往日的梦。每当踉跄、每当痛得太深，便向镜中的自己求助——她说，爱不过是一粒沙、一滴雨、一星火花，是那把无尽燃烧的火，是我们生命里缺失的那一点点东西。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -987,7 +987,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"La fiancée", lang:"FR",
+        t:"La fiancée", lang:["FR"],
         note:"专辑同名主打歌。未婚妻的爱人去打仗，她终日以泪洗面，在堤岸上追逐燕子；她说自己不会像男人那样打仗，却懂得风向何时会转——若你带我走，我愿把嫁衣换成戎装。「Lalala」的轻唱贯穿全曲，如无尽的安慰。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -1011,7 +1011,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Breathing You", lang:"EN",
+        t:"Breathing You", lang:["EN"],
         note:"英语。飞越云端、寻找通往你心之路的空灵情歌，意象与《雪人》「Walking in the Air」相呼应。我将横渡辽阔的海洋去与你相会，直到时间的尽头——你的每一次呼吸里，我都在呼吸着你。",
         lyrics: [
           { role:"Verse 1", chorus:false,
@@ -1032,7 +1032,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Emmène-moi", lang:"FR",
+        t:"Emmène-moi", lang:["FR"],
         note:"「带我走」。在玻璃、黄金与丝绸筑成的牢笼里，穿着华美衣裙的女子独自起舞、冻得发抖。她恳求爱人带她远走——越过冬天、越过边界，驱散沉睡旧世界里的黑鸟与恶狼。她的船不惧逆风。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -1053,7 +1053,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Tristes noces", lang:"FR",
+        t:"Tristes noces", lang:["FR"],
         note:"「悲伤的婚礼」。一则暗黑叙事——一个女子为爱在六月的夜里成了凶手。舞会的小提琴旋转，宾客们身着绸缎起舞；被她所爱的负心人抛弃，她终结了这场婚礼。清晨她将失去一切装束，唯有死亡在她苍白的眼中闪烁。「温柔的士兵，暗影里温柔的狱卒，请听一听这为爱沉沦的女子。」",
         lyrics: [
           { role:"Refrain", chorus:true,
@@ -1077,14 +1077,14 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Route de la Soie", lang:"Instr.",
+        t:"Route de la Soie", lang:["Instr."],
         note:"纯器乐曲，无歌词。",
         lyrics: [
           { role:"", chorus:false, orig:["（纯音乐 · 无词）"], trans:["—"] },
         ]
       },
       {
-        t:"Les passagers du vent", lang:"FR",
+        t:"Les passagers du vent", lang:["FR"],
         note:"「风的旅客」（专辑收尾曲，歌名亦是同名系列的意象）。血红的天空下，海鸟纷飞，一个孤独的女孩心事黑白分明，思绪像风中的墨滴悄然散去。她在堤岸等待启程的船——「玛丽，靠到我身边来，别去数那些时辰，爱会归来。」而她那些转瞬的爱恋，是否也是风的旅客？",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -1107,7 +1107,7 @@ window.ALBUMS = [
     title: "Vagabonde", vol: "专辑", year: "2016",
     songs: [
       {
-        t:"Belfast", lang:"FR",
+        t:"Belfast", lang:["FR"],
         note:"专辑开篇曲（歌名英语，歌词法语）。她本可生在别处、迎着海风漂泊，像海盗 Long John Silver 那样，却在此地长大。这里没有大海，可最小的河终会汇入；她像玩偶般起舞，若饮酒，是为忘却那颗随波逐流的心。「留住渐渐消逝的时光，再为我奏一支华尔兹，像在贝尔法斯特港口那样。」",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -1122,7 +1122,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Les courants d'air", lang:"FR",
+        t:"Les courants d'air", lang:["FR"],
         note:"「穿堂风」。她把墨与写在白纸上的字撒进风里，恶风中它们仿佛在跳舞、划破寂静。她留在穿堂风里，哀怨无尽，整片平原寂静无声，只有那该死的风在歌唱。「什么好风把你吹向这悲惨的命运？港口边的小美人鱼，若船沉了，别把自己拴在那些将投入你怀抱的水手身上。」",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -1143,7 +1143,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Working Song", lang:"FR/EN",
+        t:"Working Song", lang:["FR","EN"],
         note:"一则叩门寓言（歌词法语，副句英语「让我进来！让我出去！」）。风、贫穷、终末、恶灵、冬天、银行家依次来敲门，各带着寒冷、匮乏、恐惧、罪恶、金钱，请求「为我开门」；而歌者一一拒之门外、将其驱远——守着自己那扇紧闭的门。",
         lyrics: [
           { role:"Couplet 1 — 风", chorus:false,
@@ -1167,7 +1167,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Entre ses bras", lang:"FR",
+        t:"Entre ses bras", lang:["FR"],
         note:"「在他怀里」（与歌手 Pomme 合唱）。他只爱她，她也只爱他，像一座旋转木马在彼此怀中回旋。纵使世界翻转、纵使世事颠倒又如何？——今夜，我睡在你的怀里。这是一支情歌，日夜低声吟唱，是留在肌肤上的一缕芬芳。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -1191,7 +1191,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Pierre et Marion", lang:"FR",
+        t:"Pierre et Marion", lang:["FR"],
         note:"法国传统民谣式的爱情叙事（与 Gabriel Yacoub 合唱）。五月来临、美丽的鸟儿歌唱，玫瑰与蓟花交缠，Pierre 与 Marion 相拥而眠。Pierre 出征英格兰，Marion 郁郁而逝；夏天过去了，鸟儿仍在麦田上歌唱——如今他们同眠于地下，鸟儿依旧唱着那支轻飏的歌。「哦，鸟儿唱吧，唱出那些话语，告诉我你美丽的语言。」",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -1212,7 +1212,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"The Berry", lang:"EN",
+        t:"The Berry", lang:["EN"],
         note:"英语，古老的福音／民谣风叠句。「哦，哀悼者，我们到河边去吧」——伴着采浆果、月亮沉入白杨、星辰坠落的意象，如一支古调的循环吟唱。（与 The Moorings & Manran 合作）",
         lyrics: [
           { role:"Refrain", chorus:true,
@@ -1236,7 +1236,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Waterfalls", lang:"EN",
+        t:"Waterfalls", lang:["EN"],
         note:"英语。别去追逐瀑布与彩虹——黄金、白银、翡翠不长在恋人的庭院里，我宁要月光花与紫色的毛地黄，宁要今夜你的一个吻。皮靴、钻石、皮草填不满我孤独的心，我只想在河岸采一朵睡莲，把花插进发间。",
         lyrics: [
           { role:"Verse 1", chorus:false,
@@ -1251,7 +1251,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"La fille sans nom", lang:"FR/EN",
+        t:"La fille sans nom", lang:["FR","EN"],
         note:"「无名女孩」（与 Faada Freddy 合唱，法英交织）。天为她的屋顶，地为她的床，别去呼唤她——她是那无名的女孩。她穿一袭夏裙、散着长发、自由地走；忘了自己出生的季节，随手挑一个名字；她只是路过，把你的心带走。",
         lyrics: [
           { role:"Verse 1 (EN)", chorus:false,
@@ -1272,7 +1272,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Winterchild", lang:"EN",
+        t:"Winterchild", lang:["EN"],
         note:"「冬之子」。化用凯尔特神话《阿门金之歌》（Song of Amergin）的万物化身咏叹——「我是海上的风，我是浪，我是七战之牛，我是露珠，我是太阳……」冬之子将往何方？借层层意象，唱出与天地万物同一的古老自白。",
         lyrics: [
           { role:"Refrain", chorus:true,
@@ -1296,7 +1296,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Liam", lang:"FR/EN",
+        t:"Liam", lang:["FR","EN"],
         note:"布列塔尼水手 Liam 的挽歌（法英交织）。他随姑娘漂泊、随风去爱，如今军港里还有伙计们记得他。「可怜的 Liam，你扬帆走了，别了水手，farewell；可怜的 Liam，在暹罗街上，人们唱着『别了，farewell』。」暹罗街（rue de Siam）是布雷斯特的著名街道。此后我在布雷斯特的咖啡馆里借酒消愁，为他饮下最后一杯。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -1311,7 +1311,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Dwelling of the Moon", lang:"EN",
+        t:"Dwelling of the Moon", lang:["EN"],
         note:"「月之居所」。满是凯尔特神话意象的咒吟——加利翁的溪流、贤者的足踵、精灵的土丘、Nuada（爱尔兰神话中达努神族的王）的臂弯。「我曾来到青春之山，很久以前，我诞生于努阿达的怀抱。」在烛火与炉火之间，在月亮的居所里。",
         lyrics: [
           { role:"Verse 1", chorus:false,
@@ -1326,7 +1326,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Mama Always Told Me", lang:"EN",
+        t:"Mama Always Told Me", lang:["EN"],
         note:"公路蓝调风的英语歌。妈妈总告诫：别把房子建在流沙上，风一吹就会塌。这是一条没有尽头的路，可我还在努力，我沿着铁道走向没有人能找到我的地方。爸爸也总说：姑娘，别认输，别让他们偷走你的灵魂。",
         lyrics: [
           { role:"Verse 1", chorus:false,
@@ -1341,7 +1341,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Under the Lake", lang:"EN",
+        t:"Under the Lake", lang:["EN"],
         note:"专辑收尾曲（与 Poppy Seeds 合作）。凯尔特「水马／湖中精灵」的意象——我要到湖边去，那白马奔行的地方，把我的爱、把许久以前所有破碎的诺言，抛进跃动的浪里。若你来到湖边，请告诉那狂野的山中之王：我已随精灵而去，在杨柳与松影飘移的地方，你会听见我的声音，在湖底呼唤。",
         lyrics: [
           { role:"Verse 1", chorus:false,
@@ -1357,7 +1357,7 @@ window.ALBUMS = [
   {
     title: "Enfant du vent", vol: "专辑", year: "2019",
     songs: [
-      { t:"Trois bateaux", lang:"FR/GA",
+      { t:"Trois bateaux", lang:["FR","GA"],
         note:"专辑《Enfant du vent》（风之子）2019，多为轻盈的童谣、摇篮曲与合唱，含数首日文／宫崎骏动画相关曲。开篇「三条小船」——冬日清晨，海上驶来三艘满载金银的船，船长正是我的爱人。中间穿插的盖尔语「Dúlamán…」出自爱尔兰传统海藻歌，此处作衬词。",
         lyrics:[
           { role:"", chorus:false,
@@ -1382,7 +1382,7 @@ window.ALBUMS = [
             orig:["J'ai vu trois bateaux sur la mer","Trois voiles au vent sur l'océan","J'ai vu trois bateaux sur la mer","Au premier matin de l'hiver."],
             trans:["我看见海上有三艘船","三面帆迎风扬在大洋上","我看见海上有三艘船","在冬天的第一个清晨。"] },
         ] },
-      { t:"Grains de sable", lang:"FR",
+      { t:"Grains de sable", lang:["FR"],
         note:"「沙粒」，与 Chorale Anima 合唱团合作。一首哄睡的摇篮曲——写给在沙滩上堆城堡的野孩子，愿睡魔（marchand de sable，法语「撒沙人」即睡神）守护他入梦，母亲像谢赫拉查德一样讲不完的故事；而时光如沙般流走，孩子终会长大、去征服世界，忘了那些被浪拍碎的沙堡。",
         lyrics:[
           { role:"", chorus:false,
@@ -1398,14 +1398,14 @@ window.ALBUMS = [
             orig:["Ma farouche tête blonde","Tu grandis là, sur la lande","Demain, tu iras conquérir la monde","Ainsi file le temps","File comme le sable","Et tu oublieras","Tes châteaux de sable","Battus par les vagues"],
             trans:["我倔强的金发小家伙","你在这荒原上长大","明天，你就要去征服世界","时光就这样溜走","像沙一样溜走","而你会忘了","你那些沙的城堡","那些被浪拍碎的城堡"] },
         ] },
-      { t:"Vent frais", lang:"FR",
+      { t:"Vent frais", lang:["FR"],
         note:"「清新的风」，与 Chorale Anima 合唱团合作。法语经典轮唱童谣，短短一段反复吟唱、层层叠入。此处全曲反复六遍，只列一段。",
         lyrics:[
           { role:"全曲反复", chorus:true,
             orig:["Vent frais,","vent du matin,","vent qui souffle aux sommets des grands pins.","Joie du vent qui souffle.","Allons dans le grand vent."],
             trans:["清新的风，","清晨的风，","吹过高大松树梢头的风。","风吹动的欢畅。","让我们走进这浩荡的大风里。"] },
         ] },
-      { t:"Petit fantôme", lang:"FR",
+      { t:"Petit fantôme", lang:["FR"],
         note:"「小幽灵」——一首极沉痛的歌。母亲对着一个被迫分离、如今只存于照片与记忆里的孩子低语。「Magdalene Laundry（抹大拉洗衣所）」指爱尔兰历史上强制收容未婚母亲、并夺走其婴儿的教会机构，是理解这首歌的关键背景。",
         lyrics:[
           { role:"Verse 1", chorus:false,
@@ -1436,7 +1436,7 @@ window.ALBUMS = [
             orig:["Prends-moi dans tes bras","Reste au moins jusqu'à l'aube","Oh, jusqu'à l'aube","J't'en prie, serre-toi contre moi","J'ai plus jamais peur des fantômes","Des fantômes"],
             trans:["把我抱进你怀里","至少留到天亮","哦，留到天亮","求你了，紧紧靠着我","我就再也不怕幽灵了","不怕那些幽灵"] },
         ] },
-      { t:"Tonari No Totoro", lang:"JP",
+      { t:"Tonari No Totoro", lang:["JP"],
         note:"《龙猫》（となりのトトロ）片尾曲翻唱，与 Chorale Anima 合唱团合作。原曲作词宫崎骏、作曲久石让、原唱井上あずみ。（lyricstranslate 页面只收录了开头两段，此处仅录该部分。）",
         lyrics:[
           { role:"", chorus:false,
@@ -1446,7 +1446,7 @@ window.ALBUMS = [
             orig:["となりのトトロ トトロ　トトロ トトロ","森の中に むかしから住んでる","となりのトトロ トトロ　トトロ トトロ","子供のときにだけ あなたに訪れる","不思議な出会い"],
             trans:["邻家的龙猫，龙猫，龙猫，龙猫","很久很久以前就住在森林里","邻家的龙猫，龙猫，龙猫，龙猫","只在你还是孩子的时候，才会来见你","一场不可思议的相遇"] },
         ] },
-      { t:"Oíche Mhaith", lang:"FR/GA",
+      { t:"Oíche Mhaith", lang:["FR","GA"],
         note:"标题「Oíche mhaith」是爱尔兰语「晚安」。全曲主体是 Cécile 填的法语哄睡词——向野鸟、红月、大熊星、小水獭、老树、红色小火车、灰猫一一道晚安，叠句「Oíche mhaith」以爱尔兰语反复。",
         lyrics:[
           { role:"", chorus:false,
@@ -1462,7 +1462,7 @@ window.ALBUMS = [
             orig:["Oíche mhaith","Oíche mhaith","Oíche mhaith"],
             trans:["晚安（爱尔兰语）","晚安","晚安"] },
         ] },
-      { t:"Initial(e)", lang:"FR",
+      { t:"Initial(e)", lang:["FR"],
         note:"「Initial(e)」——两条生命线交叠成掌心里的花押（monogram）字母，一对相拥的恋人心跳同频，愿如此紧紧偎着直到世界尽头。",
         lyrics:[
           { role:"", chorus:false,
@@ -1481,7 +1481,7 @@ window.ALBUMS = [
             orig:["À l'unisson j'entends un cœur qui bat","En copie en copie","Le même tempo","Jusqu'à la fin du monde, rester là","Blotti blotti","Initial(e)","Peau contre peau"],
             trans:["我听见一颗心与我同频跳动","一模一样，一模一样","同一个节拍","直到世界尽头，就这样留着","紧紧偎着，紧紧偎着","Initial(e)","肌肤贴着肌肤"] },
         ] },
-      { t:"Sayonara No Natsu", lang:"JP/FR",
+      { t:"Sayonara No Natsu", lang:["JP","FR"],
         note:"「さよならの夏 ～コクリコ坂から～」，吉卜力动画《虞美人盛开的山坡》（来自虞美人之坂，2011）片尾曲，与岩佐美咲（Misaki Iwasa）合作的日／法双语版：日文原词与 Cécile 填的法文词交替吟唱。译文里日文段、法文段我都译出。",
         lyrics:[
           { role:"（日）", chorus:false,
@@ -1521,7 +1521,7 @@ window.ALBUMS = [
             orig:["夕陽のなか","めぐり逢えば","あなたは私を","抱くかしら"],
             trans:["在夕阳里","若我们重逢","你是否会","把我拥入怀中？"] },
         ] },
-      { t:"V'là l'bon vent", lang:"FR",
+      { t:"V'là l'bon vent", lang:["FR"],
         note:"法语传统童谣「好风来了」，与 Natasha St Pier 合作。歌唱池塘边三只鸭子，国王之子用银枪射死了白鸭——被射中的白鸭眼里落出钻石、嘴里吐出金银。是法语世界家喻户晓的老儿歌。",
         lyrics:[
           { role:"", chorus:false,
@@ -1546,7 +1546,7 @@ window.ALBUMS = [
             orig:["Par les yeux lui sort des diamants","Et par le bec l'or et l'argent."],
             trans:["它的眼里落出一颗颗钻石","嘴里吐出金子和银子。"] },
         ] },
-      { t:"Le bal des chats", lang:"FR",
+      { t:"Le bal des chats", lang:["FR"],
         note:"「猫儿的舞会」——一只大猫穿上靴子、骑上马去赴猫鼠舞会，向老鼠求婚：我有金子有信用。老鼠不肯：我可不想嫁人，我要到麦田里撒欢——快把爪子拿开，讨厌的灰猫！「Tikiti tom…」「Me cax macari duck…」是拟声／衬词，作节奏用。",
         lyrics:[
           { role:"", chorus:false,
@@ -1565,7 +1565,7 @@ window.ALBUMS = [
             orig:["Je n'veux pas me marier","Tikit tom ta tikiti tom","Non je n'veux pas me marier","Tikiti tom ti day","Je n'veux pas me marier","Ôte tes pattes, vilain chat gris","Me cax macare duck and a dill","Tikiti tom ti lay"],
             trans:["我可不想嫁人","踢哩嗒 汤嗒 踢哩嗒 汤","不，我可不想嫁人","踢哩嗒 汤 嘀 呀","我可不想嫁人","把你的爪子拿开，讨厌的灰猫","（衬词）","踢哩嗒 汤 嘀 嘞"] },
         ] },
-      { t:"Si différents", lang:"FR",
+      { t:"Si différents", lang:["FR"],
         note:"「如此不同」——三对「不可能的爱」：船长爱上美人鱼、燕子爱上猫头鹰、林中火爱上冰块。每段都以副歌「太不可思议了……人家都说我俩如此不同」收束。",
         lyrics:[
           { role:"", chorus:false,
@@ -1587,7 +1587,7 @@ window.ALBUMS = [
             orig:["C'est impensable","Ça ne tient pas debout","Tu aimes le jour, j'aime la nuit","Pas l'idéal","Pour vivre notre amour","Si différents que l'on nous dit"],
             trans:["太不可思议了","这根本说不通","你爱白昼，我爱黑夜","实在不适合","来经营我们的爱","人家都说，我俩如此不同"] },
         ] },
-      { t:"Maypole", lang:"EN",
+      { t:"Maypole", lang:["EN"],
         note:"英语。取材自电影《异教徒》（The Wicker Man）的「Maypole Song」，一首层层累加的生命循环歌谣：树→枝→杈→巢→蛋→鸟→羽→床→少女→男人→种子→男孩→男人→坟→树，如此周而复始。「summerisle」（夏日之岛）是片中地名。",
         lyrics:[
           { role:"", chorus:false,
@@ -1609,9 +1609,9 @@ window.ALBUMS = [
             orig:["In the summer, summerisle","On that bed, there was a girl","On that girl, there was a man","From that man, there was a seed","From that seed, there was a boy","From that boy, there was a man","From that man, there was a grave","From that grave there grew","A tree"],
             trans:["在夏天，在夏日之岛","床上躺着一个少女","少女身上覆着一个男人","从那男人来了一粒种子","从那种子生出一个男孩","那男孩长成一个男人","那男人化作一座坟","从那座坟里，又长出","一棵树"] },
         ] },
-      { t:"Trois pommes", lang:"FR",
+      { t:"Trois pommes", lang:["FR"],
         note:"「三个苹果」。歌词待录。" },
-      { t:"Un pull de laine", lang:"FR",
+      { t:"Un pull de laine", lang:["FR"],
         note:"「一件羊毛衫」——大人与一个倔强小孩的一问一答：给你买了羊毛衫（不穿，我脑子里有首歌可以御寒）、雨天记得穿彩虹雨靴（不用，我林子里有小木屋，青蛙陪我跳）、上课要听老师数到三（没听，我用口袋里的石子和十根手指数数）。天真可爱。",
         lyrics:[
           { role:"", chorus:false,
@@ -1636,7 +1636,7 @@ window.ALBUMS = [
             orig:["Hey, mon gentil petit gars","Viens par là","J'ai acheté un beau pull de laine","Un pull de laine, un pull de laine","J'ai acheté un beau pull de laine"],
             trans:["嘿，我的乖小子","到这儿来","我买了件漂亮的羊毛衫","一件羊毛衫，一件羊毛衫","我买了件漂亮的羊毛衫"] },
         ] },
-      { t:"Le chant de l'alouette", lang:"FR",
+      { t:"Le chant de l'alouette", lang:["FR"],
         note:"「云雀之歌」——法语／魁北克传统叠歌（chanson à répondre）。被差去树上采果，却光顾着找鸟窝，踩断了鹌鹑的翅膀，反被骂「臭丫头」还嘴。每段以固定叠句「听着云雀歌唱，我半醒半睡……」收束。此处叠句反复，按叙事分段。",
         lyrics:[
           { role:"", chorus:false,
@@ -1670,7 +1670,7 @@ window.ALBUMS = [
             orig:["Au chant de l'alouette, je veille et je dors","J'écoute l'alouette et puis je m'endors","Au chant de l'alouette, je veille et je dors","J'écoute l'alouette et puis je m'endors"],
             trans:["听着云雀歌唱，我半醒半睡","听着那只云雀，我便睡了过去","听着云雀歌唱，我半醒半睡","听着那只云雀，我便睡了过去"] },
         ] },
-      { t:"Toutouig", lang:"BR",
+      { t:"Toutouig", lang:["BR"],
         note:"布列塔尼语传统摇篮曲，与 Chorale Anima 合唱团合作。「Toutouig la la」是哄睡的叠字衬词（相当于「睡吧睡吧、噜啦啦」），「va mabig」意为「我的小宝贝」。歌词大意：睡吧我的小宝贝，妈妈就在这儿摇着你；昨天你还哭得厉害，今天妈妈就对你笑了。",
         lyrics:[
           { role:"", chorus:true,
@@ -1686,7 +1686,7 @@ window.ALBUMS = [
             orig:["En deiz all e ouele kalzik","Hag hiziv e c'hoarzh da vammig"],
             trans:["前些日子你还哭得那么凶","可今天，你妈妈就朝你笑了"] },
         ] },
-      { t:"Joli whistle", lang:"FR",
+      { t:"Joli whistle", lang:["FR"],
         note:"「漂亮的锡笛」——一首吉普赛小谣曲。绿眼吉普赛人家生的男孩，一辈子只想要一支锡笛（whistle）：父亲要给他马，家里发了财，美丽的吉普赛姑娘爱上他，他都只回一句「我更爱我的锡笛」。反复句「谁也改变不了他」贯穿全曲。",
         lyrics:[
           { role:"", chorus:false,
@@ -1720,7 +1720,7 @@ window.ALBUMS = [
             orig:["Et personne n'y changea rien","Car toujours il disait","Moi, quand je voudrait quitter ce monde","J'emmènerai mon joli whistle"],
             trans:["谁也改变不了他","因为他总是说","「等我想离开这个世界的那天","我要带着我的漂亮锡笛一起走」"] },
         ] },
-      { t:"Chanson pour la saison", lang:"FR",
+      { t:"Chanson pour la saison", lang:["FR"],
         note:"「应季之歌」——随四季流转的一首歌：燕归、春芽、五月的玫瑰与蟋蟀、秋雨里尝苹果、初雪堆雪人……穿插着一句「时间越走，我越爱你」。",
         lyrics:[
           { role:"春", chorus:false,
@@ -1748,7 +1748,7 @@ window.ALBUMS = [
             orig:["C'est déjà l'hiver","Le berger s'endort","Mais le printemps reviendra vite","Et je t'aimerai plus encore"],
             trans:["已经是冬天了","牧羊人睡去","可春天很快就会回来","而我会更加爱你"] },
         ] },
-      { t:"Walking In The Air", lang:"EN",
+      { t:"Walking In The Air", lang:["EN"],
         note:"英语，翻唱自动画《雪人》（The Snowman，1982）的名曲，与 Chorale Anima 合唱团合作。男孩与雪人手牵手在月夜的空中飞行，越过沉睡的村庄、河流山峦，孩子们仰头惊望，最后惊醒了海底的巨兽。（原文取自同曲的合唱版，与 Corbel 版一致。）",
         lyrics:[
           { role:"", chorus:false,
@@ -1779,7 +1779,7 @@ window.ALBUMS = [
     title: "SongBook", vol: "vol. 5 — Notes", year: "2021",
     songs: [
       {
-        t:"La poussière de l'air", lang:"FR",
+        t:"La poussière de l'air", lang:["FR"],
         note:"「空气中的微尘」。一首悼念之歌——在光尘、雨声、茶杯的倒影、掠过的飞鸟里，我仿佛听见你、感到你仍在近旁，「在此处，又不在任何地方」。你可是风的颜色，藏在天空的湛蓝里？而生活，仍如往常般继续。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -1800,7 +1800,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Décembre", lang:"FR",
+        t:"Décembre", lang:["FR"],
         note:"「十二月」。十二月叩门，冬天随之而来，在逝去之爱的重压下，我们的心逐渐碎裂。十二月终将结束，如一切没有明天的回忆；我从花瓣上剥下玫瑰的衣裳——若活着也不过如此微不足道，那么死亡想必也算不得什么。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -1818,7 +1818,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Dis aux oiseaux", lang:"FR",
+        t:"Dis aux oiseaux", lang:["FR"],
         note:"「对鸟儿说」。随四季流转对远方爱人的思念——四月归来、鸟儿相恋，我把爱语撒向四方的风；夏日麦田、少女如花，你却不辞而别；秋日果实寡淡，冬天把所有的爱语卷走。「对鸟儿说，你归来时，愿它敲响钟点，或敲响丧钟——而我，在丁香的荫影下死去，我害怕，离你这样远。」",
         lyrics: [
           { role:"Couplet 1 — 春", chorus:false,
@@ -1835,7 +1835,7 @@ window.ALBUMS = [
             trans:["没有你，我尝到的","是寡淡无味的果实","你偶尔会想起我吗","在深秋时节","告诉我，为什么天空","变得更低","当我心事沉重","冬天把所有的爱语","卷向四方的风"] },
         ]
       },
-      { t:"Ils cassent le monde", lang:"FR",
+      { t:"Ils cassent le monde", lang:["FR"],
         note:"谱自鲍里斯·维昂（Boris Vian）的同名诗。「他们把世界砸成碎片，可我不在乎——留给我的已经够了：只要我还爱着一根蓝羽毛、一条沙路、一只胆怯的鸟……」纵使被投入牢狱，只要还能爱，世界就毁不掉「我」。末段「三角形的刀」「一身黑衣的先生们」暗指断头台与行刑者——他坦然赴死，因为爱过就已足够。",
         lyrics:[
           { role:"", chorus:false,
@@ -1867,7 +1867,7 @@ window.ALBUMS = [
             trans:["他们把世界砸碎","抡着他们沉重的铁锤","留给我的已经够了","留给我的已经够了，我的心肝"] },
         ] },
       {
-        t:"L'orage", lang:"FR",
+        t:"L'orage", lang:["FR"],
         note:"「暴风雨」。天空中，被夜色晃花了眼、迷失在风暴里的野鸟。闭上眼，把我淹没在你怀里，让我们的影子最后一次共舞；在虚空的边缘，我们还能失去什么？",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -1882,7 +1882,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Older", lang:"EN",
+        t:"Older", lang:["EN"],
         note:"英语。关于时光流逝、逐渐老去的低回之歌——寒意笼罩，鸟儿飞过；在我们最黯淡的日子里彼此靠近。守护者们如今都沉默了，你可听见我的哀吟。",
         lyrics: [
           { role:"Verse 1", chorus:false,
@@ -1903,7 +1903,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Come Back Home", lang:"FR/EN",
+        t:"Come Back Home", lang:["FR","EN"],
         note:"法语、英语交织。黎明已泛白，夜色氧化般褪去，雨停了，你却不回来。眼眶里泪水涌起，海退得那样低——「我高声唱，我低声唱，你留下我独自哭泣，告诉我你何时归家」。",
         lyrics: [
           { role:"Couplet 1 (FR)", chorus:false,
@@ -1918,7 +1918,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Morgane et le cerf", lang:"FR/EN",
+        t:"Morgane et le cerf", lang:["FR","EN"],
         note:"「摩根娜与雄鹿」。法语、英语交织的精灵情歌。蓝色黎明的时分，林中夜色仍在闪烁，火将熄灭，慵懒的仙子低声传递一支情歌。夜复一夜、日复一日，两颗心相偎着颤动；柳树下，梦沉沉睡去，化作看不见的金粉。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -1942,7 +1942,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Valhalla", lang:"FR",
+        t:"Valhalla", lang:["FR"],
         note:"「英灵殿」。他们向北方走去，怀着无尽的怅惘；灰狼不安地望着这无穷的队列。抵达彼岸——我把灵魂抛向远海，任船航行；抹去身后雪地上无尽的脚印。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -1963,7 +1963,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"1000 People", lang:"EN",
+        t:"1000 People", lang:["EN"],
         note:"英语。一千个人在说话，却没有一个人看见「我还在这里」。我仍在墙上涂画着你好与再见，可回忆将我层层覆盖。如今英雄们都在哪里？远方，云正涌来。",
         lyrics: [
           { role:"Verse 1", chorus:false,
@@ -1981,7 +1981,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Valse sur un banc", lang:"FR",
+        t:"Valse sur un banc", lang:["FR"],
         note:"「长凳上的华尔兹」。我们与天空之间只隔着一步，就像一支在长凳上跳的华尔兹。空间那么小，我们仍要试着跳——蹑手蹑脚，缓缓自转，绝不齐步走。往下看，别望向天空，我们可没那个许可。一支双人舞，像跳房子，稍一失足便有人盯着；再多一点，到最后长凳上或许能站三个人。",
         lyrics: [
           { role:"Refrain", chorus:true,
@@ -2005,7 +2005,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Le mur est tombé", lang:"FR",
+        t:"Le mur est tombé", lang:["FR"],
         note:"「墙倒了」。世界尽头奇异的果园，悬在橡树间，可以望见死亡起舞；带着蓝色微笑的古怪仙子从暗影中走出。墙倒了，我们露出各自的面容；推倒那些高塔吧，趁我们尚未飞向另一些牢笼。而我，宁愿在平原的风里消殒。",
         lyrics: [
           { role:"", chorus:false,
@@ -2029,7 +2029,7 @@ window.ALBUMS = [
         ]
       },
       {
-        t:"Adieu les roses", lang:"FR",
+        t:"Adieu les roses", lang:["FR"],
         note:"专辑收尾曲，与 SongBook 的《Sans faire un bruit》遥相呼应（同样「悄无声息地离去」）。今夜我启程奔向另一种人生——别了爱，别了友，别了玫瑰与此地的人们；在晚风里，我悄然离开。谁知道呢，或许千年之后、在某个路口，我们还会重逢。",
         lyrics: [
           { role:"Couplet 1", chorus:false,
@@ -2058,7 +2058,7 @@ window.ALBUMS = [
     title: "La Fille du Verseau", vol: "专辑", year: "2023",
     note: "《水瓶座的女孩》2023，一张黑暗电影感的概念专辑，词曲由 Laurent Tixier 创作，Cécile Corbel 演唱并编曲，风格与她自己的凯尔特民谣很不一样。这是当代在售专辑，本站只收录中文翻译供个人对照，不镜像法语原文（原文请对照你手中的 CD／流媒体）。",
     songs: [
-      { t:"Le Louvetier", lang:"FR",
+      { t:"Le Louvetier", lang:["FR"],
         note:"「猎狼人」——一首民谣叙事体的歌。清晨，一位猎狼官持矛荷枪进入大森林打猎，却在林边听见哀鸣，发现一个倒地的男人自称是「巫魔夜会（sabbat）的受害者」，恳求他用一颗镀金的银弹结束自己的痛苦。猎狼人没有开枪，而是从背袋里取出斯佩尔特小麦面包递给他；狼人吃下面包后剧烈痉挛、变形，挣脱了月亮的恶咒，重新找回了自己的灵魂——是「以善意破咒」的温柔反转。（本专辑仅录中文译文）",
         transOnly:true,
         lyrics:[
@@ -2075,7 +2075,7 @@ window.ALBUMS = [
           { role:"", chorus:true,
             trans:["「谢谢你，猎狼人，你把我从苦难中救了出来（复）","靠你给我的那块面包，我体内的狼被释放了","你把我从厄运里、从月亮的魔咒里救了出来」（复）"] },
         ] },
-      { t:"Vanikoro", lang:"FR",
+      { t:"Vanikoro", lang:["FR"],
         note:"「瓦尼科罗」——南太平洋所罗门群岛中的一座珊瑚岛，1788 年法国航海家拉佩鲁兹（La Pérouse）探险队的两艘船「罗盘号」（La Boussole）与「星盘号」（L'Astrolabe）在此触礁失踪，是法国航海史上著名的谜案。全曲是一声穿越时间的呼唤：「拉佩鲁兹先生，你在哪里？」（本专辑仅录中文译文）",
         transOnly:true,
         lyrics:[
@@ -2092,7 +2092,7 @@ window.ALBUMS = [
           { role:"", chorus:true,
             trans:["你在哪里，拉佩鲁兹先生","你在哪里？","你在哪里，拉佩鲁兹先生","告诉我们吧？"] },
         ] },
-      { t:"Dorso Draco", lang:"LA/FR",
+      { t:"Dorso Draco", lang:["LA","FR"],
         note:"拉丁文标题意为「在龙背上」。Dragon（龙）指布列塔尼半岛的轮廓——生在龙背上的人，能听见大地、海洋、风，听见巨石阵（menhir）与阴影的歌，听见 Armorique（阿摩里卡，布列塔尼的古称）古老的歌谣、潮汐、乌鸦与白鸽、舒昂党人（chouans）的呐喊。结尾一句「我要活在我的土地上，父辈母辈的土地，直到长眠其下」。（本专辑仅录中文译文）",
         transOnly:true,
         lyrics:[
@@ -2107,7 +2107,7 @@ window.ALBUMS = [
           { role:"", chorus:true,
             trans:["我要活在我的土地上","父亲与母亲的土地","我要活在我的土地上","直到有人把我葬在它之下"] },
         ] },
-      { t:"Cœur de Breizh", lang:"FR",
+      { t:"Cœur de Breizh", lang:["FR"],
         note:"「布列塔尼之心」（Breizh 即布列塔尼语的「布列塔尼」）。一位布列塔尼国王的独白：无论年岁、无惧死亡，双脚踏进马镫、跨上战马劈开云层；忠于自己的名声与誓言，即便战败被踏倒也甘愿踏上「远行」。副歌「听那逝去的时光，风的记忆，骑士们的记忆」。结尾人们会说这位老者从未失节，荣誉是他的行囊，这首歌是他的遗产。（本专辑仅录中文译文）",
         transOnly:true,
         lyrics:[
@@ -2134,7 +2134,7 @@ window.ALBUMS = [
           { role:"", chorus:false,
             trans:["我是布列塔尼人的王，死亡无论如何","都撼动不了我的勇气，年岁也无关紧要","双脚踏进马镫，跨上我的战马","劈开层层云霄，如一幅镌刻的画像"] },
         ] },
-      { t:"La Dame Blanche", lang:"FR",
+      { t:"La Dame Blanche", lang:["FR"],
         note:"「白衣夫人」——布列塔尼／凯尔特民间传说里的幽灵女子，常在夜里现身林间小径。全曲是一首夜色氛围诗：夜降临小路与村庄，一扇门开向另一片风景，古老无年岁的橡树低语，旧墙边翻开新的一页；副歌里「我听见白衣夫人在栗树高枝上歌唱，白貂在榛树丛的深处轻颤」。末段写在绝望、看不见一丝光亮时，于心中寻一簇黑暗中的火焰，好让记忆与希望永不熄灭。（本专辑仅录中文译文）",
         transOnly:true,
         lyrics:[
@@ -2154,7 +2154,7 @@ window.ALBUMS = [
   {
     title: "Graal", vol: "专辑", year: "2024",
     songs: [
-      { t:"Demoiselle (La Ballade de Viviane)", lang:"FR",
+      { t:"Demoiselle (La Ballade de Viviane)", lang:["FR"],
         note:"专辑《Graal》以亚瑟王传说为主题，配以 Cécile 自绘的插画。开篇咏「湖中仙女」薇薇安（Viviane）——她把梅林锁在水底宫殿，又是引领骑士、把王者之剑交予亚瑟的那只手。",
         lyrics:[
           { role:"", chorus:false,
@@ -2164,14 +2164,14 @@ window.ALBUMS = [
             orig:["Guide les pas du chevalier","Tisse sa destinée dans les filets du temps","Guide la voix, la mémoire du vent","Donne au roi son épée dans un enchantement"],
             trans:["指引骑士的脚步","把他的命运织进时间的网罟","指引那声音，那风的记忆","在一场魔法里，把宝剑交到王的手中"] },
         ] },
-      { t:"Morgane", lang:"FR",
+      { t:"Morgane", lang:["FR"],
         note:"咏亚瑟王同母异父的姐姐、女巫摩根（Morgane / Morgan le Fay）。（原文页个别拼写疑为 OCR 讹误，已订正：Maftresse→Maîtresse、I'le→l'île。）",
         lyrics:[
           { role:"", chorus:false,
             orig:["Morgane en sa demeure","Maîtresse enchanteresse","Règne sur l'île aux fleurs","Elle est nymphe des vagues","Enfant née de la mer","Mais son cœur est amer"],
             trans:["摩根在她的居所","一位魅惑的女主人","统治着那座繁花之岛","她是浪涛的水中仙子","大海所生的孩子","可她的心却满是苦涩"] },
         ] },
-      { t:"Folle Pensée (Merlin)", lang:"FR",
+      { t:"Folle Pensée (Merlin)", lang:["FR"],
         note:"咏预言者、术士梅林（Merlin），标题意为「疯狂的念头／痴想」。全曲是梅林自问「我究竟叫什么名字」——能呼风唤雨、通晓命运，却认不清自己是人还是术士，直到最后世人才唤他梅林。（原文页个别拼写疑为 OCR 讹误，已订正：Jordonne→J'ordonne、Jai→J'ai、tempéte→tempête。）",
         lyrics:[
           { role:"Verse 1", chorus:false,
@@ -2190,7 +2190,7 @@ window.ALBUMS = [
             orig:["Et je parle aux oiseaux","Aux faucons et aux cerfs","Regarde moi fendre l'air","Et dis moi mon nom","Dis moi mon nom","Suis je homme ou devin","Je ne sais plus très bien","Vous me nommez Merlin"],
             trans:["我与飞鸟交谈","与苍鹰、与麋鹿交谈","看我如何劈开长空","告诉我我的名字","告诉我我的名字","我是人，还是预言者","我已辨不太清","你们唤我——梅林"] },
         ] },
-      { t:"Tristan & Yseult", lang:"FR",
+      { t:"Tristan & Yseult", lang:["FR"],
         note:"咏崔斯坦与伊索尔德（Tristan et Yseult）的悲恋传说。「荆棘」的意象源自传说：二人死后坟上长出荆棘相连，斩断又生。",
         lyrics:[
           { role:"", chorus:false,
@@ -2200,28 +2200,28 @@ window.ALBUMS = [
             orig:["Tant que la ronce fleurira","Toi et moi on s'aimera","Tant que la ronce fleurira","Mais si la ronce dépérit","Qu'elle retombe dans l'oubli","Mais si la ronce dépérit","Notre amour fanera aussi"],
             trans:["只要荆棘还在开花","你和我就会相爱","只要荆棘还在开花","可若那荆棘枯萎","任它重新被遗忘","可若那荆棘枯萎","我们的爱也会跟着凋零"] },
         ] },
-      { t:"Le Roi s'en va Chasser", lang:"FR",
+      { t:"Le Roi s'en va Chasser", lang:["FR"],
         note:"意为「国王出猎去」。（lyricstranslate 页面目前只收录了开头一段，后续待补。）",
         lyrics:[
           { role:"", chorus:false,
             orig:["Il y avait un roi qui n'aimait rien tant","Que de chasser toujours, et la nuit et le jour","Chevauchant à sa suite, des soldats et des pages","Venait sous sa conduite, un immense équipage"],
             trans:["从前有位国王，什么都比不上他所钟爱的一件事——","没日没夜、永不停歇地狩猎","士兵与侍从纵马随他而行","浩浩荡荡一支大队，尽听他号令"] },
         ] },
-      { t:"Le Roi Pêcheur", lang:"FR",
+      { t:"Le Roi Pêcheur", lang:["FR"],
         note:"咏「渔王」（Fisher King），守护圣杯、身负旧伤的国王；唯有心地纯净者才能望见他隐于迷雾中的城堡。（lyricstranslate 页面目前只收录了开头一段，后续待补。）",
         lyrics:[
           { role:"", chorus:false,
             orig:["Sur des terres lointaines dans un endroit secret","Enfermé dans la brume il y a un palais","Peu d'hommes y sont entrés car il faut un cœur pur","Pour pouvoir distinguer ses tours et ses murs"],
             trans:["在遥远的大地上，在一处隐秘之地","有一座宫殿，锁在迷雾深处","进去过的人寥寥无几，因为唯有一颗纯净的心","才能辨得出它的塔楼与城墙"] },
         ] },
-      { t:"Trois Gouttes de Sang (Perceval)", lang:"FR",
+      { t:"Trois Gouttes de Sang (Perceval)", lang:["FR"],
         note:"咏帕西法尔（Perceval）。「雪上三滴血」是传说中的经典一幕：他见野雁被猎鹰所伤，血滴落在雪上，红白相映，令他忆起爱人的容颜，怔立雪中不能自已。",
         lyrics:[
           { role:"", chorus:false,
             orig:["Sur le chemin","Dans le soleil d'hiver","Je marchais sans repos","Quand j'ai vu soudain","Baissant les yeux à terre","Le sang d'un oiseau","Rouge sur la neige","Comme notre amour","Le jour s'achève"],
             trans:["在路上","在冬日的阳光里","我不停地走着","忽然间我看见——","低头望向地面","一只飞鸟的血","红红地落在雪上","像极了我们的爱","这一日渐渐落幕"] },
         ] },
-      { t:"Dans les Yeux de ma Belle (Lancelot)", lang:"FR",
+      { t:"Dans les Yeux de ma Belle (Lancelot)", lang:["FR"],
         note:"咏圆桌骑士兰斯洛特（Lancelot），标题意为「在我爱人的眼眸里」——他夹在理智与炽烈的爱欲之间（一条路、一位王后），终于全盘皆输。「一位王后」指他所爱的桂妮薇儿。",
         lyrics:[
           { role:"", chorus:false,
@@ -2231,7 +2231,7 @@ window.ALBUMS = [
             orig:["Je voulais tout","J'ai tout perdu","Je n'aimais qu'elle","Je n'aimais qu'elle","Je n'ai pas su la regarder"],
             trans:["我什么都想要","却什么都失去了","我爱的只有她","我爱的只有她","我却不懂得该如何好好看她一眼"] },
         ] },
-      { t:"Arthur", lang:"FR",
+      { t:"Arthur", lang:["FR"],
         note:"咏亚瑟王本人——长眠于亡者之岛阿瓦隆（Avalon），词中问他可还看得见人世间国王们喧嚣的疯狂、可愿重返人间；又问他梦中是否见到湖中仙女为他佩上那柄光华无双的金剑。",
         lyrics:[
           { role:"", chorus:false,
@@ -2247,7 +2247,7 @@ window.ALBUMS = [
             orig:["Arthur depuis l'autre monde","Vois-tu les hommes et les rois","Vois-tu leur folie qui gronde","Reviendrais-tu ici-bas ?"],
             trans:["亚瑟啊，从那另一个世界","你可看得见世人与众王","你可看得见他们喧嚣的疯狂","你可愿重返这人间？"] },
         ] },
-      { t:"Une Reine", lang:"FR",
+      { t:"Une Reine", lang:["FR"],
         note:"意为「一位王后」——多半咏桂妮薇儿（Guenièvre）。以「奖章的背面／镜中的倒影／万物的反面」起兴，写真与假、光与影之间的自我。（lyricstranslate 页面目前只收录了开头几段，后续待补。）",
         lyrics:[
           { role:"", chorus:false,
@@ -2260,7 +2260,7 @@ window.ALBUMS = [
             orig:["Dans l'eau trouble des contraires","Entre l'ombre et la lumière"],
             trans:["在那映着万般对立的浑浊水中","在阴影与光明之间"] },
         ] },
-      { t:"Le Roi des Fées", lang:"FR",
+      { t:"Le Roi des Fées", lang:["FR"],
         note:"副标题「La Légende de Thomas le Rhymer」——即托马斯·莱莫（True Thomas）传说的法语版，与 SongBook vol.1《The King of the Fairies》同源：他随精灵入另一个世界为王，七年后归来，人间的门已永远关上，唯余风声呼唤。故事里他不可泄露仙境的秘密，须始终缄默。（原文页有 OCR 讹误已订正：&tre→être、J`étais→J'étais、ll y a→Il y a。）",
         lyrics:[
           { role:"", chorus:false,
@@ -2285,7 +2285,7 @@ window.ALBUMS = [
             orig:["Garde-le secret","Tu dois rester muet","Garde-le secret","Tu dois rester muet"],
             trans:["把它当作秘密","你必须缄口不言","把它当作秘密","你必须缄口不言"] },
         ] },
-      { t:"La Porte est en Dedans", lang:"FR",
+      { t:"La Porte est en Dedans", lang:["FR"],
         note:"专辑收尾曲，标题意为「那扇门在里面」——古老王国之门立于天地之间，闪着黄金与翡翠的光，而寻常人在世界的狂奔里视而不见；要寻见内心的光，须知那扇门朝内而开。「饮下那位献出生命者的杯」呼应圣杯主题。（原文页有 OCR 讹误已订正：J`aimerais→J'aimerais、ll y a→Il y a。）",
         lyrics:[
           { role:"", chorus:false,
@@ -2312,7 +2312,7 @@ window.ALBUMS = [
   {
     title: "单曲 · 合作", vol: "Singles", year: "各年",
     songs: [
-      { t:"Marie-Jeanne-Gabrielle", lang:"FR",
+      { t:"Marie-Jeanne-Gabrielle", lang:["FR"],
         note:"专辑之外的单曲／翻唱（原唱 Louis Capart）。咏布列塔尼外海的桑岛（île de Sein）——一座饱受海风与惊涛拍打的小岛。副歌唤着岛的名字，说它「沉睡在美丽的传说里」，铭刻在世代守望出海水手的女人们记忆中；各段依次唱它的童年往事与圣约翰篝火、面朝大海唱的《圣母颂》、从生到死「老塔」（灯塔 la Vieille）灯火下的古老风俗（肉桂、烛香、对死亡道一声「亡者安喜」）、暮色里传说中带来厄运的魔船与一身黑衣的岛上女人，以及新时代里生活变迁——大海转过身背对新一代渔民，把他们从桑岛引向远方。副歌全曲反复，此处只列一次；末段副歌略有变化，单独列出。",
         lyrics:[
           { role:"Refrain（全曲反复）", chorus:true,

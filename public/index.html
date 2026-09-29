@@ -483,7 +483,7 @@ function buildNav(){
       tb.id = "nav_"+songId(ai,si);
       const done = Array.isArray(s.lyrics) && s.lyrics.length;
       tb.innerHTML = `<span>${s.t}</span>` +
-        (done ? `<span class="lang">${s.lang||""}</span>`
+        (done ? `<span class="lang">${langLabel(s.lang)}</span>`
               : `<span class="todo">待录</span>`);
       tb.addEventListener("click", () => selectSong(ai, si));
       tli.appendChild(tb);
@@ -561,13 +561,24 @@ function selectSong(ai, si){
   try { localStorage.setItem("cc_last", ai+","+si); } catch(e){}
 }
 
-function langName(code){
-  const m = {EN:"英语",FR:"法语",BR:"布列塔尼语","FR/BR":"法语／布列塔尼语",
-    IT:"意大利语","LA/IT":"拉丁语／意大利语",ES:"西班牙语",SCO:"苏格兰语",
-    GD:"苏格兰盖尔语","GD/EN":"苏格兰盖尔语／英语","EN/FR":"英语／法语","FR/EN":"法语／英语",
-    JP:"日语",GA:"爱尔兰语","JP/FR":"日语／法语","FR/GA":"法语／盖尔语","LA/FR":"拉丁语／法语",
-    HE:"希伯来语",LAD:"拉迪诺语",HEB:"希伯来语",TR:"土耳其语","Instr.":"器乐"};
-  return " · " + (m[code] || code || "—");
+// 单语言码 → 中文名（一码一名；多语言由 lang 数组的多个码组成）
+const LANG_NAMES = {
+  EN:"英语", FR:"法语", BR:"布列塔尼语", GA:"爱尔兰语", GD:"苏格兰盖尔语",
+  SCO:"苏格兰语", IT:"意大利语", LA:"拉丁语", ES:"西班牙语", LAD:"拉迪诺语",
+  JP:"日语", HE:"希伯来语", TR:"土耳其语", "Instr.":"器乐"
+};
+function langCodes(lang){            // 归一成码数组，兼容旧的字符串/斜杠写法
+  if (Array.isArray(lang)) return lang;
+  if (!lang) return [];
+  return String(lang).split("/").map(s=>s.trim()).filter(Boolean);
+}
+function langLabel(lang){            // 短码串，导航用，如 "FR·EN"
+  return langCodes(lang).join("·");
+}
+function langName(lang){             // 中文名串，标题栏用，如 " · 法语 · 英语"
+  const codes = langCodes(lang);
+  if (!codes.length) return " · —";
+  return " · " + codes.map(c => LANG_NAMES[c] || c).join(" · ");
 }
 
 /* mobile toggle */

@@ -45,7 +45,8 @@ corbel-songbook/
 ```js
 {
   t: "歌名",
-  lang: "FR",        // 语言标签：EN/FR/BR/SCO/IT/ES/LA-IT 等
+  lang: ["FR"],      // 语言标签数组，一码一语言；多语言并列如 ["FR","EN"]
+                     // 可用码：EN/FR/BR/GA/GD/SCO/IT/LA/ES/LAD/JP/HE/TR/Instr.
   note: "一句背景介绍（可选）",
   lyrics: [
     { role: "Verse 1",          // 段落标记（可选）
