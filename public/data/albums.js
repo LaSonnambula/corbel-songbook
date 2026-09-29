@@ -2667,6 +2667,8 @@ window.ALBUMS = [
             orig:["Marie-Jeanne-Gabrielle","Entre la mer et le ciel","Battu par tous les vents","Au raz de l'océan","Ton pays","S'est endormi","Il garde son histoire","Au plus profond des mémoires","Et l'on dit à Paris","Qu'il est beau le pays","Des marins","D'île de Sein"],
             trans:["玛丽-让娜-加布里埃尔","在海与天之间","任凭四面来风","在大洋的浪尖上","你的故土","已经睡去","它把自己的历史","守在记忆的最深处","在巴黎，人们都说","那地方多美啊——","桑岛","水手们的故乡"] },
         ] },
+      { t:"Femmes de Bretagne", lang:["FR"],
+        note:"2012 年布列塔尼女歌手群体合作的公益单曲（主创 Clarisse Lavanant，Cécile Corbel 为合唱者之一，另有 Gwennyn、Gayane、Clarisse Lavanant、Véronique Autret、Maria Desbordes、Eleanor Lehtela 等）。歌词待录。" },
     ]
   },
 ];
