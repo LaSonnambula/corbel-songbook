@@ -636,17 +636,30 @@ function buildNav(){
   });
 }
 
+// 手风琴：只留 keep 那个展开，其余收起
+function collapseOthers(keep){
+  Array.from(albumList.children).forEach((li, i) => {
+    if (i === keep || !li.classList.contains("open")) return;
+    li.classList.remove("open");
+    const b = li.querySelector("button");
+    if (b) b.setAttribute("aria-expanded", "false");
+  });
+}
+
 function toggleAlbum(ai){
   const li = albumList.children[ai];
   if (!li) return;
   const open = li.classList.toggle("open");
   const btn = li.querySelector("button");
   if (btn) btn.setAttribute("aria-expanded", String(open));
+  if (open) collapseOthers(ai);
 }
 
 function openAlbum(ai){
   const li = albumList.children[ai];
-  if (!li || li.classList.contains("open")) return;
+  if (!li) return;
+  collapseOthers(ai);
+  if (li.classList.contains("open")) return;
   li.classList.add("open");
   const btn = li.querySelector("button");
   if (btn) btn.setAttribute("aria-expanded", "true");
