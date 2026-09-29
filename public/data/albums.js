@@ -1202,6 +1202,22 @@ window.ALBUMS = [
     ]
   },
   {
+    title: "Terre des Ours", vol: "电影原声", year: "2014",
+    note: "《熊之地》（Land of the Bears）2014，法国 3D 自然纪录片原声，讲堪察加半岛的棕熊。Cécile Corbel 与 Fabien Cali 合作配乐，全碟以竖琴、钢琴、小提琴、长笛、都都克管的器乐为主；本站只收录 Corbel 亲自演唱的 5 首歌（其余器乐配乐从略）。这 5 首的歌词待录——存 HTML 或贴词给 Claude 即可。",
+    songs: [
+      { t:"Kamchatka", lang:["EN"],
+        note:"原声第 1 曲，Corbel 演唱。堪察加（Kamchatka）——影片故事发生的远东半岛。歌词待录。" },
+      { t:"The Hope", lang:["EN"],
+        note:"「希望」，Corbel 演唱。歌词待录。" },
+      { t:"Song to My Newborn", lang:["EN"],
+        note:"「给我新生儿的歌」，Corbel 演唱——呼应影片中母熊育幼的主题。歌词待录。" },
+      { t:"Entangled Roots", lang:["EN"],
+        note:"「交缠的根」，Corbel 演唱。歌词待录。" },
+      { t:"Land of the Bears", lang:["EN"],
+        note:"同名主题曲，Corbel 演唱。歌词待录。" },
+    ]
+  },
+  {
     title: "Vagabonde", vol: "专辑", year: "2016",
     songs: [
       {
