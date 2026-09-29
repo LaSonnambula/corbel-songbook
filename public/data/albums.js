@@ -957,8 +957,11 @@ window.ALBUMS = [
             orig:["Rose se lève","Elle prend son cartable","Elle court, comme en rêve","Les cheveux aux vent","Elle attendait l'amour","Je n'attends qu'une chose","Moi j'attends toujours","Un baiser de toi","J'attends toujours","Un baiser de toi"],
             trans:["萝丝起床了","背起她的书包","像在梦里一样奔跑","头发迎着风","她曾一直等着爱情","而我只等一件事","我一直在等","等你的一个吻","我一直在等","等你的一个吻"] },
         ] },
-      { t:"Eirin", lang:["FR"],
-        note:"vol.4 第 12 曲。歌词待录。" },
+      { t:"Eirin", lang:["Instr."],
+        note:"vol.4 第 12 曲。纯器乐曲，无歌词。",
+        lyrics:[
+          { role:"", chorus:false, orig:["（纯音乐 · 无词）"], trans:["—"] },
+        ] },
     ]
   },
   {
