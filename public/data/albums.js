@@ -893,8 +893,11 @@ window.ALBUMS = [
             orig:["Love is a stranger","Knocking at my door","My eyes open wide","My heart's open wide"],
             trans:["爱是一个陌生人","叩响我的门","我睁大双眼","我敞开心扉"] },
         ] },
-      { t:"Folia", lang:["FR"],
-        note:"vol.4 第 6 曲。歌词待录。" },
+      { t:"Folia", lang:["Instr."],
+        note:"vol.4 第 6 曲。纯器乐曲，无歌词。",
+        lyrics:[
+          { role:"", chorus:false, orig:["（纯音乐 · 无词）"], trans:["—"] },
+        ] },
       { t:"Hija Mia", ref:"hija-mia",
         note:"vol.4 第 7 曲。与 Harpe Celtique《Hija mia》为同一曲，歌词共用一份数据（见下）。" },
       { t:"Le Long de l'Eau", lang:["FR"],
