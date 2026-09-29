@@ -995,6 +995,36 @@ const ALBUMS = [
             trans:["晚安，甜美的宝贝，晚安，我的孩子","我会守护着你，别害怕","总有一支歌在我心头漂浮","这支我怎么也忘不掉的小曲","于是我轻声唱……"] },
         ]
       },
+      {
+        t:"Little Soldier", lang:"EN",
+        note:"英语，一首反战哀歌。勇敢的小兵为王冠而战、唱着歌march下山；同样陈旧的盔甲、同样的旗骄傲地飘。「你可听见山谷深处的鼓声？你的赞歌响彻冬日的天空，在清晨的露水里。」而后小兵倒在地上、客死他乡，血染的战场、红旗缓缓飘落。",
+        lyrics: [
+          { role:"Verse 1 — 出征", chorus:false,
+            orig:["Brave little soldier, fighting for the crown","Go to fight, sing a song","March down, march down","Brave little soldier, in the battlefield","Same old armor, same flag","Floating proud, floating proud"],
+            trans:["勇敢的小兵，为王冠而战","奔赴战场，唱着一支歌","开步向前，开步向前","勇敢的小兵，在战场上","还是那身旧盔甲，还是那面旗","骄傲地飘扬，骄傲地飘扬"] },
+          { role:"Refrain", chorus:true,
+            orig:["Can't you hear the drums","Down in the valley?","Your praises fill the winter sky","In the morning dew"],
+            trans:["你可听得见那鼓声","在山谷的深处？","你的赞歌响彻冬日的天空","在清晨的露水里"] },
+          { role:"Verse 2 — 阵亡", chorus:false,
+            orig:["Brave little soldier, lying on the ground","Same old glory, same pride","Lying down, lying down","Brave little soldier, dying far from home","Bloody battle, red flag","Floating down, floating down"],
+            trans:["勇敢的小兵，倒在了地上","还是那份旧荣光，那份骄傲","静静躺下，静静躺下","勇敢的小兵，客死在离家很远的地方","血染的战场，一面红旗","缓缓飘落，缓缓飘落"] },
+          { role:"Refrain", chorus:true,
+            orig:["Can't you hear the drums","Down in the valley?","Your praises fill the winter sky","In the morning dew"],
+            trans:["你可听得见那鼓声","在山谷的深处？","你的赞歌响彻冬日的天空","在清晨的露水里"] },
+        ]
+      },
+      {
+        t:"Yarim Gitti", lang:"TR",
+        note:"专辑收尾的现场曲，翻唱土耳其传统民歌。全曲由一段核心歌词反复吟唱（现场版反复约三遍，此处只列一次）：「我的爱人去了泉边，去揭开我的伤口……你有什么心愿我都给你，只求从你手中饮一口水。」叠句「Yar yar yar aman」意为「爱人啊，爱人，唉——」，是土耳其民歌常见的哀叹衬词。（中文据土耳其原文与 lyricstranslate 英译转出。）",
+        lyrics: [
+          { role:"全曲反复（约三遍）", chorus:false,
+            orig:["Yarim gitti çeşmeye","Yar yar yar aman","Yarim gitti çeşmeye","Yaralarım deşmeye","Yar yar yar aman","Yaralarım deşmeye","Yar yar yar aman"],
+            trans:["我的爱人去了泉边","爱人啊，爱人，唉——","我的爱人去了泉边","去揭开我的伤口","爱人啊，爱人，唉——","去揭开我的伤口","爱人啊，爱人，唉——"] },
+          { role:"", chorus:true,
+            orig:["Neyitin varsa vereyim","Yar yar yar aman","Neyitin varsa vereyim","Elinden su içmeye","Yar yar yar aman","Elinden su içmeye","Yar yar yar aman"],
+            trans:["你有什么心愿，我都给你","爱人啊，爱人，唉——","你有什么心愿，我都给你","只求从你手中饮一口水","爱人啊，爱人，唉——","只求从你手中饮一口水","爱人啊，爱人，唉——"] },
+        ]
+      },
     ]
   },
   {
@@ -2676,7 +2706,7 @@ function langName(code){
     IT:"意大利语","LA/IT":"拉丁语／意大利语",ES:"西班牙语",SCO:"苏格兰语",
     GD:"苏格兰盖尔语","GD/EN":"苏格兰盖尔语／英语","EN/FR":"英语／法语","FR/EN":"法语／英语",
     JP:"日语",GA:"爱尔兰语","JP/FR":"日语／法语","FR/GA":"法语／盖尔语","LA/FR":"拉丁语／法语",
-    HE:"希伯来语",LAD:"拉迪诺语",HEB:"希伯来语","Instr.":"器乐"};
+    HE:"希伯来语",LAD:"拉迪诺语",HEB:"希伯来语",TR:"土耳其语","Instr.":"器乐"};
   return " · " + (m[code] || code || "—");
 }
 
