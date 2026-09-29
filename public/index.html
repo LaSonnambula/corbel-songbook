@@ -753,7 +753,7 @@ ALBUMS.forEach((al, ai) => al.songs.forEach((raw, si) => {
     lines,
     hay: ((raw.t || s.t || "") + "\n" + lines.map(l => l.text).join("\n")).toLowerCase()
   });
-});
+}));
 
 function escHtml(s){
   return s.replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
