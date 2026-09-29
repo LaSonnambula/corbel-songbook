@@ -468,6 +468,94 @@
    ===================================================================== */
 const ALBUMS = [
   {
+    title: "Harpe Celtique et Chants du Monde", vol: "专辑", year: "2005",
+    note: "《凯尔特竖琴与世界之歌》，Cécile Corbel 最早的作品之一（Keltia Musique 发行）。以凯尔特竖琴演绎世界各地的传统民歌，语言很杂——布列塔尼语、希伯来语、拉迪诺语（犹太-西班牙语）、法语等，另含一首纯器乐。",
+    songs: [
+      { t:"An hini a garan", lang:"BR",
+        note:"「我所爱的人」——布列塔尼语经典传统情歌。我所爱的人，儿时同在村里、两小无猜，我的心只钟情于他一人；如今他去了远方谋生、再不回来，我便这样一遍遍唱着，唱给我所爱的人。（中文据 lyricstranslate 的英译转出。）",
+        lyrics:[
+          { role:"", chorus:false,
+            orig:["An hini a garan","Gwechall bihan er ger","Pa oamp tostig an eil","An eil ouzh egile","Va c'halon ne gare","Gare nemet unan","Pa oan bihan er ger","An hini a garan"],
+            trans:["我所爱的人","儿时同在村里","那时我俩那样亲近","彼此相依","我的心不曾爱过别人","只钟情于一人","当我还是村里的孩子","我所爱的人"] },
+          { role:"", chorus:false,
+            orig:["An hini a garan","'M eus kollet da viken","'Man degouezhet pell","Ha ne zistroio ken","Ha setu ma kanan","Kanan keti ketan","Ha setu ma kanan","D'an hini a garan"],
+            trans:["我所爱的人","我已永远失去了他","他去了远方","再也不会回来","于是我这样唱着","一遍又一遍地唱","于是我这样唱着","唱给我所爱的人"] },
+          { role:"", chorus:false,
+            orig:["An hini a garan","Un deiz 'n eus va losket","Aet eo d'ar broioù pell","D'ur vro n'an'vezan ket","Aet eo d'ar broioù pell","Da c'hounit e vara","Kollet kollet un deiz","An hini a garan"],
+            trans:["我所爱的人","有一天他离我而去","去了遥远的国度","去了我不认得的地方","去了遥远的国度","去挣他的口粮","有一天，就这样失去了","我所爱的人"] },
+        ] },
+      { t:"Bran", lang:"BR",
+        note:"「乌鸦」——布列塔尼语传统歌谣，与 SongBook vol.1《Bemnoz》同一文本来源（Bran 即布列塔尼语「乌鸦」）。凯尔卢昂（Kerlouan）战场荒原上一棵橡树，每到夜里海鸟便聚集其上——黑白羽毛、头上带着一滴血，一只灰黑的老母乌鸦领着一只小乌鸦一同飞来；它们从海那头远远飞来，双翅被打湿、精疲力竭，唱着一支歌，比辽阔大海的静默还要美。（中文据 lyricstranslate 的英译转出。）",
+        lyrics:[
+          { role:"", chorus:false,
+            orig:["War vaez ar stourm e Kerlouan","Zo un dervenn a-us d'al lann","War un dervenn pa bar al loar","Bemnoz en em zastum evned mor"],
+            trans:["在凯尔卢昂那战事的溪流之上","荒原顶上立着一棵橡树","当月光落在这棵橡树上","每夜都有海鸟聚集而来"] },
+          { role:"", chorus:false,
+            orig:["Evned mor du o fluñv ha gwenn","Gant ul lommig goad war ho fenn","Ganto ur vranez gozh du louet","Ganti ur vran yaouank a-gevret"],
+            trans:["海鸟们，羽毛黑白相间","头上带着一滴血","随它们同来的，是一只灰黑的老母乌鸦","还有一只小乌鸦，一道飞来"] },
+          { role:"", chorus:false,
+            orig:["A skuizh o-daou a gleb o eskell","O tonet eus tramor d'eus pell","Hag an evned a gan ur c'han","Ken kaer ma tav ar mor ledan"],
+            trans:["它们俩都已疲惫，双翅被打湿","从海那头远远飞来","这些鸟儿唱起一支歌","比辽阔大海的静默还要美"] },
+          { role:"", chorus:false,
+            orig:["Hag an evned a gan ur c'han","Ken kaer ma tav ar mor ledan","Ar mor ledan"],
+            trans:["这些鸟儿唱起一支歌","比辽阔大海的静默还要美","那辽阔的大海"] },
+        ] },
+      { t:"Shir al Etz", lang:"HE",
+        note:"「树之歌」（שיר על עץ）——希伯来语，旋律源自著名的意第绪歌谣《Oyfn Veg Shteyt a Boym》（路边立着一棵树，Itzik Manger 词）。路边一棵树，树冠低垂，鸟儿都弃它而去、飞向南、西、也许东方，只剩风轻抚它低垂的树冠；孩子于是对母亲说：让我也变作一只鸟吧，我要飞到那树上、再不离开，为它啾唱一支欢快的歌，好安慰它。",
+        lyrics:[
+          { role:"", chorus:false,
+            orig:["על הדרך עץ עומד צמרתו תשוח","עזבוהו ציפוריו לאוושת הרוח","אל דרום ומערב ואולי מזרחה","רק הרוח ילטף צמרתו השחה"],
+            trans:["路边立着一棵树，树冠低低垂下","鸟儿都弃它而去，随风声飞散","飞向南方、西方，也许还有东方","只剩下风，轻抚着它低垂的树冠"] },
+          { role:"叠句", chorus:true,
+            orig:["אל דרום ומערב ואולי מזרחה","רק הרוח ילטף צמרתו השחה"],
+            trans:["飞向南方、西方，也许还有东方","只剩下风，轻抚着它低垂的树冠"] },
+          { role:"", chorus:false,
+            orig:["אל אימי אני אומר: נא שמעי לי, אמא","אף אני ציפור אהיה וכנף ארימה","אל העץ אעופה לי, לא אנוד ממנו","אצייץ לו שיר עליז ואנחמהו"],
+            trans:["我对我的母亲说：妈妈，请听我说","我也要变成一只鸟，展开双翅","飞到那棵树上去，再不离开它","为它啾唱一支欢快的歌，好安慰它"] },
+          { role:"叠句", chorus:true,
+            orig:["אל העץ אעופה לי, לא אנוד ממנו","אצייץ לו שיר עליז ואנחמהו"],
+            trans:["飞到那棵树上去，再不离开它","为它啾唱一支欢快的歌，好安慰它"] },
+        ] },
+      { t:"Hija mia", lang:"LAD",
+        note:"「我的女儿」——拉迪诺语（犹太-西班牙语／塞法迪传统）。一位母亲拦阻投海的女儿：我的女儿、我的心肝，别投进大海里，海正起着风暴，会把你卷走。女儿却答：随它卷我、随它带我到七寻深的海底，随黑沥青把我吞没吧——只为从爱里得救。副歌反复呼唤「我的女儿」。",
+        lyrics:[
+          { role:"", chorus:false,
+            orig:["Hija mia mi querida aman","Hija mia mi querida aman","No te echese a la mar","No te echese a la mar"],
+            trans:["我的女儿，我的心肝哪","我的女儿，我的心肝哪","别投进大海里","别投进大海里"] },
+          { role:"", chorus:false,
+            orig:["Que la mar sta en fortuna","Que la mar sta en fortuna","Mira que te va llevar","Mira que te va llevar"],
+            trans:["大海正起着风暴","大海正起着风暴","当心它会把你卷走","当心它会把你卷走"] },
+          { role:"叠句", chorus:true,
+            orig:["Hija mia","Hija mia","Hija mia","Hija mia"],
+            trans:["我的女儿","我的女儿","我的女儿","我的女儿"] },
+          { role:"", chorus:false,
+            orig:["Que ma lleve que me traiga aman","Que ma lleve que me traiga aman","Siete funtas de hondor","Siete funtas de hondor"],
+            trans:["随它卷我走，随它带我去吧","随它卷我走，随它带我去吧","到七寻深的海底","到七寻深的海底"] },
+          { role:"", chorus:false,
+            orig:["Que m'engluta pege preto","Que m'engluta pege preto","Para salvar del amor","Para salvar del amor"],
+            trans:["随那黑沥青把我吞没","随那黑沥青把我吞没","只为从爱里得救","只为从爱里得救"] },
+        ] },
+      { t:"Je m'endors", lang:"FR",
+        note:"「我睡去」——法语，带有北美卡津（Cajun／路易斯安那法语）民谣色彩。困倦又饥渴，日已西沉、你却从远方归来；一句戏谑的问答「怎么了，金发美人？怎么了，褐发美人？——好的都归金发，褐发什么也捞不着」。中间一段唱克劳利（Crowley，路易斯安那地名）的人总在路上、图谋不轨，兜里揣着铅壶和废铁。",
+        lyrics:[
+          { role:"", chorus:false,
+            orig:["Je m'endors, je m'endors et j'ai soif et j'ai faim.","Le soleil est couché et tu viens loin de la maison.","Qu'avez-vous, oui belle blonde ?","Qu'avez-vous, oui belle brune ?","C'est tout pour les blondes ;","c'est rien pour les brunes."],
+            trans:["我睡去，我睡去，又渴又饿。","太阳已经落下，你却从远方归来。","怎么了，金发美人？","怎么了，褐发美人？","好的全归金发；","褐发什么也捞不着。"] },
+          { role:"", chorus:false,
+            orig:["Oh, les gens de Crowley","sont toujours dans le chemin,","sont toujours dans le chemin-z","à rechercher-z à mal faire.","Avec le jug de plombeau","et le ferail dans la poche,","sont toujours dans le chemin-z","à rechercher-z à mal faire."],
+            trans:["哦，克劳利的那些人","总是在路上晃荡，","总是在路上晃荡，","一心图谋着使坏。","揣着一只铅壶，","兜里塞着废铁，","总是在路上晃荡，","一心图谋着使坏。"] },
+          { role:"", chorus:false,
+            orig:["Je m'endors, je m'endors et j'ai soif et j'ai faim.","Le soleil est couché et tu viens loin de la maison.","Bye-bye, oui belle blonde, bye-bye,","oui belle brune :","c'est tout pour les blondes ;","c'est rien pour les brunes."],
+            trans:["我睡去，我睡去，又渴又饿。","太阳已经落下，你却从远方归来。","再见了，金发美人，再见，","褐发美人：","好的全归金发；","褐发什么也捞不着。"] },
+        ] },
+      { t:"Valse des ondines", lang:"Instr.",
+        note:"「水精灵华尔兹」——纯竖琴器乐曲，无歌词。",
+        lyrics:[
+          { role:"", chorus:false, orig:["（纯音乐 · 无词）"], trans:["—"] },
+        ] },
+    ]
+  },
+  {
     title: "SongBook", vol: "vol. 1", year: "2006",
     songs: [
       {
@@ -2587,7 +2675,8 @@ function langName(code){
   const m = {EN:"英语",FR:"法语",BR:"布列塔尼语","FR/BR":"法语／布列塔尼语",
     IT:"意大利语","LA/IT":"拉丁语／意大利语",ES:"西班牙语",SCO:"苏格兰语",
     GD:"苏格兰盖尔语","GD/EN":"苏格兰盖尔语／英语","EN/FR":"英语／法语","FR/EN":"法语／英语",
-    JP:"日语",GA:"爱尔兰语","JP/FR":"日语／法语","FR/GA":"法语／盖尔语","LA/FR":"拉丁语／法语","Instr.":"器乐"};
+    JP:"日语",GA:"爱尔兰语","JP/FR":"日语／法语","FR/GA":"法语／盖尔语","LA/FR":"拉丁语／法语",
+    HE:"希伯来语",LAD:"拉迪诺语",HEB:"希伯来语","Instr.":"器乐"};
   return " · " + (m[code] || code || "—");
 }
 
