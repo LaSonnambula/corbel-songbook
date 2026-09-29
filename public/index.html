@@ -136,6 +136,114 @@
     padding: 18px 20px 12px;
     border-bottom: 1px solid var(--edge-soft);
   }
+  /* ---------- search ---------- */
+  .search {
+    padding: 12px 12px 4px;
+    border-bottom: 1px solid var(--edge-soft);
+  }
+  .search-field {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .search-field .icon {
+    position: absolute;
+    left: 11px;
+    font-size: 13px;
+    color: var(--parch-dim);
+    pointer-events: none;
+  }
+  .search input {
+    width: 100%;
+    background: var(--ink);
+    border: 1px solid var(--edge);
+    border-radius: 4px;
+    color: var(--parch);
+    font-family: var(--serif-src);
+    font-size: 15px;
+    padding: 8px 30px 8px 30px;
+    outline: none;
+    transition: border-color .18s;
+  }
+  .search input:focus { border-color: var(--gold); }
+  .search input::placeholder { color: var(--parch-dim); font-style: italic; }
+  .search .clear {
+    position: absolute;
+    right: 6px;
+    background: none; border: 0;
+    color: var(--parch-dim);
+    font-size: 16px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 4px 6px;
+    display: none;
+  }
+  .search .clear:hover { color: var(--parch); }
+  .search.has-query .clear { display: block; }
+
+  .results { list-style: none; margin: 0; padding: 8px; }
+  .results .hint {
+    font-family: var(--serif-display);
+    font-style: italic;
+    font-size: 14px;
+    color: var(--parch-dim);
+    padding: 8px 12px 12px;
+  }
+  .results li { margin: 0 0 2px; }
+  .results button {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: 0;
+    border-left: 2px solid transparent;
+    color: var(--text-soft);
+    font-family: var(--serif-src);
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    transition: color .15s, border-color .15s, background .15s;
+  }
+  .results button:hover { color: var(--parch); background: #ffffff07; border-left-color: var(--sea-deep); }
+  .results button.active { color: var(--gold-bright); border-left-color: var(--gold); background: #c9a55c14; }
+  .results .r-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+  }
+  .results .r-title .name {
+    font-family: var(--serif-display);
+    font-size: 17px;
+    color: var(--parch);
+  }
+  .results button:hover .name, .results button.active .name { color: inherit; }
+  .results .r-title .r-album {
+    font-size: 10px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--sea);
+    opacity: .8;
+    flex: none;
+  }
+  .results .r-snip {
+    font-size: 13px;
+    color: var(--parch-dim);
+    margin-top: 2px;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .results .r-snip.zh { font-family: var(--serif-zh); }
+  .results mark {
+    background: #c9a55c33;
+    color: var(--gold-bright);
+    border-radius: 2px;
+    padding: 0 1px;
+  }
+  .hidden { display: none !important; }
+
   .albums { list-style: none; margin: 0; padding: 8px; }
   .album { margin: 0 0 2px; }
   .album > button {
@@ -440,6 +548,15 @@
         <span id="mobileCaret">▾</span>
       </button>
       <h2>Songbooks</h2>
+      <div class="search" id="search">
+        <div class="search-field">
+          <span class="icon" aria-hidden="true">⌕</span>
+          <input type="search" id="searchInput" placeholder="搜歌名或歌词…"
+                 autocomplete="off" spellcheck="false" aria-label="搜索歌名或歌词">
+          <button class="clear" id="searchClear" type="button" aria-label="清除搜索">✕</button>
+        </div>
+      </div>
+      <ul class="results hidden" id="resultList"></ul>
       <ul class="albums" id="albumList"></ul>
     </div>
   </nav>
@@ -539,6 +656,10 @@ function selectSong(ai, si){
   document.querySelectorAll(".tracks button").forEach(b => b.classList.remove("active"));
   const nav = document.getElementById("nav_"+songId(ai,si));
   if (nav) nav.classList.add("active");
+  // 同步搜索结果里的高亮
+  document.querySelectorAll(".results .r-btn").forEach(b => {
+    b.classList.toggle("active", +b.dataset.ai === ai && +b.dataset.si === si);
+  });
   current = [ai,si];
 
   let html = `<div class="song-head">
@@ -608,6 +729,98 @@ function langName(lang){             // 中文名串，标题栏用，如 " · �
   if (!codes.length) return " · —";
   return " · " + codes.map(c => LANG_NAMES[c] || c).join(" · ");
 }
+
+/* ---------- search ---------- */
+const searchWrap = document.getElementById("search");
+const searchInput = document.getElementById("searchInput");
+const searchClear = document.getElementById("searchClear");
+const resultList = document.getElementById("resultList");
+
+// 建索引：每首歌一条，含歌名 + 所有原文/译文行（ref 歌借用源歌歌词）。
+// lines 存 {text, zh} 供片段高亮；hay 是拼接的小写检索串。
+const SEARCH_INDEX = [];
+ALBUMS.forEach((al, ai) => al.songs.forEach((raw, si) => {
+  const s = resolveSong(raw).song;
+  const lines = [];
+  if (Array.isArray(s.lyrics)) s.lyrics.forEach(st => {
+    (st.orig || []).forEach(l => { if (l && l.trim()) lines.push({ text: l, zh: false }); });
+    (st.trans || []).forEach(l => { if (l && l.trim()) lines.push({ text: l, zh: true }); });
+  });
+  SEARCH_INDEX.push({
+    ai, si,
+    title: raw.t || s.t || "",
+    album: (al.vol && al.vol !== "专辑") ? al.vol : al.title,
+    lines,
+    hay: ((raw.t || s.t || "") + "\n" + lines.map(l => l.text).join("\n")).toLowerCase()
+  });
+});
+
+function escHtml(s){
+  return s.replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+function escReg(s){ return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+// 高亮（先转义再插 <mark>，避免注入）
+function highlight(text, q){
+  const safe = escHtml(text);
+  if (!q) return safe;
+  return safe.replace(new RegExp(escReg(escHtml(q)), "gi"), m => `<mark>${m}</mark>`);
+}
+
+function runSearch(q){
+  q = q.trim();
+  const has = q.length > 0;
+  searchWrap.classList.toggle("has-query", has);
+  if (!has){
+    resultList.classList.add("hidden");
+    resultList.innerHTML = "";
+    albumList.classList.remove("hidden");
+    return;
+  }
+  albumList.classList.add("hidden");
+  resultList.classList.remove("hidden");
+
+  const ql = q.toLowerCase();
+  const hits = SEARCH_INDEX.filter(e => e.hay.includes(ql));
+
+  if (!hits.length){
+    resultList.innerHTML = `<li class="hint">没有找到与「${escHtml(q)}」相关的歌名或歌词。</li>`;
+    return;
+  }
+
+  resultList.innerHTML = hits.map(e => {
+    const titleHit = e.title.toLowerCase().includes(ql);
+    // 片段：优先取命中歌词的那一行；纯命中歌名时给第一行原文垫场
+    let snip = e.lines.find(l => l.text.toLowerCase().includes(ql));
+    if (!snip && !titleHit) snip = e.lines[0];
+    const snipHtml = snip
+      ? `<div class="r-snip${snip.zh ? " zh":""}">${highlight(snip.text, snip.text.toLowerCase().includes(ql) ? q : "")}</div>`
+      : "";
+    const active = current && current[0] === e.ai && current[1] === e.si ? " active" : "";
+    return `<li><button class="r-btn${active}" data-ai="${e.ai}" data-si="${e.si}">
+        <div class="r-title"><span class="name">${highlight(e.title, titleHit ? q : "")}</span>
+          <span class="r-album">${escHtml(e.album)}</span></div>
+        ${snipHtml}
+      </button></li>`;
+  }).join("");
+
+  resultList.querySelectorAll(".r-btn").forEach(b => {
+    b.addEventListener("click", () => selectSong(+b.dataset.ai, +b.dataset.si));
+  });
+}
+
+searchInput.addEventListener("input", () => runSearch(searchInput.value));
+searchClear.addEventListener("click", () => {
+  searchInput.value = "";
+  runSearch("");
+  searchInput.focus();
+});
+searchInput.addEventListener("keydown", e => {
+  if (e.key === "Escape"){ searchInput.value = ""; runSearch(""); searchInput.blur(); }
+  if (e.key === "Enter"){
+    const first = resultList.querySelector(".r-btn");
+    if (first) first.click();
+  }
+});
 
 /* mobile toggle */
 const sideInner = document.getElementById("sideInner");
