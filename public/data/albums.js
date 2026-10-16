@@ -2282,7 +2282,7 @@ window.ALBUMS = [
       { t:"Dame Blanche (Ouverture)", lang:["Instr."],
         note:"专辑开场曲，纯器乐前奏，为终曲《La Dame Blanche》（白衣夫人）的序引，无歌词。" },
       { t:"La Fille du Verseau", lang:["FR"],
-        note:"专辑同名主打曲。歌者自述是「水瓶座的女孩」——住在芦苇屋里、被常春藤环绕，与狍子、野兔、鹧鸪为伴；既能化身大地，又能与水中仙女（ondines）同游、潜入深渊（亚特兰蒂斯是她的摇篮），还能化作甲虫、蝴蝶飞越山谷，与星辰一同思考。她拒绝一切边界与束缚，守着孤独与静默，「无论别人怎么想，我就是水瓶座的女孩」。副歌一再追问「我不明白为什么——为什么不试试去改变呢」。（原文 OCR 讹误已订正：teuilles→feuilles、sule→suis、Jévolue→J'évolue、deau→de l'eau、chiméres→chimères、nont→n'ont、frontiéres→frontières、límité→limites、comprende pac→comprends pas。）",
+        note:"专辑同名主打曲。歌者自述是「水瓶座的女孩」——住在芦苇屋里、被常春藤环绕，与狍子、野兔、鹧鸪为伴；既能化身大地，又能与水中仙女（ondines）同游、潜入深渊（亚特兰蒂斯是她的摇篮），还能化作甲虫、蝴蝶飞越山谷，与星辰一同思考。她拒绝一切边界与束缚，守着孤独与静默，「无论别人怎么想，我就是水瓶座的女孩」。副歌一再追问「我不明白为什么——为什么不试试去改变呢」。",
         lyrics:[
           { role:"", chorus:false,
             orig:["Les chevreuils, les lapins et les perdreaux","Dissimulée par les feuilles, sauvage parmi les rameaux","Je vis entourée de lierre, ma maison est en roseau","Bien que j'incarne la terre, je suis fille du Verseau"],
@@ -2310,7 +2310,7 @@ window.ALBUMS = [
             trans:["我不明白为什么，不，我就是不明白","为什么不试试去改变呢，有何不可（复）"] },
         ] },
       { t:"Dorso Draco", lang:["LA","FR"],
-        note:"拉丁文标题意为「在龙背上」。Dragon（龙）指布列塔尼半岛的轮廓——生在龙背上的人，能听见大地、海洋、风，听见巨石阵（menhir）与阴影的歌，听见 Armorique（阿摩里卡，布列塔尼的古称）古老的歌谣、潮汐、乌鸦与白鸽、舒昂党人（chouans）的呐喊。结尾一句「我要活在我的土地上，父辈母辈的土地，直到长眠其下」。（每段首句末反复，标 bis；原文 OCR 讹误已订正：dArmorique→d'Armorique、mere→mère、fon→l'on。）",
+        note:"拉丁文标题意为「在龙背上」。Dragon（龙）指布列塔尼半岛的轮廓——生在龙背上的人，能听见大地、海洋、风，听见巨石阵（menhir）与阴影的歌，听见 Armorique（阿摩里卡，布列塔尼的古称）古老的歌谣、潮汐、乌鸦与白鸽、舒昂党人（chouans）的呐喊。结尾一句「我要活在我的土地上，父辈母辈的土地，直到长眠其下」。（每段首句末反复，标 bis。）",
         lyrics:[
           { role:"", chorus:false,
             orig:["Qui est né sur le dos du Dragon, entend la terre, que grande (bis)","Et entend le chant des menhirs, et celui, des ombres","Et les vieilles chansons d'Armorique","Et les vieilles chansons d'Armorique"],
@@ -2329,7 +2329,7 @@ window.ALBUMS = [
             trans:["我要活在我的土地上","父亲与母亲的土地","我要活在我的土地上","直到有人把我葬在它之下"] },
         ] },
       { t:"Cœur de Breizh", lang:["FR"],
-        note:"「布列塔尼之心」（Breizh 即布列塔尼语的「布列塔尼」）。一位布列塔尼国王的独白：无论年岁、无惧死亡，双脚踏进马镫、跨上战马劈开云层；忠于自己的名声与誓言，即便战败被踏倒也甘愿踏上「远行」。副歌「听那逝去的时光，风的记忆，骑士们的记忆」。结尾人们会说这位老者从未失节，荣誉是他的行囊，这首歌是他的遗产。（原文 OCR 讹误已订正：Fidele→Fidèle。）",
+        note:"「布列塔尼之心」（Breizh 即布列塔尼语的「布列塔尼」）。一位布列塔尼国王的独白：无论年岁、无惧死亡，双脚踏进马镫、跨上战马劈开云层；忠于自己的名声与誓言，即便战败被踏倒也甘愿踏上「远行」。副歌「听那逝去的时光，风的记忆，骑士们的记忆」。结尾人们会说这位老者从未失节，荣誉是他的行囊，这首歌是他的遗产。",
         lyrics:[
           { role:"", chorus:false,
             orig:["Je suis le Roi des Bretons, la mort d'aucune façon","n'entamera mon courage et qu'importe mon âge,","Les deux pieds dans l'étrier, chevauchant mon destrier","Pourfendant les nuages, gravé comme une image"],
@@ -2400,7 +2400,7 @@ window.ALBUMS = [
             trans:["还有那些野兽，从黄昏到降露时分","一路哭诉着绝望，哀叹自己被罚入地狱"] },
         ] },
       { t:"Vague à l'âme", lang:["FR"],
-        note:"标题「vague à l'âme」是法语成语，意为「莫名的忧郁／心绪不宁」。全曲是一段抑郁的内心独白：歌者向人解释自己为何躲开朋友、厌倦聚会、被阴郁念头缠绕、精神崩溃，只想换个位置、求一点喘息，重新找回对生活的兴味；她感到一种日益壮大的「威胁」在体内扎根，必须超越自己、不再惧怕黑夜。末段转为决意：别无选择，唯有面对，不再受制于一切击垮她的东西，把那些阴郁心绪驱逐、遗忘，「我也想要一双翅膀」，打破坚冰、推倒叹息之墙，离开阴沉与死局，只做喜悦与微笑。（原文页 OCR 缺字母与重音，已据法语还原：Pourquoije→Pourquoi je、misole→m'isole、soirees→soirées、idees→idées、aneanti→anéanti、lespace→l'espace、Netre→N'être 等。）",
+        note:"标题「vague à l'âme」是法语成语，意为「莫名的忧郁／心绪不宁」。全曲是一段抑郁的内心独白：歌者向人解释自己为何躲开朋友、厌倦聚会、被阴郁念头缠绕、精神崩溃，只想换个位置、求一点喘息，重新找回对生活的兴味；她感到一种日益壮大的「威胁」在体内扎根，必须超越自己、不再惧怕黑夜。末段转为决意：别无选择，唯有面对，不再受制于一切击垮她的东西，把那些阴郁心绪驱逐、遗忘，「我也想要一双翅膀」，打破坚冰、推倒叹息之墙，离开阴沉与死局，只做喜悦与微笑。",
         lyrics:[
           { role:"", chorus:false,
             orig:["Si tu me demandes, ce qui m'angoisse","Pourquoi je m'isole de mes amis","Que toutes nos soirées me lassent, d'ailleurs je n'en ai plus envie","Des idées noires me tracassent, mon moral est anéanti","Je n'y peux rien quoique je fasse","Et je vois bien que je t'ennuie (bis)","J'aimerais changer de place, trouver un peu de répit","Ne rien lâcher de guerre lasse","Reprendre goût à la vie (bis)"],
@@ -2413,7 +2413,7 @@ window.ALBUMS = [
             trans:["我已别无选择，除了直面它","再也不要受人奴役","我不愿再给任何击垮我的东西留下位置","那些阴郁的心绪，我要把它们驱逐、打发进遗忘","好重新找回属于我的空间","我也想要一双翅膀（复）","我想打破坚冰，推倒那叹息之墙","离开阴沉，离开死局","只做喜悦与微笑（复）"] },
         ] },
       { t:"Vanikoro", lang:["FR"],
-        note:"「瓦尼科罗」——南太平洋所罗门群岛中的一座珊瑚岛，1788 年法国航海家拉佩鲁兹（La Pérouse）探险队的两艘船「罗盘号」（La Boussole）与「星盘号」（L'Astrolabe）在此触礁失踪，是法国航海史上著名的谜案。全曲是一声穿越时间的呼唤：「拉佩鲁兹先生，你在哪里？」（原文有 OCR 讹误已订正：Pérouse、j'attends、êtes、touché、péri；首段「Éole」为风神埃俄罗斯，与 Boussole 押韵。）",
+        note:"「瓦尼科罗」——南太平洋所罗门群岛中的一座珊瑚岛，1788 年法国航海家拉佩鲁兹（La Pérouse）探险队的两艘船「罗盘号」（La Boussole）与「星盘号」（L'Astrolabe）在此触礁失踪，是法国航海史上著名的谜案。全曲是一声穿越时间的呼唤：「拉佩鲁兹先生，你在哪里？」（首段「Éole」为风神埃俄罗斯，与 Boussole 押韵。）",
         lyrics:[
           { role:"", chorus:false,
             orig:["Depuis si longtemps que j'attends","Des nouvelles des bâtiments","Que me donne un jour Éole","Des nouvelles de la Boussole","Vos navires ont-ils touché terre ?","Ou bien ont-ils péri en mer ?"],
@@ -2435,7 +2435,7 @@ window.ALBUMS = [
             trans:["你在哪里，拉佩鲁兹先生","你在哪里？","你在哪里，拉佩鲁兹先生","告诉我们吧？"] },
         ] },
       { t:"La Poudrière", lang:["FR"],
-        note:"「火药桶」——一首反战歌。「他们备战、要我们上阵，屁股就坐在火药桶上，许多人回不来了」。歌者看清身边暗中酝酿的仇恨、纵火者般的煽动言辞、把地狱的火堆重新点燃的人；为了争斗，气氛变得恶毒，恐惧与愤怒被豢养。那些疯子嗜血成性，刀的、枪的、核武的，要把我们送进六尺黄土，人类的未来正滑向黄昏。歌者拒绝加入这些好战疯子的行列。反复质问「为什么？这一切？为了谁？为什么？」（原文 OCR 讹误已订正：Pourqui→Pourquoi、querre→guerre。叠句「On nous prépare…」多次反复。）",
+        note:"「火药桶」——一首反战歌。「他们备战、要我们上阵，屁股就坐在火药桶上，许多人回不来了」。歌者看清身边暗中酝酿的仇恨、纵火者般的煽动言辞、把地狱的火堆重新点燃的人；为了争斗，气氛变得恶毒，恐惧与愤怒被豢养。那些疯子嗜血成性，刀的、枪的、核武的，要把我们送进六尺黄土，人类的未来正滑向黄昏。歌者拒绝加入这些好战疯子的行列。反复质问「为什么？这一切？为了谁？为什么？」（叠句「On nous prépare…」多次反复。）",
         lyrics:[
           { role:"Refrain", chorus:true,
             orig:["On nous prépare à la guerre","On nous prépare aux combats","Le cul sur la poudrière","Beaucoup n'en reviendront pas"],
@@ -2466,7 +2466,7 @@ window.ALBUMS = [
             trans:["为什么？这一切？","为了谁？为什么？"] },
         ] },
       { t:"Fidelium", lang:["FR"],
-        note:"标题「Fidelium」为拉丁文（「忠信者的」），歌曲以旺代战争（1793–1796，法国大革命中旺代地区的保王党天主教徒起义）为题。叙事者是旺代叛军（「insurgés」）一员：他们从格朗维尔一路退回旺代，共和军（「la république」）屠杀妇孺老弱、烧成焦土，叛军转而追击、攻下据点、俘获敌军。将军要把俘虏全部处决、不留活口，但莫尔塔涅的夫人们拍案而起，劝他们施以怜悯、莫陷入复仇——否则在末日审判时自己也难获赦免。叠句反复呼唤布列塔尼／旺代的守护者：仙女美露西娜（Mélusine）与圣米迦勒（Saint Michel）与你们同在。（原文 OCR 讹误已订正：quisétaient→qu'ils s'étaient、enlevámes→enlevâmes、Is→Ils、Ogénéral→Ô général、cotés/cotes→côtés、dote→doté、fees→fées、brise→brisé、damnes→damnés、pardonne→pardonnés。）",
+        note:"标题「Fidelium」为拉丁文（「忠信者的」），歌曲以旺代战争（1793–1796，法国大革命中旺代地区的保王党天主教徒起义）为题。叙事者是旺代叛军（「insurgés」）一员：他们从格朗维尔一路退回旺代，共和军（「la république」）屠杀妇孺老弱、烧成焦土，叛军转而追击、攻下据点、俘获敌军。将军要把俘虏全部处决、不留活口，但莫尔塔涅的夫人们拍案而起，劝他们施以怜悯、莫陷入复仇——否则在末日审判时自己也难获赦免。叠句反复呼唤布列塔尼／旺代的守护者：仙女美露西娜（Mélusine）与圣米迦勒（Saint Michel）与你们同在。",
         lyrics:[
           { role:"", chorus:false,
             orig:["En revenant de la virée, de Granville jusqu'à la Vendée (bis)","Nous pensions regagner nos âtres,","Peut-être nous réconcilier","Il restait peu d'hommes pour se battre","Une poignée de déterminés, disant qu'il fallait"],
@@ -2509,7 +2509,7 @@ window.ALBUMS = [
             trans:["你们是这片土地的士兵——","一片满是小妖精与仙女的土地","美露西娜与你们同在","你们是这片破碎之地的士兵","它的心被那些被罚者刺穿","圣米迦勒与你们同在","你们是这片土地的士兵——","一片满是小妖精与仙女的土地","美露西娜与你们同在","你们是这片破碎之地的士兵","从卢瓦尔河到旺代","圣米迦勒与你们同在"] },
         ] },
       { t:"Extinction", lang:["FR"],
-        note:"「灭绝」——一首以环境灾难为题的歌，副歌是一串口号式惊呼「警惕！愤慨！暴动！革命！警惕！污染！毁灭！灭绝！」。歌词点名布列塔尼／旺代一带的地名（圣纳泽尔、洛里昂、塔尔蒙-圣伊莱尔、圣让沼泽、坎佩尔、埃尔博迪耶等），以荒诞景象预言生态倒错：鸭子互掷石块、鸡张牙舞爪、水漫过边界、海洋变得凶残、一切逆流而行；当人类毁掉大地便会自相残杀，污染物流进土壤与海洋。末段讽刺「大人物们」一再拖延对地球的保护，直至「第七块大陆（指海洋垃圾带）」「第六次大灭绝」——「这不是什么转型，而是再无救赎，再见了！」（原文 lalala 拟声衬词按页保留；OCR 讹误已订正：sois→sols。标题页 slug 误拼 exctinction。）",
+        note:"「灭绝」——一首以环境灾难为题的歌，副歌是一串口号式惊呼「警惕！愤慨！暴动！革命！警惕！污染！毁灭！灭绝！」。歌词点名布列塔尼／旺代一带的地名（圣纳泽尔、洛里昂、塔尔蒙-圣伊莱尔、圣让沼泽、坎佩尔、埃尔博迪耶等），以荒诞景象预言生态倒错：鸭子互掷石块、鸡张牙舞爪、水漫过边界、海洋变得凶残、一切逆流而行；当人类毁掉大地便会自相残杀，污染物流进土壤与海洋。末段讽刺「大人物们」一再拖延对地球的保护，直至「第七块大陆（指海洋垃圾带）」「第六次大灭绝」——「这不是什么转型，而是再无救赎，再见了！」（拟声衬词 lalala 按页保留。）",
         lyrics:[
           { role:"Refrain", chorus:true,
             orig:["Attention ! Indignation ! Sédition ! Révolution !","Attention ! Pollution ! Destruction ! Extinction !"],
@@ -2540,7 +2540,7 @@ window.ALBUMS = [
             trans:["第六块……不，第七块大陆（海洋垃圾带）","第六次大灭绝","这个「六」，可不是什么转型","再无救赎——再见了！"] },
         ] },
       { t:"Je n'attendrai pas", lang:["FR"],
-        note:"「我不会再等」——一首给拖沓不定的恋人的最后通牒。歌者已等了三个多月，对方却毫不挂念她；她到了忍耐的极限，发出「最后警告」：我不会永远地等、不会无止境地等。对方总是来去无踪、像个幽灵，一阵风似的忽现忽隐，留她绝望地叹息。她要一个明确的答复——是厮守一生，还是就此散伙：「告诉我你爱我，告诉我你离不开我」。（lyricstranslate 页标题把 attendrai 误拼成 attendrais，歌词正文用的是将来时 je n'attendrai pas，此处从正文；原文页重音/缩写 OCR 讹误已订正：Jai→J'ai、Jaiattendu→J'ai attendu、a cran→à cran、nattendrai→n'attendrai、prevenir→prévenir、desesperement→désespérément、problemes→problèmes、a present→à présent、concretement→concrètement、Reponds→Réponds、sincerement→sincèrement、reponse→réponse。）",
+        note:"「我不会再等」——一首给拖沓不定的恋人的最后通牒。歌者已等了三个多月，对方却毫不挂念她；她到了忍耐的极限，发出「最后警告」：我不会永远地等、不会无止境地等。对方总是来去无踪、像个幽灵，一阵风似的忽现忽隐，留她绝望地叹息。她要一个明确的答复——是厮守一生，还是就此散伙：「告诉我你爱我，告诉我你离不开我」。",
         lyrics:[
           { role:"", chorus:false,
             orig:["J'ai attendu plus de trois mois et toi, sans te soucier de moi","J'ai attendu trop longtemps","Je suis à cran, je n'en puis plus, maintenant, dernier avertissement"],
@@ -2568,7 +2568,7 @@ window.ALBUMS = [
             trans:["我不会再等","不会永远地等","我不会再等","不会无止境地等"] },
         ] },
       { t:"Le Louvetier", lang:["FR"],
-        note:"「猎狼人」——一首民谣叙事体的歌。清晨，一位猎狼官持矛荷枪进入大森林打猎，却在林边听见哀鸣，发现一个倒地的男人自称是「巫魔夜会（sabbat）的受害者」，恳求他用一颗镀金的银弹结束自己的痛苦。猎狼人没有开枪，而是从背袋里取出斯佩尔特小麦面包递给他；狼人吃下面包后剧烈痉挛、变形，挣脱了月亮的恶咒，重新找回了自己的灵魂——是「以善意破咒」的温柔反转。（每段末句反复，标 bis；原文 OCR 讹误已订正：Cétait→C'était、tu m'a→tu m'as。）",
+        note:"「猎狼人」——一首民谣叙事体的歌。清晨，一位猎狼官持矛荷枪进入大森林打猎，却在林边听见哀鸣，发现一个倒地的男人自称是「巫魔夜会（sabbat）的受害者」，恳求他用一颗镀金的银弹结束自己的痛苦。猎狼人没有开枪，而是从背袋里取出斯佩尔特小麦面包递给他；狼人吃下面包后剧烈痉挛、变形，挣脱了月亮的恶咒，重新找回了自己的灵魂——是「以善意破咒」的温柔反转。（每段末句反复，标 bis。）",
         lyrics:[
           { role:"", chorus:false,
             orig:["C'était un maître louvetier, qui s'en allait chasser en plaine (bis)","Il s'en allait par le matin, armé d'un pique et d'un gourdin","A sa ceinture une cartouchière, et son fusil en bandoulière (bis)"],
@@ -2590,7 +2590,7 @@ window.ALBUMS = [
             trans:["「谢谢你，猎狼人，你把我从苦难中救了出来（复）","靠你给我的那块面包，我体内的狼被释放了","你把我从厄运里、从月亮的魔咒里救了出来」（复）"] },
         ] },
       { t:"Memoria", lang:["FR"],
-        note:"拉丁文标题「Memoria」意为「记忆」。歌者在久别之后重回故地——父亲的花园、那些石阶、旧日的小径与丛林间的林荫道、昔日嬉戏却已荒芜的场地。他逆着时间回溯，在记忆与遗忘之间慢慢打捞往昔：常春藤矮墙旁张开双臂奔向故人、那些猝不及防的爱恋、带几分骄傲的眼神，还有母亲含笑的面容。他曾把所有旧日回忆、幽灵与尘埃埋进墓地深处，如今却只愿记忆不再被囚禁，愿「从前那个孩子重新找回属于他的光」。（lyricstranslate 此页排版工整、重音完好，未见 OCR 讹误。）",
+        note:"拉丁文标题「Memoria」意为「记忆」。歌者在久别之后重回故地——父亲的花园、那些石阶、旧日的小径与丛林间的林荫道、昔日嬉戏却已荒芜的场地。他逆着时间回溯，在记忆与遗忘之间慢慢打捞往昔：常春藤矮墙旁张开双臂奔向故人、那些猝不及防的爱恋、带几分骄傲的眼神，还有母亲含笑的面容。他曾把所有旧日回忆、幽灵与尘埃埋进墓地深处，如今却只愿记忆不再被囚禁，愿「从前那个孩子重新找回属于他的光」。",
         lyrics:[
           { role:"", chorus:false,
             orig:["Il y a bien longtemps, que je n'étais pas venu ici","Il y a bien longtemps, mes souvenirs s'enfuient, mes souvenirs s'enfuient"],
@@ -2658,7 +2658,7 @@ window.ALBUMS = [
             trans:["水底深处，女巫般的少女","藏在一道倒影里，藏进水波中","你将永远做那囚徒","我把你留在了诸世界的交界"] },
         ] },
       { t:"Morgane", lang:["FR"],
-        note:"咏亚瑟王同母异父的姐姐、女巫摩根（Morgane / Morgan le Fay）。她生于大海、统治繁花之岛，纵为女王却无人能慰她的痛；她有两副面孔——慈爱或明智、善或恶、能治愈也能当场取你性命，与她相伴的是黑夜和月亮。末段：无人能破解那困住恋人的魔咒，而在「无归之谷」（Val sans retour），摩根你自己也被爱囚禁、一同被判了刑。（原文有 OCR 讹误已订正：Maftresse→Maîtresse、I'le→l'île、atre→être、laccompagne→l'accompagne。）",
+        note:"咏亚瑟王同母异父的姐姐、女巫摩根（Morgane / Morgan le Fay）。她生于大海、统治繁花之岛，纵为女王却无人能慰她的痛；她有两副面孔——慈爱或明智、善或恶、能治愈也能当场取你性命，与她相伴的是黑夜和月亮。末段：无人能破解那困住恋人的魔咒，而在「无归之谷」（Val sans retour），摩根你自己也被爱囚禁、一同被判了刑。",
         lyrics:[
           { role:"", chorus:false,
             orig:["Morgane en sa demeure","Maîtresse enchanteresse","Règne sur l'île aux fleurs","Elle est nymphe des vagues","Enfant née de la mer","Mais son cœur est amer"],
@@ -2677,7 +2677,7 @@ window.ALBUMS = [
             trans:["没有人能够","破解那道魔咒","它把恋人们","永远囚禁其中","可在这「无归之谷」","摩根，你也身在此地","你也是爱的囚徒","一同被判了刑"] },
         ] },
       { t:"Folle Pensée (Merlin)", lang:["FR"],
-        note:"咏预言者、术士梅林（Merlin），标题意为「疯狂的念头／痴想」。全曲是梅林自问「我究竟叫什么名字」——能呼风唤雨、通晓命运，却认不清自己是人还是术士，直到最后世人才唤他梅林。（原文页个别拼写疑为 OCR 讹误，已订正：Jordonne→J'ordonne、Jai→J'ai、tempéte→tempête。）",
+        note:"咏预言者、术士梅林（Merlin），标题意为「疯狂的念头／痴想」。全曲是梅林自问「我究竟叫什么名字」——能呼风唤雨、通晓命运，却认不清自己是人还是术士，直到最后世人才唤他梅林。",
         lyrics:[
           { role:"Verse 1", chorus:false,
             orig:["La terre gronde sous mes pas","Je commande l'autre monde","J'ordonne la pluie le froid","Mais quel est mon nom","Quel est mon nom"],
@@ -2737,7 +2737,7 @@ window.ALBUMS = [
             trans:["国王猛地停住，那鹿竟开口说话","它说道：「大王，请饶了这头兽吧","你在这尘世为王，我也同样是王","在远比你脚下所辖更广阔的土地上」"] },
         ] },
       { t:"Le Roi Pêcheur", lang:["FR"],
-        note:"咏「渔王」（Fisher King）：守护圣杯、身负旧伤的国王，唯有心地纯净者才能望见他隐于迷雾中的城堡。宫中大摆宴席，可国王伤重得既不能饮也不能食，痛苦深重、国土荒凉；果园尽枯、飞鸟不再歌唱，侵蚀国王与国土的痼疾如噩梦般夜夜滋长。副歌一遍遍「为国王的健康干杯」「为忘却而痛饮，从冬到夏，仿佛什么都不曾发生」，末段唱「国王已死、已下葬」——荒凉与麻木的反讽。（原文有 OCR 讹误已订正：I est→Il est、at→et。）",
+        note:"咏「渔王」（Fisher King）：守护圣杯、身负旧伤的国王，唯有心地纯净者才能望见他隐于迷雾中的城堡。宫中大摆宴席，可国王伤重得既不能饮也不能食，痛苦深重、国土荒凉；果园尽枯、飞鸟不再歌唱，侵蚀国王与国土的痼疾如噩梦般夜夜滋长。副歌一遍遍「为国王的健康干杯」「为忘却而痛饮，从冬到夏，仿佛什么都不曾发生」，末段唱「国王已死、已下葬」——荒凉与麻木的反讽。",
         lyrics:[
           { role:"", chorus:false,
             orig:["Sur des terres lointaines dans un endroit secret","Enfermé dans la brume il y a un palais","Peu d'hommes y sont entrés car il faut un cœur pur","Pour pouvoir distinguer ses tours et ses murs"],
@@ -2778,7 +2778,7 @@ window.ALBUMS = [
             trans:["最后一次","在恶风之中","远离你，我漫无目的地走开","有人对我说，这就是命该如此","哦，但愿还有最后一次","哦，但愿我们能抹去那些悔恨","可天已经晚了","夜色早已把它们覆盖"] },
         ] },
       { t:"Dans les Yeux de ma Belle (Lancelot)", lang:["FR"],
-        note:"咏圆桌骑士兰斯洛特（Lancelot），标题意为「在我爱人的眼眸里」——他夹在理智与炽烈的爱欲之间（一条路、一位王后），终于全盘皆输。「一位王后」指他所爱的桂妮薇儿。副歌唱在爱人的眼里有永恒、有为他引路的燕群，可那双眼也美得令他万劫不复，把他献祭在「破灭幻梦的祭坛」上。末段把「两条路」换作「两个誓言、一个秘密」，光与影相互撕扯，骑士依旧不幸。（原文有 OCR 讹误已订正：Jai→J'ai、l'autel。）",
+        note:"咏圆桌骑士兰斯洛特（Lancelot），标题意为「在我爱人的眼眸里」——他夹在理智与炽烈的爱欲之间（一条路、一位王后），终于全盘皆输。「一位王后」指他所爱的桂妮薇儿。副歌唱在爱人的眼里有永恒、有为他引路的燕群，可那双眼也美得令他万劫不复，把他献祭在「破灭幻梦的祭坛」上。末段把「两条路」换作「两个誓言、一个秘密」，光与影相互撕扯，骑士依旧不幸。",
         lyrics:[
           { role:"", chorus:false,
             orig:["Deux chemins, une peine,","Comment choisir","Un destin, une reine","Entre les deux","Quand la raison se mêle d'ardent désir","Le chevalier est malheureux"],
@@ -2810,7 +2810,7 @@ window.ALBUMS = [
             trans:["亚瑟啊，从那另一个世界","你可看得见世人与众王","你可看得见他们喧嚣的疯狂","你可愿重返这人间？"] },
         ] },
       { t:"Une Reine", lang:["FR"],
-        note:"意为「一位王后」——多半咏桂妮薇儿（Guenièvre）。以「奖章的背面／镜中的倒影／万物的反面」起兴，写真与假、光与影之间的自我：我梦见过一柄剑，不为播撒仇恨，只为在害怕、泪水将涌时为我指路。从早到晚、或笑或哭，一切迟早都会成真，可我必须抉择——是沉默还是炽烈，是隐没还是在场。「若我有一柄剑，我便会觉得自己像个王后，我要斩断那些煎熬，像剪断丝线、羊毛的缎带，在层层倒影里，挑出那个值得的。」如今万物交融：未来与过往、太阳与风、爱与恨、冬与夏、喜与悲。（原文 OCR 讹误已订正：Ja→Je、Calui→Celui。）",
+        note:"意为「一位王后」——多半咏桂妮薇儿（Guenièvre）。以「奖章的背面／镜中的倒影／万物的反面」起兴，写真与假、光与影之间的自我：我梦见过一柄剑，不为播撒仇恨，只为在害怕、泪水将涌时为我指路。从早到晚、或笑或哭，一切迟早都会成真，可我必须抉择——是沉默还是炽烈，是隐没还是在场。「若我有一柄剑，我便会觉得自己像个王后，我要斩断那些煎熬，像剪断丝线、羊毛的缎带，在层层倒影里，挑出那个值得的。」如今万物交融：未来与过往、太阳与风、爱与恨、冬与夏、喜与悲。",
         lyrics:[
           { role:"", chorus:false,
             orig:["La médaille a son revers","Chaque miroir, son reflet","Toute chose, son contraire","Entre le faux et le vrai"],
@@ -2832,7 +2832,7 @@ window.ALBUMS = [
             trans:["可我，若我有一柄剑","我该多么觉得自己像个王后","我要利落地斩断那些煎熬","在我害怕的时候","在泪水将要涌上的时候","在那映着万般对立的浑浊水中","在阴影与光明之间"] },
         ] },
       { t:"Le Roi des Fées", lang:["FR"],
-        note:"副标题「La Légende de Thomas le Rhymer」——即托马斯·莱莫（True Thomas）传说的法语版，与 SongBook vol.1《The King of the Fairies》同源：他随精灵入另一个世界为王，七年后归来，人间的门已永远关上，唯余风声呼唤。故事里他不可泄露仙境的秘密，须始终缄默。（原文页有 OCR 讹误已订正：&tre→être、J`étais→J'étais、ll y a→Il y a。）",
+        note:"副标题「La Légende de Thomas le Rhymer」——即托马斯·莱莫（True Thomas）传说的法语版，与 SongBook vol.1《The King of the Fairies》同源：他随精灵入另一个世界为王，七年后归来，人间的门已永远关上，唯余风声呼唤。故事里他不可泄露仙境的秘密，须始终缄默。",
         lyrics:[
           { role:"", chorus:false,
             orig:["Dans la ville d'Earlston","Un homme joue sur sa harpe d'or","Mais il ne joue pour personne","Jour et nuit encor et encor"],
@@ -2857,7 +2857,7 @@ window.ALBUMS = [
             trans:["把它当作秘密","你必须缄口不言","把它当作秘密","你必须缄口不言"] },
         ] },
       { t:"La Porte est en Dedans", lang:["FR"],
-        note:"专辑收尾曲，标题意为「那扇门在里面」——古老王国之门立于天地之间，闪着黄金与翡翠的光，而寻常人在世界的狂奔里视而不见；要寻见内心的光，须知那扇门朝内而开。「饮下那位献出生命者的杯」呼应圣杯主题。（原文页有 OCR 讹误已订正：J`aimerais→J'aimerais、ll y a→Il y a。）",
+        note:"专辑收尾曲，标题意为「那扇门在里面」——古老王国之门立于天地之间，闪着黄金与翡翠的光，而寻常人在世界的狂奔里视而不见；要寻见内心的光，须知那扇门朝内而开。「饮下那位献出生命者的杯」呼应圣杯主题。",
         lyrics:[
           { role:"", chorus:false,
             orig:["C'est la porte d'un ancien royaume","Entre le Ciel et la Terre","Où brillent l'or et les émeraudes","Où bat le sang où vit le mystère"],
