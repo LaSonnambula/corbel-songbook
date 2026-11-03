@@ -1372,6 +1372,7 @@ window.ALBUMS = [
       {
         t:"Belfast", lang:["FR"],
         note:"专辑开篇曲（歌名英语，歌词法语）。她本可生在别处、迎着海风漂泊，像海盗 Long John Silver 那样，却在此地长大。这里没有大海，可最小的河终会汇入；她像玩偶般起舞，若饮酒，是为忘却那颗随波逐流的心。「留住渐渐消逝的时光，再为我奏一支华尔兹，像在贝尔法斯特港口那样。」",
+        lore:"歌中「像独脚约翰·西尔弗（Long John Silver）那样漂泊」用典自史蒂文森小说《金银岛》（1883）里那位又奸猾又迷人的独腿海盗——几乎是后世一切「海盗」形象的原型。贝尔法斯特（Belfast）则是北爱尔兰的港口首府、著名的造船之城（泰坦尼克号便在此建造），港口、华尔兹与远航的渴望，共同烘托出这首「漂泊之心困于小城」的开篇。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Treasure_Island\" target=\"_blank\" rel=\"noopener\">Treasure Island (Long John Silver)</a> · <a href=\"https://en.wikipedia.org/wiki/Belfast\" target=\"_blank\" rel=\"noopener\">Belfast</a></span>",
         lyrics: [
           { role:"Couplet 1", chorus:false,
             orig:["Elle aurait pu naître ailleurs, courir le vent du large","Façon Long John Silver mais elle a grandi ici","Ici on trinque à l'absence, on s'ennuie derrière le bar","On dit au garçon avec sa guitare qu'il joue un air de danse"],
@@ -1387,6 +1388,7 @@ window.ALBUMS = [
       {
         t:"Les courants d'air", lang:["FR"],
         note:"「穿堂风」。她把墨与写在白纸上的字撒进风里，恶风中它们仿佛在跳舞、划破寂静。她留在穿堂风里，哀怨无尽，整片平原寂静无声，只有那该死的风在歌唱。「什么好风把你吹向这悲惨的命运？港口边的小美人鱼，若船沉了，别把自己拴在那些将投入你怀抱的水手身上。」",
+        lore:"歌中「港口边的小美人鱼」（petite sirène）呼应安徒生童话《海的女儿》——那位爱上人间王子、甘愿以嗓音换取双腿、最终化为泡沫的小美人鱼。歌里劝她「别把自己拴在终将离去的水手身上」，正是对这则「为爱牺牲一切、却得不到回应」的童话的一声叹息。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/The_Little_Mermaid\" target=\"_blank\" rel=\"noopener\">The Little Mermaid (海的女儿)</a></span>",
         lyrics: [
           { role:"Couplet 1", chorus:false,
             orig:["Dans les courants d'air, elle a jeté l'encre","Les mots qu'elle a mis sur la page blanche","Dans le vent mauvais, on dirait qu'ils dansent","En rondes fragiles, crevant le silence"],
@@ -1408,6 +1410,7 @@ window.ALBUMS = [
       {
         t:"Working Song", lang:["FR","EN"],
         note:"一则叩门寓言（歌词法语，副句英语「让我进来！让我出去！」）。风、贫穷、终末、恶灵、冬天、银行家依次来敲门，各带着寒冷、匮乏、恐惧、罪恶、金钱，请求「为我开门」；而歌者一一拒之门外、将其驱远——守着自己那扇紧闭的门。",
+        lore:"这首歌用的是传统民谣里的「累积式」（cumulative）结构——风、贫穷、死亡、魔鬼、冬天、银行家轮番上门，每段换一个来客、句式照旧反复，像《十二日圣诞》那样层层叠加。歌者把这些拟人化的厄运一一挡在门外，寓言般道出面对寒冷、匮乏与诱惑时的坚守。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Cumulative_song\" target=\"_blank\" rel=\"noopener\">Cumulative song (累积式歌谣)</a></span>",
         lyrics: [
           { role:"Couplet 1 — 风", chorus:false,
             orig:["« Oh let me in! Oh let me out! »","A dit le vent à ma porte","«  Vois le froid que je t'apporte","Ouvre la porte pour moi »","Il a soufflé pendant des heures","Hurlé tant qu'il pouvait","Renversé, brisé mon cœur","Je ne l'ai pas laissé rentrer"],
@@ -1456,6 +1459,7 @@ window.ALBUMS = [
       {
         t:"Pierre et Marion", lang:["FR"],
         note:"法国传统民谣式的爱情叙事（与 Gabriel Yacoub 合唱）。五月来临、美丽的鸟儿歌唱，玫瑰与蓟花交缠，Pierre 与 Marion 相拥而眠。Pierre 出征英格兰，Marion 郁郁而逝；夏天过去了，鸟儿仍在麦田上歌唱——如今他们同眠于地下，鸟儿依旧唱着那支轻飏的歌。「哦，鸟儿唱吧，唱出那些话语，告诉我你美丽的语言。」",
+        lore:"这首法国民谣风的爱情叙事里，恋人死后「玫瑰与蓟花交缠、同眠地下」的意象，与崔斯坦和伊索尔德坟上荆棘缠生的古老母题如出一辙——以植物的缠绕象征死亡也拆不散的爱。合唱者加布里埃尔·雅库布（Gabriel Yacoub）是法国民谣复兴乐队 Malicorne 的灵魂人物，这类对古谣的现代重写正是他的看家本领。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/French_folk_music\" target=\"_blank\" rel=\"noopener\">French folk music</a> · <a href=\"https://en.wikipedia.org/wiki/Gabriel_Yacoub\" target=\"_blank\" rel=\"noopener\">Gabriel Yacoub</a></span>",
         lyrics: [
           { role:"Couplet 1", chorus:false,
             orig:["Voici le mois de mai, bel oiseau chante","Roses et chardons se mêlent","Sur le lit, enlacés, toujours ils chantent","Pierre et Marion sommeillent"],
@@ -1477,6 +1481,7 @@ window.ALBUMS = [
       {
         t:"The Berry", lang:["EN"],
         note:"英语，古老的福音／民谣风叠句。「哦，哀悼者，我们到河边去吧」——伴着采浆果、月亮沉入白杨、星辰坠落的意象，如一支古调的循环吟唱。（与 The Moorings & Manran 合作）",
+        lore:"反复的「到河边去吧」（let's go down to the river）呼应着美国灵歌《Down in the River to Pray》——一首可追溯至 19 世纪、相传由黑奴所作的赞美诗，「下到河边」既指受洗、也喻指灵魂的救赎与涤净。Cécile 把这一福音传统的叠句，与采浆果、月沉白杨、星辰坠落等民谣意象编织在一起，织成一支循环往复的古调。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Down_in_the_River_to_Pray\" target=\"_blank\" rel=\"noopener\">Down in the River to Pray</a></span>",
         lyrics: [
           { role:"Refrain", chorus:true,
             orig:["Oh Mourner let's go down","To the river, to the river","To the river let's go down"],
@@ -1537,6 +1542,7 @@ window.ALBUMS = [
       {
         t:"Winterchild", lang:["EN"],
         note:"「冬之子」。化用凯尔特神话《阿门金之歌》（Song of Amergin）的万物化身咏叹——「我是海上的风，我是浪，我是七战之牛，我是露珠，我是太阳……」冬之子将往何方？借层层意象，唱出与天地万物同一的古老自白。",
+        lore:"主歌「我是海上的风、我是浪、我是七战之牛、我是露珠、我是太阳……」几乎逐句化用《阿门金之歌》（The Song of Amergin）——相传为盖尔人首位抵达爱尔兰的祭司兼诗人阿门金所吟，被认为是爱尔兰现存最古老的诗篇之一。这首「我即万物」的咒吟式自白，道出人与天地万物同一的古老泛灵观，历来被视作凯尔特诗歌的源头。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Amergin_Gl%C3%BAingel\" target=\"_blank\" rel=\"noopener\">Amergin Glúingel (阿门金之歌)</a></span>",
         lyrics: [
           { role:"Refrain", chorus:true,
             orig:["Where will he go,","the winter child?","I wanna know","The winter child"],
@@ -1561,6 +1567,7 @@ window.ALBUMS = [
       {
         t:"Liam", lang:["FR","EN"],
         note:"布列塔尼水手 Liam 的挽歌（法英交织）。他随姑娘漂泊、随风去爱，如今军港里还有伙计们记得他。「可怜的 Liam，你扬帆走了，别了水手，farewell；可怜的 Liam，在暹罗街上，人们唱着『别了，farewell』。」暹罗街（rue de Siam）是布雷斯特的著名街道。此后我在布雷斯特的咖啡馆里借酒消愁，为他饮下最后一杯。",
+        lore:"这首水手挽歌的地理坐标是布列塔尼西端的军港城市布雷斯特（Brest）——法国海军的重镇、无数水手出海与归航之地。歌中反复的「暹罗街」（rue de Siam）是布雷斯特最著名的大街，街名源于 17 世纪暹罗（今泰国）使团来访的往事；它也因布雷尔等人的名曲而成为「水手离港与买醉」的象征之所。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Brest,_France\" target=\"_blank\" rel=\"noopener\">Brest</a></span>",
         lyrics: [
           { role:"Couplet 1", chorus:false,
             orig:["Il a vogué au gré des filles, aimé au gré du vent","Le cœur en rade, en quarantaine","Et dans l'arsenal y a des gars qui se souviennent","Et pleure une dernière fois le pauvre Liam"],
@@ -1576,6 +1583,7 @@ window.ALBUMS = [
       {
         t:"Dwelling of the Moon", lang:["EN"],
         note:"「月之居所」。满是凯尔特神话意象的咒吟——加利翁的溪流、贤者的足踵、精灵的土丘、Nuada（爱尔兰神话中达努神族的王）的臂弯。「我曾来到青春之山，很久以前，我诞生于努阿达的怀抱。」在烛火与炉火之间，在月亮的居所里。",
+        lore:"歌中「努阿达的怀抱」里的努阿达（Nuada），是爱尔兰神话中达努神族（Tuatha Dé Danann）的首位君王，因战中失臂、又获银臂而得名「银臂努阿达」。达努神族是前基督教时代爱尔兰的众神，后世传说中他们退入「精灵土丘」（sídhe），化作仙族。歌里精灵土丘、青春之山、智识之国等意象，正是对这一神话世界的咒吟式召唤。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Nuada_Airgetl%C3%A1m\" target=\"_blank\" rel=\"noopener\">Nuada Airgetlám</a> · <a href=\"https://en.wikipedia.org/wiki/Tuatha_D%C3%A9_Danann\" target=\"_blank\" rel=\"noopener\">Tuatha Dé Danann</a></span>",
         lyrics: [
           { role:"Verse 1", chorus:false,
             orig:["Along the streams of Galion","From the heel of a sage","Along the land of the science","In the dwelling, dwelling of the moon"],
@@ -1606,6 +1614,7 @@ window.ALBUMS = [
       {
         t:"Under the Lake", lang:["EN"],
         note:"专辑收尾曲（与 Poppy Seeds 合作）。凯尔特「水马／湖中精灵」的意象——我要到湖边去，那白马奔行的地方，把我的爱、把许久以前所有破碎的诺言，抛进跃动的浪里。若你来到湖边，请告诉那狂野的山中之王：我已随精灵而去，在杨柳与松影飘移的地方，你会听见我的声音，在湖底呼唤。",
+        lore:"歌中「湖上奔行的白马」指向凯尔特传说里的水马——苏格兰高地的「each-uisge」或「kelpie」：栖身湖海、能化作俊马或美男诱人骑乘，一旦上背便再难脱身，被拖入水底溺亡。歌者「随精灵而去、在湖底呼唤」，正是化用了这则「被水中精灵掳走、永沉湖底」的古老母题。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Each-uisge\" target=\"_blank\" rel=\"noopener\">Each-uisge (凯尔特水马)</a></span>",
         lyrics: [
           { role:"Verse 1", chorus:false,
             orig:["I'll go down by the lake","Where the white horses go","Among the dancing waves","I will throw my love","All the promises broken","A long time ago","All the territories nobody knows"],
