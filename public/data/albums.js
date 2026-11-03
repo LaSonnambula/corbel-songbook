@@ -2121,6 +2121,7 @@ window.ALBUMS = [
       },
       { t:"Ils cassent le monde", lang:["FR"],
         note:"谱自鲍里斯·维昂（Boris Vian）的同名诗。「他们把世界砸成碎片，可我不在乎——留给我的已经够了：只要我还爱着一根蓝羽毛、一条沙路、一只胆怯的鸟……」纵使被投入牢狱，只要还能爱，世界就毁不掉「我」。末段「三角形的刀」「一身黑衣的先生们」暗指断头台与行刑者——他坦然赴死，因为爱过就已足够。",
+        lore:"歌词谱自法国奇才鲍里斯·维昂（Boris Vian，1920–1959）的同名诗。维昂是集小说家、诗人、歌手、小号手、工程师于一身的多面手，他的反战名曲《Le Déserteur》（逃兵）传唱至今。诗中「三角形的刀」「一身黑衣的先生们」「盛满麸糠的篮子」层层暗示断头台与行刑——而主人公偏说「这是我的盛典，我很骄傲」：只要还能爱一根蓝羽毛、一只胆怯的鸟，世界就砸不碎他。这正是维昂式的、以温柔抵抗荒诞的生命态度。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Boris_Vian\" target=\"_blank\" rel=\"noopener\">Boris Vian</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Ils cassent le monde","En petits morceaux","Ils cassent le monde","A coups de marteau","Mais ça m'est égal","Ça m'est bien égal","Il en reste assez pour moi","Il en reste assez"],
@@ -2204,6 +2205,7 @@ window.ALBUMS = [
       {
         t:"Morgane et le cerf", lang:["FR","EN"],
         note:"「摩根娜与雄鹿」。法语、英语交织的精灵情歌。蓝色黎明的时分，林中夜色仍在闪烁，火将熄灭，慵懒的仙子低声传递一支情歌。夜复一夜、日复一日，两颗心相偎着颤动；柳树下，梦沉沉睡去，化作看不见的金粉。",
+        lore:"歌名里的「摩根娜」（Morgane）指向亚瑟王传说中的女巫兼仙子摩根·勒菲（Morgan le Fay）——她本是凯尔特神话里水泽女神与仙子的遗存，兼具魔法与魅惑。配上林间仙子、柳树、金粉与雄鹿（凯尔特传说中常是通往异界的引路灵兽）的意象，这首情歌织就了一派凯尔特「仙境」（Otherworld）的朦胧氛围。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Morgan_le_Fay\" target=\"_blank\" rel=\"noopener\">Morgan le Fay</a></span>",
         lyrics: [
           { role:"Couplet 1", chorus:false,
             orig:["À l'heure où l'aube est bleue","Et la nuit scintille","Dans la forêt","À l'orée du jour"],
@@ -2228,6 +2230,7 @@ window.ALBUMS = [
       {
         t:"Valhalla", lang:["FR"],
         note:"「英灵殿」。他们向北方走去，怀着无尽的怅惘；灰狼不安地望着这无穷的队列。抵达彼岸——我把灵魂抛向远海，任船航行；抹去身后雪地上无尽的脚印。",
+        lore:"曲名「瓦尔哈拉」（Valhalla）是北欧神话中奥丁的「英灵殿」——战死沙场的勇士由女武神挑选、迎入此殿，日夜宴饮操练，静候诸神黄昏（Ragnarök）的终末之战。歌中向北进发的无尽队列、渡海抵达彼岸、抹去雪上足迹，正化用了这一「亡者踏上最后航程、奔赴英灵殿」的北欧意象，苍凉而肃穆。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Valhalla\" target=\"_blank\" rel=\"noopener\">Valhalla</a></span>",
         lyrics: [
           { role:"Couplet 1", chorus:false,
             orig:["Ils ont marché vers le nord","Infini vague à l'âme"],
