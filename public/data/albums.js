@@ -662,6 +662,7 @@ window.ALBUMS = [
       {
         t:"Brian Boru", lang:["FR"],
         note:"以爱尔兰最后的至高王 Brian Boru（941–1014）为象征，唱回归故土、渡海归乡之志。结尾「E keltia」为凯尔特语，意为「致凯尔特」。",
+        lore:"布莱恩·博鲁（Brian Boru，约 941–1014）是爱尔兰史上最负盛名的至高王（High King），他终结了北欧海盗对爱尔兰的侵扰，1014 年在克朗塔夫战役中大胜维京人，却也于当日阵亡。他因此成为爱尔兰民族独立与复兴的象征。歌里借他的名字唱「渡海归乡、放下刀兵」，正是以这位传奇君王寄托对凯尔特故土的归属之情。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Brian_Boru\" target=\"_blank\" rel=\"noopener\">Brian Boru</a></span>",
         lyrics: [
           { role:"Couplet 1", chorus:false,
             orig:["Comme le chant des pierres","Qui résonnent en silence","Comme l'eau qui serpente","Et qui gronde sous moi","Tu sais je reviendrai","Dans ma terre d'enfance","Au pays des rêves","Des fées et des rois"],
@@ -677,6 +678,7 @@ window.ALBUMS = [
       {
         t:"Sweet Amaryllis", lang:["EN","FR"],
         note:"取意文艺复兴牧歌《Adieu, Sweet Amaryllis》（John Wilbye, 1598）。英语、法语交替吟唱的告别曲——既是你的意愿要分离，便在破晓前离去，海的呜咽混入我的哀伤。",
+        lore:"歌词化用了英国文艺复兴牧歌大师约翰·威尔比（John Wilbye，1574–1638）1598 年的名作《Adieu, Sweet Amaryllis》。威尔比传世作品仅 66 首牧歌，却被誉为英格兰最杰出的牧歌作曲家。「阿玛丽莉丝」（Amaryllis）是文艺复兴田园诗里牧羊女的典型名字，源自古罗马维吉尔的《牧歌集》，象征纯真的田园恋人。这张专辑副题「Renaissance」（文艺复兴）亦由此而来。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/John_Wilbye\" target=\"_blank\" rel=\"noopener\">John Wilbye</a> · <a href=\"https://en.wikipedia.org/wiki/Madrigal\" target=\"_blank\" rel=\"noopener\">Madrigal</a></span>",
         lyrics: [
           { role:"Verse 1 (EN)", chorus:false,
             orig:["Adieu, sweet Amaryllis","For since to part your will is","Oh, heavy tiding","Here is for me no biding","Yet once again","Ere that I part with you","Ere that I part with you"],
@@ -695,6 +697,7 @@ window.ALBUMS = [
       {
         t:"La Belle s'est endormie", lang:["FR"],
         note:"法国传统民谣。熟睡在玫瑰花床上的美人，白如雪、美如昼，三个上尉都想向她求爱；最年轻的一个牵起她的白手，许诺带她去巴黎。首段在末尾回还，如古谣的循环。",
+        lore:"这是一首古老的法国传统民谣，属于「三个上尉」（Les Trois Capitaines / La Belle）母题——一位沉睡或被掳的美人、三名争相求爱的军官，是法语口传歌谣里流传极广的叙事套路，各地有众多异文。首段在歌末回还、如环往复，正是口传民谣常见的循环结构。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/French_folk_music\" target=\"_blank\" rel=\"noopener\">French folk music</a></span>",
         lyrics: [
           { role:"Couplet 1", chorus:false,
             orig:["La Belle s'est endormie","Sur un beau lit de roses.","Blanche comme la neige,","Belle comme le jour.","Ils sont trois capitaines","Qui veulent lui faire la cour."],
@@ -744,6 +747,7 @@ window.ALBUMS = [
       {
         t:"Little Soldier", lang:["EN"],
         note:"英语，一首反战哀歌。勇敢的小兵为王冠而战、唱着歌march下山；同样陈旧的盔甲、同样的旗骄傲地飘。「你可听见山谷深处的鼓声？你的赞歌响彻冬日的天空，在清晨的露水里。」而后小兵倒在地上、客死他乡，血染的战场、红旗缓缓飘落。",
+        lore:"这是一首反战哀歌。歌以两段对照结构——同样的盔甲、同样的旗，前段「骄傲飘扬」出征，后段「缓缓飘落」阵亡——道出军号荣光背后个体生命的渺小与徒然。这种借一名普通士兵的死来质问战争的写法，是欧美反战歌谣（如《Green Fields of France》《Universal Soldier》）一脉相承的手法。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Protest_song\" target=\"_blank\" rel=\"noopener\">Protest song (反战/抗议歌曲)</a></span>",
         lyrics: [
           { role:"Verse 1 — 出征", chorus:false,
             orig:["Brave little soldier, fighting for the crown","Go to fight, sing a song","March down, march down","Brave little soldier, in the battlefield","Same old armor, same flag","Floating proud, floating proud"],
@@ -762,6 +766,7 @@ window.ALBUMS = [
       {
         t:"Yarim Gitti", lang:["TR"],
         note:"专辑收尾的现场曲，翻唱土耳其传统民歌。全曲由一段核心歌词反复吟唱（现场版反复约三遍，此处只列一次）：「我的爱人去了泉边，去揭开我的伤口……你有什么心愿我都给你，只求从你手中饮一口水。」叠句「Yar yar yar aman」意为「爱人啊，爱人，唉——」，是土耳其民歌常见的哀叹衬词。（中文据土耳其原文与 lyricstranslate 英译转出。）",
+        lore:"这是一首土耳其传统民歌（türkü）。土耳其民歌熔中亚、波斯、阿拉伯与安纳托利亚本地曲调于一炉，多以长颈弹拨乐器「萨兹」（saz / bağlama）伴奏。歌中反复的衬词「yar yar yar aman」——yâr 意为「爱人」，aman 是一声无可奈何的喟叹——正是土耳其情歌里最典型的哀叹语，道尽相思之苦。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Music_of_Turkey\" target=\"_blank\" rel=\"noopener\">Music of Turkey</a></span>",
         lyrics: [
           { role:"全曲反复（约三遍）", chorus:false,
             orig:["Yarim gitti çeşmeye","Yar yar yar aman","Yarim gitti çeşmeye","Yaralarım deşmeye","Yar yar yar aman","Yaralarım deşmeye","Yar yar yar aman"],
