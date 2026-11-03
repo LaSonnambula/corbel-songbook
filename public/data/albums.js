@@ -2349,6 +2349,7 @@ window.ALBUMS = [
         note:"专辑开场曲，纯器乐前奏，为终曲《La Dame Blanche》（白衣夫人）的序引，无歌词。" },
       { t:"La Fille du Verseau", lang:["FR"],
         note:"专辑同名主打曲。歌者自述是「宝瓶座女神」——住在芦苇屋里、被常春藤环绕，与狍子、野兔、鹧鸪为伴；既能化身大地，又能与水中仙女（ondines）同游、潜入深渊（亚特兰蒂斯是她的摇篮），还能化作甲虫、蝴蝶飞越山谷，与星辰一同思考。她拒绝一切边界与束缚，守着孤独与静默，「无论别人怎么想，我就是宝瓶座女神」。副歌一再追问「我不明白为什么——为什么不试试去改变呢」。",
+        lore:"曲名「宝瓶座女神」（fille du Verseau）取自黄道第十一宫宝瓶座（Aquarius，「持水者」），星象学上宝瓶座象征特立独行、追求自由、拒绝束缚——正与歌中「拒绝一切边界，与万物相通」的形象相合。歌里「水中仙女」（ondines）是欧洲传说中的水之精灵，「亚特兰蒂斯是我的摇篮」则用柏拉图笔下沉入海底的失落文明亚特兰蒂斯，为这位与水、土、风、星辰皆能化身相通的女神平添神秘色彩。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Aquarius_(astrology)\" target=\"_blank\" rel=\"noopener\">Aquarius (宝瓶座)</a> · <a href=\"https://en.wikipedia.org/wiki/Atlantis\" target=\"_blank\" rel=\"noopener\">Atlantis</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Les chevreuils, les lapins et les perdreaux","Dissimulée par les feuilles, sauvage parmi les rameaux","Je vis entourée de lierre, ma maison est en roseau","Bien que j'incarne la terre, je suis fille du Verseau"],
@@ -2377,6 +2378,7 @@ window.ALBUMS = [
         ] },
       { t:"Dorso Draco", lang:["LA","FR"],
         note:"拉丁文标题意为「在龙背上」。Dragon（龙）指布列塔尼半岛的轮廓——生在龙背上的人，能听见大地、海洋、风，听见巨石阵（menhir）与阴影的歌，听见 Armorique（阿摩里卡，布列塔尼的古称）古老的歌谣、潮汐、乌鸦与白鸽、舒昂党人（chouans）的呐喊。结尾一句「我要活在我的土地上，父辈母辈的土地，直到长眠其下」。（每段首句末反复，标 bis。）",
+        lore:"歌里铺满了布列塔尼的符号：「阿摩里卡」（Armorique）是布列塔尼的拉丁古称，意为「海之国」；「menhir」是遍布布列塔尼、卡纳克一带的史前巨石（立石），凯尔特先民的遗迹；「舒昂党人」（chouans）则指法国大革命期间布列塔尼与曼恩地区保王党农民发动的反革命起义——「舒昂党运动」。这首歌把大地、巨石、起义呐喊都听成「阿摩里卡古老的歌谣」，是一曲浓烈的布列塔尼乡土认同之歌。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Chouannerie\" target=\"_blank\" rel=\"noopener\">Chouannerie (舒昂党运动)</a> · <a href=\"https://en.wikipedia.org/wiki/Menhir\" target=\"_blank\" rel=\"noopener\">Menhir</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Qui est né sur le dos du Dragon, entend la terre, que grande (bis)","Et entend le chant des menhirs, et celui, des ombres","Et les vieilles chansons d'Armorique","Et les vieilles chansons d'Armorique"],
@@ -2396,6 +2398,7 @@ window.ALBUMS = [
         ] },
       { t:"Cœur de Breizh", lang:["FR"],
         note:"「布列塔尼之心」（Breizh 即布列塔尼语的「布列塔尼」）。一位布列塔尼国王的独白：无论年岁、无惧死亡，双脚踏进马镫、跨上战马劈开云层；忠于自己的名声与誓言，即便战败被踏倒也甘愿踏上「远行」。副歌「听那逝去的时光，风的记忆，骑士们的记忆」。结尾人们会说这位老者从未失节，荣誉是他的行囊，这首歌是他的遗产。",
+        lore:"曲名「Breizh」是布列塔尼语里「布列塔尼」自己的名字——这片法国西北、伸入大西洋的半岛有独立的凯尔特语言与文化，历史上长期是独立的布列塔尼公国，直到 16 世纪才并入法国。歌借一位布列塔尼老王「忠于名声与誓言、战死方休」的独白，唱出这片土地骄傲的骑士精神与族群认同，「布列塔尼之心」正是对故土的赤诚。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Brittany\" target=\"_blank\" rel=\"noopener\">Brittany</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Je suis le Roi des Bretons, la mort d'aucune façon","n'entamera mon courage et qu'importe mon âge,","Les deux pieds dans l'étrier, chevauchant mon destrier","Pourfendant les nuages, gravé comme une image"],
@@ -2433,6 +2436,7 @@ window.ALBUMS = [
         ] },
       { t:"Lycanthrope", lang:["FR"],
         note:"「狼人」——又一首叙事民谣。歌者圣周里进城，路上遇见鲁索神父（l'abbé Rousseau），神父默默盯着他，告诉他一桩新闻：老马蒂兰（Mathurin）昨天打猎时被杀了，可一到夜里他又起身，回到那片「该诅咒的树林」里去——暗示他是化身为狼的狼人。神父叮嘱：若进林子，带上这把今早在神父宅邸祝圣过的「捕狼叉」，它能护你远离地狱；要提防表象、提防树木与石头，还有那些从黄昏到露水时分「哭泣着自己绝望、哀叹自己被罚入地狱」的野兽。（叠句每句反复，标 bis；每段 4 行结构。）",
+        lore:"这首叙事民谣写的是狼人（loup-garou / lycanthrope）传说——人受诅咒在夜间化身为狼。狼人信仰在近代早期的欧洲（尤其法国乡间）极为盛行，常与巫术、「巫魔夜会」（sabbat）的指控交织，16–17 世纪法国还发生过多起「狼人审判」。歌中祝圣过的武器、银弹能破咒等细节，都是这一传说的典型母题。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Werewolf\" target=\"_blank\" rel=\"noopener\">Werewolf (狼人)</a></span>",
         lyrics:[
           { role:"", chorus:true,
             orig:["Je suis allé à la ville, la semaine sainte (bis)"],
@@ -2480,6 +2484,7 @@ window.ALBUMS = [
         ] },
       { t:"Vanikoro", lang:["FR"],
         note:"「瓦尼科罗」——南太平洋所罗门群岛中的一座珊瑚岛，1788 年法国航海家拉佩鲁兹（La Pérouse）探险队的两艘船「罗盘号」（La Boussole）与「星盘号」（L'Astrolabe）在此触礁失踪，是法国航海史上著名的谜案。全曲是一声穿越时间的呼唤：「拉佩鲁兹先生，你在哪里？」（首段「Éole」为风神埃俄罗斯，与 Boussole 押韵。）",
+        lore:"这首歌唱的是法国航海史上最著名的谜案。1785 年，路易十六派拉佩鲁兹伯爵（Jean-François de La Pérouse）率「罗盘号」与「星盘号」做环球科考，船队远航三年、遍历太平洋，1788 年后却音讯全无。直到数十年后人们才在所罗门群岛的瓦尼科罗岛（Vanikoro）外礁发现两船残骸——它们在此触礁沉没。全曲那声跨越时空的「拉佩鲁兹先生，你在哪里」，便是对这桩悬案的深情叩问。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Lap%C3%A9rouse\" target=\"_blank\" rel=\"noopener\">Lapérouse</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Depuis si longtemps que j'attends","Des nouvelles des bâtiments","Que me donne un jour Éole","Des nouvelles de la Boussole","Vos navires ont-ils touché terre ?","Ou bien ont-ils péri en mer ?"],
@@ -2502,6 +2507,7 @@ window.ALBUMS = [
         ] },
       { t:"La Poudrière", lang:["FR"],
         note:"「火药桶」——一首反战歌。「他们备战、要我们上阵，屁股就坐在火药桶上，许多人回不来了」。歌者看清身边暗中酝酿的仇恨、纵火者般的煽动言辞、把地狱的火堆重新点燃的人；为了争斗，气氛变得恶毒，恐惧与愤怒被豢养。那些疯子嗜血成性，刀的、枪的、核武的，要把我们送进六尺黄土，人类的未来正滑向黄昏。歌者拒绝加入这些好战疯子的行列。反复质问「为什么？这一切？为了谁？为什么？」（叠句「On nous prépare…」多次反复。）",
+        lore:"这是一首直白的反战歌（protest song）。「坐在火药桶上」（le cul sur la poudrière）是法语里形容「身处一触即发之险境」的成语。歌点名煽动仇恨的纵火者、嗜血的好战者、从刀枪到核武的杀伐，质问「为什么、为了谁」，拒绝加入这场疯狂——延续了从《Le Déserteur》到《Universal Soldier》的欧美反战歌谣传统，在这张 2023 年的专辑里格外有现实回响。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Protest_song\" target=\"_blank\" rel=\"noopener\">Protest song (反战歌曲)</a></span>",
         lyrics:[
           { role:"Refrain", chorus:true,
             orig:["On nous prépare à la guerre","On nous prépare aux combats","Le cul sur la poudrière","Beaucoup n'en reviendront pas"],
@@ -2533,6 +2539,7 @@ window.ALBUMS = [
         ] },
       { t:"Fidelium", lang:["FR"],
         note:"标题「Fidelium」为拉丁文（「忠信者的」），歌曲以旺代战争（1793–1796，法国大革命中旺代地区的保王党天主教徒起义）为题。叙事者是旺代叛军（「insurgés」）一员：他们从格朗维尔一路退回旺代，共和军（「la république」）屠杀妇孺老弱、烧成焦土，叛军转而追击、攻下据点、俘获敌军。将军要把俘虏全部处决、不留活口，但莫尔塔涅的夫人们拍案而起，劝他们施以怜悯、莫陷入复仇——否则在末日审判时自己也难获赦免。叠句反复呼唤布列塔尼／旺代的守护者：仙女美露西娜（Mélusine）与圣米迦勒（Saint Michel）与你们同在。",
+        lore:"歌曲以旺代战争（War in the Vendée，1793–1796）为题——法国大革命期间，法国西部旺代一带信奉天主教的农民因反对征兵与打压教会而起义，遭共和国残酷镇压，死者估计达十七万，约占当地人口的五分之一，被后世称为近代史上惨烈的一页。叠句里的美露西娜（Mélusine）是法国民间传说中半人半蛇的水泽仙女、安茹王族的始祖，圣米迦勒（Saint Michel，大天使米迦勒）则是执剑的守护天使——二者并举，正是对这片土地与其亡者的庇佑之祈。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/War_in_the_Vend%C3%A9e\" target=\"_blank\" rel=\"noopener\">War in the Vendée</a> · <a href=\"https://en.wikipedia.org/wiki/Melusine\" target=\"_blank\" rel=\"noopener\">Melusine</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["En revenant de la virée, de Granville jusqu'à la Vendée (bis)","Nous pensions regagner nos âtres,","Peut-être nous réconcilier","Il restait peu d'hommes pour se battre","Une poignée de déterminés, disant qu'il fallait"],
@@ -2576,6 +2583,7 @@ window.ALBUMS = [
         ] },
       { t:"Extinction", lang:["FR"],
         note:"「灭绝」——一首以环境灾难为题的歌，副歌是一串口号式惊呼「警惕！愤慨！暴动！革命！警惕！污染！毁灭！灭绝！」。歌词点名布列塔尼／旺代一带的地名（圣纳泽尔、洛里昂、塔尔蒙-圣伊莱尔、圣让沼泽、坎佩尔、埃尔博迪耶等），以荒诞景象预言生态倒错：鸭子互掷石块、鸡张牙舞爪、水漫过边界、海洋变得凶残、一切逆流而行；当人类毁掉大地便会自相残杀，污染物流进土壤与海洋。末段讽刺「大人物们」一再拖延对地球的保护，直至「第七块大陆（指海洋垃圾带）」「第六次大灭绝」——「这不是什么转型，而是再无救赎，再见了！」（拟声衬词 lalala 按页保留。）",
+        lore:"末段的「第六次大灭绝」与「第七块大陆」各有所指。「第六次大灭绝」即「全新世灭绝」（Holocene extinction）——科学界用来称呼当下这场由人类活动造成、正在进行的物种大灭绝，与地质史上前五次大灭绝并列。「第七块大陆」则戏称「太平洋大垃圾带」（Great Pacific Garbage Patch）——漂浮在北太平洋、面积堪比大陆的海洋塑料垃圾聚集区。全曲以荒诞景象和口号式呐喊，敲响生态崩坏的警钟。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Holocene_extinction\" target=\"_blank\" rel=\"noopener\">Holocene extinction (第六次大灭绝)</a> · <a href=\"https://en.wikipedia.org/wiki/Great_Pacific_Garbage_Patch\" target=\"_blank\" rel=\"noopener\">Great Pacific Garbage Patch</a></span>",
         lyrics:[
           { role:"Refrain", chorus:true,
             orig:["Attention ! Indignation ! Sédition ! Révolution !","Attention ! Pollution ! Destruction ! Extinction !"],
@@ -2635,6 +2643,7 @@ window.ALBUMS = [
         ] },
       { t:"Le Louvetier", lang:["FR"],
         note:"「猎狼人」——一首民谣叙事体的歌。清晨，一位猎狼官持矛荷枪进入大森林打猎，却在林边听见哀鸣，发现一个倒地的男人自称是「巫魔夜会（sabbat）的受害者」，恳求他用一颗镀金的银弹结束自己的痛苦。猎狼人没有开枪，而是从背袋里取出斯佩尔特小麦面包递给他；狼人吃下面包后剧烈痉挛、变形，挣脱了月亮的恶咒，重新找回了自己的灵魂——是「以善意破咒」的温柔反转。（每段末句反复，标 bis。）",
+        lore:"标题「louvetier」是旧时法国专司猎狼的官职（louveterie 猎狼制度源远流长，法国至今仍保留「猎狼协理员」一职）。这首歌与同碟的《Lycanthrope》同写狼人（loup-garou）传说，却给了一个温柔的反转：按民间说法，让狼人吃下祝圣或特制的面包可解去恶咒——猎狼人没有开枪，而是递出一块斯佩尔特麦面包，以善意而非银弹破解了月亮的诅咒。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Werewolf\" target=\"_blank\" rel=\"noopener\">Werewolf (狼人)</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["C'était un maître louvetier, qui s'en allait chasser en plaine (bis)","Il s'en allait par le matin, armé d'un pique et d'un gourdin","A sa ceinture une cartouchière, et son fusil en bandoulière (bis)"],
@@ -2682,6 +2691,7 @@ window.ALBUMS = [
         ] },
       { t:"La Dame Blanche", lang:["FR"],
         note:"「白衣夫人」——布列塔尼／凯尔特民间传说里的幽灵女子，常在夜里现身林间小径。全曲是一首夜色氛围诗：夜降临小路与村庄，一扇门开向另一片风景，古老无年岁的橡树低语，旧墙边翻开新的一页；副歌里「我听见白衣夫人在栗树高枝上歌唱，白貂在榛树丛的深处轻颤」。末段写在绝望、看不见一丝光亮时，于心中寻一簇黑暗中的火焰，好让记忆与希望永不熄灭。",
+        lore:"「白衣夫人」（La Dame Blanche）是欧洲各地广为流传的女幽灵传说——一身白衣、夜里现身于荒路、城堡或林间，多与某桩旧日悲剧相连。作为专辑的终曲，它与开场的纯器乐前奏《Dame Blanche (Ouverture)》首尾呼应，为整张黑暗电影感的概念专辑合上一道朦胧的幽灵之幕；「白貂」（hermine）又恰是布列塔尼的纹章象征，暗暗落回这片土地。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/White_Lady\" target=\"_blank\" rel=\"noopener\">White Lady (白衣夫人)</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Quand la nuit s'en vient, sur nos petits sentiers","Sur nos petits chemins, du couvert forestier","Quand d'une main sombre, la nuit fait taire les chiens","Et s'éclipser les ombres jusqu'au prochain matin"],
