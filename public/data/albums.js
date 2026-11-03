@@ -1176,6 +1176,7 @@ window.ALBUMS = [
       {
         t:"Breathing You", lang:["EN"],
         note:"英语。飞越云端、寻找通往你心之路的空灵情歌，意象与《雪人》「Walking in the Air」相呼应。我将横渡辽阔的海洋去与你相会，直到时间的尽头——你的每一次呼吸里，我都在呼吸着你。",
+        lore:"桥段里的「Walking in the air so high」直接呼应了 1982 年英国动画片《雪人》（The Snowman）的主题曲《Walking in the Air》（Howard Blake 作）——那部几乎没有对白的动画，正是靠这首男童高音吟唱的歌传遍世界，唱的是雪人带小男孩飞越雪夜天空的梦境。Cécile 借这个意象，写一场飞越云端、奔向爱人的空灵之旅。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Walking_in_the_Air\" target=\"_blank\" rel=\"noopener\">Walking in the Air</a> · <a href=\"https://en.wikipedia.org/wiki/The_Snowman\" target=\"_blank\" rel=\"noopener\">The Snowman</a></span>",
         lyrics: [
           { role:"Verse 1", chorus:false,
             orig:["Let me find a way","To your heart","Can't you see the time has come","Under stormy skies","Find a way"],
@@ -1218,6 +1219,7 @@ window.ALBUMS = [
       {
         t:"Tristes noces", lang:["FR"],
         note:"「悲伤的婚礼」。一则暗黑叙事——一个女子为爱在六月的夜里成了凶手。舞会的小提琴旋转，宾客们身着绸缎起舞；被她所爱的负心人抛弃，她终结了这场婚礼。清晨她将失去一切装束，唯有死亡在她苍白的眼中闪烁。「温柔的士兵，暗影里温柔的狱卒，请听一听这为爱沉沦的女子。」",
+        lore:"这是一首典型的「谋杀歌谣」（murder ballad）——以叙事的笔法讲述一桩凶案的来龙去脉，往往出自被爱情背叛的妒恨。这类歌谣在英语与欧洲民谣传统里源远流长，常借凶手的自白来铺陈罪与罚。歌中女子在婚礼上由狱中向「温柔的狱卒」自陈，为爱成了凶手、甘愿赴死，正是这一传统的法语回声。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Murder_ballad\" target=\"_blank\" rel=\"noopener\">Murder ballad</a></span>",
         lyrics: [
           { role:"Refrain", chorus:true,
             orig:["Gentil soldat","Gentil geôlier dans l'ombre","Écoutez celle qui par amour devint","Assassine un soir de juin"],
@@ -1249,6 +1251,7 @@ window.ALBUMS = [
       {
         t:"Les passagers du vent", lang:["FR"],
         note:"「风的旅客」（专辑收尾曲，歌名亦是同名系列的意象）。血红的天空下，海鸟纷飞，一个孤独的女孩心事黑白分明，思绪像风中的墨滴悄然散去。她在堤岸等待启程的船——「玛丽，靠到我身边来，别去数那些时辰，爱会归来。」而她那些转瞬的爱恋，是否也是风的旅客？",
+        lore:"歌名「风的旅客」（Les Passagers du vent）令人想起法国漫画大师弗朗索瓦·布尔容（François Bourgeon）的同名历史漫画名作——以 18 世纪航海与奴隶贸易为背景、追随一名年轻女子漂泊的传奇，是欧洲图像小说的里程碑。歌中海港、堤岸、等船的女孩与「转瞬的爱恋是否也是风的旅客」的诘问，与那种大航海时代漂泊无依的气质一脉相通。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Fran%C3%A7ois_Bourgeon\" target=\"_blank\" rel=\"noopener\">François Bourgeon</a></span>",
         lyrics: [
           { role:"Couplet 1", chorus:false,
             orig:["Y a des oiseaux de mer","Sur le ciel rouge sang","Une fille solitaire","Le cœur en noir et blanc","Des pensées qui s'égarent en silence","Comme des gouttes d'encre sous le vent"],
@@ -1272,6 +1275,7 @@ window.ALBUMS = [
     songs: [
       { t:"Kamchatka", lang:["FR"],
         note:"堪察加（Kamchatka）——影片故事发生的远东半岛。这是一首母熊哄幼熊的摇篮曲：秋天已至，群山裹上寒衣，「闭上眼睛，睡进梦里吧；让北风把死亡与寒冷吹在门外，我守护着你，我的爱，你怀里这样暖，睡吧，夏天会回来」。后段母亲预感终有一天要与孩子分离，叮嘱它循着自己的脚步、别走远。",
+        lore:"堪察加半岛（Kamchatka）位于俄罗斯远东，夹在鄂霍次克海与太平洋之间，以连绵的活火山（联合国世界遗产）和广袤荒原著称，是棕熊等野生动物的王国。纪录片《熊之地》正取景于此，追随几头野生棕熊的四季生活。这首母熊哄幼熊的摇篮曲，便唱的是这片严寒却壮美的大地上，母兽护幼、终须别离的生命轮回。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Kamchatka_Peninsula\" target=\"_blank\" rel=\"noopener\">Kamchatka Peninsula</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Autour de nous","L'automne est déjà là","On voit les étoiles","Et là-bas","Les montagnes se cachent sous un manteau de froid","Ferme les yeux fort","Au milieu du rêve où tu t'endors"],
