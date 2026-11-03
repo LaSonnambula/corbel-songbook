@@ -18,6 +18,7 @@ window.ALBUMS = [
     songs: [
       { t:"An hini a garan", lang:["BR"],
         note:"「我所爱的人」——布列塔尼语经典传统情歌。我所爱的人，儿时同在村里、两小无猜，我的心只钟情于他一人；如今他去了远方谋生、再不回来，我便这样一遍遍唱着，唱给我所爱的人。（中文据 lyricstranslate 的英译转出。）",
+        lore:"这是布列塔尼（Bretagne）最广为传唱的传统情歌之一，源自法国西北部凯尔特文化区的瓦讷地区（Pays Vannetais），用布列塔尼语演唱——这是一门与威尔士语、康沃尔语同源的凯尔特语言，如今使用者已大为减少。Cécile Corbel 本人正是布列塔尼人，自幼成长于这一音乐传统，凯尔特竖琴也是贯穿她全部创作的乐器。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Breton_language\" target=\"_blank\" rel=\"noopener\">Breton language</a> · <a href=\"https://en.wikipedia.org/wiki/Brittany\" target=\"_blank\" rel=\"noopener\">Brittany</a> · <a href=\"https://en.wikipedia.org/wiki/Celtic_harp\" target=\"_blank\" rel=\"noopener\">Celtic harp</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["An hini a garan","Gwechall bihan er ger","Pa oamp tostig an eil","An eil ouzh egile","Va c'halon ne gare","Gare nemet unan","Pa oan bihan er ger","An hini a garan"],
@@ -31,6 +32,7 @@ window.ALBUMS = [
         ] },
       { t:"Bran", lang:["BR"],
         note:"「乌鸦」——布列塔尼语传统歌谣，与 SongBook vol.1《Bemnoz》同一文本来源（Bran 即布列塔尼语「乌鸦」）。凯尔卢昂（Kerlouan）战场荒原上一棵橡树，每到夜里海鸟便聚集其上——黑白羽毛、头上带着一滴血，一只灰黑的老母乌鸦领着一只小乌鸦一同飞来；它们从海那头远远飞来，双翅被打湿、精疲力竭，唱着一支歌，比辽阔大海的静默还要美。（中文据 lyricstranslate 的英译转出。）",
+        lore:"歌名 Bran 在布列塔尼语中意为「乌鸦」，而乌鸦（尤其渡鸦）在凯尔特神话里是萦绕战场、与死亡和预言相连的灵禽——威尔士神话中的巨人布兰（Brân the Blessed）其名正是「渡鸦」。歌中凯尔卢昂（Kerlouan）是布列塔尼北部菲尼斯泰尔（Finistère）海岸的真实村镇，荒原、橡树与夜聚的海鸟共同织出一幅凯尔特式的战场挽歌。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Cultural_depictions_of_ravens\" target=\"_blank\" rel=\"noopener\">Ravens in culture &amp; myth</a> · <a href=\"https://en.wikipedia.org/wiki/Br%C3%A2n_the_Blessed\" target=\"_blank\" rel=\"noopener\">Brân the Blessed</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["War vaez ar stourm e Kerlouan","Zo un dervenn a-us d'al lann","War un dervenn pa bar al loar","Bemnoz en em zastum evned mor"],
@@ -47,6 +49,7 @@ window.ALBUMS = [
         ] },
       { t:"Shir al Etz", lang:["HE"],
         note:"「树之歌」（שיר על עץ）——希伯来语，旋律源自著名的意第绪歌谣《Oyfn Veg Shteyt a Boym》（路边立着一棵树，Itzik Manger 词）。路边一棵树，树冠低垂，鸟儿都弃它而去、飞向南、西、也许东方，只剩风轻抚它低垂的树冠；孩子于是对母亲说：让我也变作一只鸟吧，我要飞到那树上、再不离开，为它啾唱一支欢快的歌，好安慰它。",
+        lore:"这首歌的蓝本是意第绪诗人伊齐克·曼格（Itzik Manger，1901–1969）的名诗《Oyfn Veg Shteyt a Boym》（「路边立着一棵树」）。诗中孩子想变成鸟去陪伴那棵被飞鸟弃离的树，母亲却忙着替他添衣，重重衣物压得他飞不起来——寻常读解为母爱的牵绊，也常被引申为流散中的犹太民族对故土的眷恋。曼格是二十世纪意第绪文学最重要的诗人之一，这首诗早已成为意第绪歌谣的经典。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Itzik_Manger\" target=\"_blank\" rel=\"noopener\">Itzik Manger</a> · <a href=\"https://en.wikipedia.org/wiki/Yiddish\" target=\"_blank\" rel=\"noopener\">Yiddish</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["על הדרך עץ עומד צמרתו תשוח","עזבוהו ציפוריו לאוושת הרוח","אל דרום ומערב ואולי מזרחה","רק הרוח ילטף צמרתו השחה"],
@@ -63,6 +66,7 @@ window.ALBUMS = [
         ] },
       { t:"Hija mia", id:"hija-mia", lang:["LAD"],
         note:"「我的女儿」——拉迪诺语（犹太-西班牙语／塞法迪传统）。一位母亲拦阻投海的女儿：我的女儿、我的心肝，别投进大海里，海正起着风暴，会把你卷走。女儿却答：随它卷我、随它带我到七寻深的海底，随黑沥青把我吞没吧——只为从爱里得救。副歌反复呼唤「我的女儿」。",
+        lore:"这是一首塞法迪（Sephardi）传统歌谣，用拉迪诺语（Ladino，又称犹太-西班牙语）演唱——那是 1492 年被逐出伊比利亚半岛的犹太人带走的十五世纪卡斯蒂利亚语，混入希伯来、土耳其、希腊等语成分，在地中海东岸的塞法迪社群里口耳相传了近五百年。母女对答、以投海抗拒无望之爱，是这一歌谣传统中反复出现的母题。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Judaeo-Spanish\" target=\"_blank\" rel=\"noopener\">Judaeo-Spanish (Ladino)</a> · <a href=\"https://en.wikipedia.org/wiki/Sephardic_Jews\" target=\"_blank\" rel=\"noopener\">Sephardic Jews</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Hija mia mi querida aman","Hija mia mi querida aman","No te echese a la mar","No te echese a la mar"],
@@ -82,6 +86,7 @@ window.ALBUMS = [
         ] },
       { t:"Je m'endors", lang:["FR"],
         note:"「我睡去」——法语，带有北美卡津（Cajun／路易斯安那法语）民谣色彩。困倦又饥渴，日已西沉、你却从远方归来；一句戏谑的问答「怎么了，金发美人？怎么了，褐发美人？——好的都归金发，褐发什么也捞不着」。中间一段唱克劳利（Crowley，路易斯安那地名）的人总在路上、图谋不轨，兜里揣着铅壶和废铁。",
+        lore:"这首歌带有浓厚的卡津（Cajun）民谣色彩。卡津人是 18 世纪被英国从加拿大阿卡迪亚驱逐、辗转迁入美国路易斯安那的法裔后裔，至今仍讲一种古法语方言，其音乐以提琴、手风琴和质朴的叙事著称。歌中「克劳利」（Crowley）正是路易斯安那的真实小城，被称为当地的「稻米之都」。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Cajun_music\" target=\"_blank\" rel=\"noopener\">Cajun music</a> · <a href=\"https://en.wikipedia.org/wiki/Cajuns\" target=\"_blank\" rel=\"noopener\">Cajuns</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Je m'endors, je m'endors et j'ai soif et j'ai faim.","Le soleil est couché et tu viens loin de la maison.","Qu'avez-vous, oui belle blonde ?","Qu'avez-vous, oui belle brune ?","C'est tout pour les blondes ;","c'est rien pour les brunes."],
@@ -106,6 +111,7 @@ window.ALBUMS = [
       {
         t:"Blackbird", lang:["EN"],
         note:"爱尔兰传统民谣（又名 I Am a Young Maiden）。被抛下的少女盼自己化作一只黑鸟，能鸣唱、能追随爱人远航的船，在桅顶筑巢，向他扑扇双翼。副歌全曲反复，此处只列一次。",
+        lore:"这是一首流传于爱尔兰与英格兰的传统民谣（又名 I Am a Young Maiden）。「愿化作飞鸟去追随远行爱人」是不列颠群岛民谣中极常见的母题——少女无力远赴重洋，只能借想象变成能自由飞翔的黑鸟，道尽被弃与思念。歌属口传民谣，并无确定作者，各地有不同的词曲变体。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Irish_traditional_music\" target=\"_blank\" rel=\"noopener\">Irish traditional music</a></span>",
         lyrics: [
           { role:"Verse 1", chorus:false,
             orig:["I am a young maiden, my story is sad","For once I was carefree and in love with a lad"],
@@ -130,6 +136,7 @@ window.ALBUMS = [
       {
         t:"Bemnoz", lang:["BR"],
         note:"布列塔尼语传统情歌（SongBook vol.1，Bemnoz 意为「每一夜」）。每夜就寝，我只是哭泣，思念着我所爱的人；我天天走进「爱之林」（Bois d'Amour / Coat-an-Amour），盼见你来打水，见你穿林而来，我便把心事留在树叶上。——你把秘密说给无足轻重的东西听，说给林中的树叶；一旦风雨来袭，你的秘密就散失了，年轻人。倒不如把它们写进我心里，它们会深深地留在那儿，我温柔的书生。（中文据 lyricstranslate 的英译转出。）",
+        lore:"又一首布列塔尼语传统情歌，与本集的《An hini a garan》同属 Cécile 家乡的凯尔特歌谣传统。歌中反复出现的「爱之林」（Coat-an-Amour，布列塔尼语 koad = 树林、karantez = 爱）是布列塔尼歌谣里典型的恋爱幽会之地；「把心事托付给树叶，终被风雨吹散」的意象，也呼应着当地口传情歌对脆弱爱情的咏叹。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Breton_language\" target=\"_blank\" rel=\"noopener\">Breton language</a> · <a href=\"https://en.wikipedia.org/wiki/Music_of_Brittany\" target=\"_blank\" rel=\"noopener\">Music of Brittany</a></span>",
         lyrics: [
           { role:"", chorus:false,
             orig:["Bemnoz bemnoz 'barz ma gwele pa 'c'h an","E-lec'h kousket nemet goelan na ran","E-lec'h kousket nemet goelan na ran","Pa au zonj din deuz an hini garan"],
@@ -148,6 +155,7 @@ window.ALBUMS = [
       {
         t:"The King of the Fairies", lang:["EN"],
         note:"取材自苏格兰传说人物「真实的托马斯」（True Thomas / Thomas the Rhymer，13 世纪厄尔斯顿的诗人预言家）。相传他随仙后走入精灵国度、七年后归返；埃尔登橡树下，龙生金翼、河流成乳、蜜与酒长流——精灵之王守着不可泄露的秘密。「Lully lullay」为古摇篮曲式的吟唱衬词。",
+        lore:"这首歌取材自苏格兰传说诗人「真实的托马斯」（Thomas the Rhymer，约 13 世纪）：他在艾尔登（Eildon）山下遇见仙后，被带入精灵国度，七年后归来，获得了不会说谎的预言之舌。歌中厄尔斯顿、金竖琴、七年、艾尔登橡树、须守秘缄默等全部出自这则民谣。多年后 Cécile 在专辑《Graal》里用法语重写了同一个故事，即《Le Roi des Fées》。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Thomas_the_Rhymer\" target=\"_blank\" rel=\"noopener\">Thomas the Rhymer</a></span>",
         lyrics: [
           { role:"Verse 1", chorus:false,
             orig:["Down in the village of Earlston","Lully lullay","True Thomas plays upon his harp","He turns his face to the sky","Lully lullay","With a story, sad story to tell"],
@@ -172,6 +180,7 @@ window.ALBUMS = [
       {
         t:"Auchindoun", lang:["SCO"],
         note:"古老的苏格兰民谣（Scots 方言），咏 1592 年 Willie MacIntosh 火烧 Auchindoun 城堡一事。「Halamachadoo…」一段为口传吟唱的拟声衬词，无实义，此处合并示意，实际演唱中多次反复。",
+        lore:"这首歌即苏格兰古民谣《Willie MacIntosh / The Burning of Auchindoun》（柴尔德民谣第 183 号）。历史背景是 1592 年苏格兰北部的氏族血仇：亨特利伯爵（Earl of Huntly）杀害了「俊美的莫雷伯爵」，作为其盟友的麦金托什氏族（Clan Mackintosh）遂焚毁了亨特利的奥金顿城堡以复仇。歌中威利不顾劝阻执意纵火、宁死不退，正是这段仇杀的回响。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Auchindoun_Castle\" target=\"_blank\" rel=\"noopener\">Auchindoun Castle</a></span>",
         lyrics: [
           { role:"Verse 1", chorus:false,
             orig:["As I cam' in by Fiddichside,","On a may morning","I spied Willie MacIntosh","An hour before the dawning"],
@@ -196,6 +205,7 @@ window.ALBUMS = [
       {
         t:"Le vent m'emporte", lang:["FR","BR"],
         note:"法语、爱尔兰盖尔语与布列塔尼语三语交织。「风把我带向别处」——风只编织谎言，在梦的深处歌唱；一面又一面镜子里，记忆与悔恨交叠。盖尔语句 Dún do shúil a rún mo chroí 意为「闭上你的眼吧，我心爱的人」；布列塔尼语句意为「我被带往海上……随风而去，在西方的岸边」。",
+        lore:"这是 Cécile 自己的创作，法语、爱尔兰盖尔语与布列塔尼语三语交织——恰是「凯尔特诸语」同源相连的缩影：盖尔语（爱尔兰、苏格兰）与布立吞语（布列塔尼、威尔士、康沃尔）同出一脉，却分属两大分支。歌中反复的盖尔语句「Dún do shúil a rún mo chroí」（闭上你的眼吧，我心爱的人）是盖尔语摇篮曲里的常见句式。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Celtic_languages\" target=\"_blank\" rel=\"noopener\">Celtic languages</a></span>",
         lyrics: [
           { role:"Couplet 1", chorus:false,
             orig:["Si le vent demeure ici","Dún do shúil a rún mo chroí","Il ne tisse que des mensonges","Il chante au creux des songes"],
@@ -217,6 +227,7 @@ window.ALBUMS = [
       {
         t:"She Moved Through the Fair", lang:["EN"],
         note:"著名的爱尔兰传统亡灵情歌。恋人许下婚约后离世，末段化作亡魂夜里归来，轻声重复那句「不会太久了，爱人，就到我们的婚期」。",
+        lore:"这是爱尔兰最著名的传统歌谣之一。现行歌词由诗人帕德里克·科拉姆（Padraic Colum）整理、音乐学家赫伯特·休斯（Herbert Hughes）采录，旋律古老而调式空灵。全曲最惊心的转折在末段：先前许婚的爱人其实已经亡故，夜里化作亡魂归来，轻轻重复那句「不会太久了，爱人，就到我们的婚期」——究竟是回忆还是鬼魂，歌里始终未点破。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/She_Moved_Through_the_Fair\" target=\"_blank\" rel=\"noopener\">She Moved Through the Fair</a></span>",
         lyrics: [
           { role:"Verse 1", chorus:false,
             orig:["My young love said to me, \"My mother won't mind","And my father won't slight you for your lack of kind\"","And she stepped away from me and this she did say","\"It will not be long, love, till our wedding day\""],
@@ -235,6 +246,7 @@ window.ALBUMS = [
       {
         t:"Three Ravens", lang:["EN"],
         note:"古英语叙事民谣（The Three Ravens，17 世纪）。三只乌鸦欲以战死骑士为食，却见忠犬伏于其脚、猎鹰盘旋守护，无鸟敢近；末段一头怀孕母鹿将骑士葬于晨祷前，自己也在暮祷时分死去。「Downe a downe…」为无实义的古调叠句。原文保留古英语拼写。",
+        lore:"《三只乌鸦》（The Three Ravens，柴尔德民谣第 26 号）最早见于 1611 年拉文斯克罗夫特编的歌集《Melismata》，但曲调应更古老。三只找腐肉的乌鸦议论何处可食，却发现战死骑士有忠犬守脚、猎鹰盘旋、怀孕母鹿安葬——以禽兽之忠反衬人世之凉，格调温柔。它另有一支基调冷峻、嘲讽尽失的苏格兰变体《Twa Corbies》（两只渡鸦），同样流传甚广。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/The_Three_Ravens\" target=\"_blank\" rel=\"noopener\">The Three Ravens</a></span>",
         lyrics: [
           { role:"Refrain 叠句", chorus:true,
             orig:["Downe a downe hay downe","They were as blacke as they might be","Downe a downe hay downe","With a downe derrie down derrie","Downe a downe hay downe","There were three ravens sat on a tree","Downe a downe hay downe","With a downe derrie downe"],
@@ -253,6 +265,7 @@ window.ALBUMS = [
       {
         t:"Red Rose", lang:["EN"],
         note:"改编自苏格兰诗人罗伯特·彭斯（Robert Burns）名诗《A Red, Red Rose》（1794）。以红玫瑰与乐曲喻爱，誓言纵使沧海枯竭、岩石熔于骄阳，此情不渝。保留 Scots 拼写（a'=all，wi'=with，o'=of）。",
+        lore:"歌词出自苏格兰民族诗人罗伯特·彭斯（Robert Burns，1759–1796）1794 年的名作《A Red, Red Rose》。彭斯一生热衷于采集、整理苏格兰民间歌谣，这首诗也是他听一位乡间姑娘吟唱后记录、润色而成。「直到沧海枯竭、岩石熔于骄阳，此爱不渝」已成英语世界里最经典的爱情誓言之一。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/A_Red,_Red_Rose\" target=\"_blank\" rel=\"noopener\">A Red, Red Rose</a> · <a href=\"https://en.wikipedia.org/wiki/Robert_Burns\" target=\"_blank\" rel=\"noopener\">Robert Burns</a></span>",
         lyrics: [
           { role:"Verse 1", chorus:false,
             orig:["My love's like a red rose","That's newly sprung in June","My love's like a melody","That's sweetly played in tune"],
@@ -274,6 +287,7 @@ window.ALBUMS = [
       {
         t:"C'hoant dimeziñ", lang:["BR"],
         note:"布列塔尼语传统歌谣（SongBook vol.1，歌名意为「想要出嫁」）。女儿与父母的对话：女儿说「我早就对你们——父亲、母亲——说过了，你们若不肯把我嫁出去、成全我的心愿，我就披上道袍、进修道院去；那我的那些追求者，就只能带着他们的念想留在原地了」；父母答「太年轻啦，我的女儿，我看你还太小，就已一心想着找个心上人」。（中文据 lyricstranslate 的法译转出。）",
+        lore:"又一首布列塔尼语传统歌谣，歌名 C'hoant dimeziñ 意为「想要出嫁」。少女吵着要嫁人、以进修道院相「要挟」，父母则笑她年纪尚小——这种父母与待嫁女儿的俏皮对唱，是欧洲各地婚恋民谣里常见的喜剧题材，在布列塔尼的口传歌谣中尤为生动。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Music_of_Brittany\" target=\"_blank\" rel=\"noopener\">Music of Brittany</a></span>",
         lyrics: [
           { role:"女儿", chorus:false,
             orig:["Gwerzo 'm eus laret deoc'h ma sad","Ha laret deoc'h ma mamm","Gwerzo 'm eus laret deoc'h ma sad","Ha laret deoc'h ma mamm"],
@@ -297,6 +311,7 @@ window.ALBUMS = [
       },
       { t:"Suil a roon", lang:["EN","GA"],
         note:"vol.1 第 1 曲。著名爱尔兰传统离别哀歌（Siúil a Rún）——英语主歌 + 爱尔兰盖尔语副歌。姑娘的爱人远赴法国从军，归期渺茫；她愿变卖纺车、渔具，为爱人买一柄钢剑。盖尔语叠句 Siúil a rún 意为「走吧，我的爱」：「悄悄地走、静静地走，走到门口、随我而逃，愿你平安，我的心上人」。副歌全曲反复，此处只列一次。",
+        lore:"《Siúil a Rún》是爱尔兰流传最广的传统歌谣之一，一说与 17 世纪末「野雁」（Wild Geese）——那批战败后流亡欧陆、为法国等国效力的爱尔兰士兵——有关。英语主歌夹着盖尔语副歌的「马卡罗尼体」，恰是爱尔兰语日渐式微、英语上升时期的语言印记。歌名意为「走吧，我的爱」：siúil 是「走！」的命令式，a rún 是「我的爱」。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Si%C3%BAil_a_R%C3%BAin\" target=\"_blank\" rel=\"noopener\">Siúil a Rún</a></span>",
         lyrics: [
           { role:"", chorus:false,
             orig:["I wish I were on yonder hill","(And) there I'd sit and cry my fill","(And) ev'ry tear would turn a mill","And a blessing walk with you, my love"],
@@ -316,6 +331,7 @@ window.ALBUMS = [
         ] },
       { t:"O stor mo chroi", lang:["EN"],
         note:"vol.1 第 6 曲。爱尔兰谣《A Stór Mo Chroí》（意为「我心之宝」，Brian O'Higgins 词），一首写给远行游子的思念之歌：异乡纵然明亮富丽、遍地黄金，你仍会思念故土与那份永不老去的爱；当暮霭笼罩山海，愿你回头望向爱尔兰的海岸、望向你留下的人——「回来吧，回到永远爱你的人身边」。",
+        lore:"歌名 A Stór Mo Chroí 为爱尔兰盖尔语，意为「我心之宝」，歌词由爱尔兰诗人布莱恩·奥希金斯（Brian O'Higgins）所作。它写的是爱尔兰近代史上绵延不绝的移民乡愁——19 世纪大饥荒后，数以百万计的爱尔兰人远渡重洋谋生，这类叮嘱游子莫忘故土、盼其归来的歌谣因而遍布爱尔兰的歌本。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Irish_diaspora\" target=\"_blank\" rel=\"noopener\">Irish diaspora</a></span>",
         lyrics: [
           { role:"", chorus:false,
             orig:["A stór mo chroí when you're far away","Far from the land you'll be leaving","It's many a time by night and by day","That your heart will be sorely grieving"],
@@ -332,6 +348,7 @@ window.ALBUMS = [
         ] },
       { t:"Dellum Down", lang:["EN"],
         note:"vol.1 第 10 曲。传统猎野猪谣——林中有一头会吃人肉、吸人血的野猪，Bangrum 拔出木刀发誓要取它性命；野猪凶猛来袭，破开橡树与白蜡树。「Dellum down」是无实义的叠句衬词。副歌与叠句反复，此处只列骨架。",
+        lore:"这首猎野猪谣是古民谣《Sir Lionel》（柴尔德民谣第 18 号）的后代。原谣讲骑士为救落难女子力斗吃人野猪、再与巨人较量的骑士传奇；传入北美后，逐渐褪去魔法与骑士色彩，演成《Old Bangum》《Bangum and the Boar》一路滑稽的变体——英雄只拿一把木刀，叠句也变作「Dellum down」这类无实义的衬词。本曲正是这一谐谑支系。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/List_of_the_Child_Ballads\" target=\"_blank\" rel=\"noopener\">Child Ballads (No. 18, Sir Lionel)</a></span>",
         lyrics: [
           { role:"", chorus:false,
             orig:["There is a wild boar in these woods","Dellum down, dellum down","There is a wild boar in these woods","He'll eat your meat and suck your blood","Dellum down, dellum down","Dellum down, dellum down"],
