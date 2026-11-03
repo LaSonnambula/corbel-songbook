@@ -370,6 +370,7 @@ window.ALBUMS = [
       {
         t:"La fille damnée", lang:["FR"],
         note:"哥特叙事谣：铁匠为一位来客钉马蹄，副歌里「被诅咒的姑娘」在夜里歌唱；随后揭晓——那来客竟是他死去埋葬的女儿 Jeanne 的亡魂，回来求父亲焚身、扬灰入风，方得超度。副歌全曲反复，此处只列一次。",
+        lore:"这首歌属于欧洲由来已久的「亡魂归返」（revenant）叙事传统：死者因未了的心愿或不得安息的冤屈重返人间，向生者道出真相、求得超度。焚身扬灰方能解脱的情节，也呼应着民间对「被诅咒的亡魂」须以火净化的古老观念。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Revenant\" target=\"_blank\" rel=\"noopener\">Revenant (亡魂归返)</a></span>",
         lyrics: [
           { role:"Couplet 1 — 对话", chorus:false,
             orig:["« Dis-moi combien, combien de deniers","forgeron, pour ferrer mon coursier ? »","« C'est cinq sols pour vous, mon prince","seulement cinq sols et un denier. »"],
@@ -394,6 +395,7 @@ window.ALBUMS = [
       {
         t:"Sans faire un bruit", lang:["FR"],
         note:"一则冬夜的叙事诗：骄傲的姑娘随无地骑士走到世界尽头，宁死不属于人，终在破晓前化作雪狐，消融于冬天。",
+        lore:"这是 Cécile 自己写的一则冬夜故事，笔法却深植于凯尔特与北方民间的「变形」传统——如同海豹人（selkie）、天鹅少女一类传说，少女宁可化身雪狐、消融于冬天，也不肯被人占有。拒绝束缚、回归自然本相，是这类变形母题反复咏唱的主题。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Shapeshifting\" target=\"_blank\" rel=\"noopener\">Shapeshifting (变形母题)</a></span>",
         lyrics: [
           { role:"Couplet 1", chorus:false,
             orig:["On raconte l'histoire d'une fille belle et fière,","D'un chevalier sans terre qui l'emmena","Il l'enlève tout au bord, au bord de la terre","À la frontière du nord elle le suivra"],
@@ -421,6 +423,7 @@ window.ALBUMS = [
       {
         t:"Elisabetha", lang:["FR"],
         note:"一名被指为女巫、即将于九月前被处以绞刑的女子的哀歌。人们说她的灵魂已然沉沦、被天使弃绝，说她能号令天雨、说她就是黑暗与邪恶。反复的「Elisabetha」是她的名字。",
+        lore:"歌中女子被指为女巫、将遭绞刑，正是近代早期（约 1400–1775 年）席卷欧洲的「猎巫」浪潮的缩影：其间约十万人被控行巫、数万人遭处决，而被定罪者约八成是女性，多为四十岁以上、孤身或不见容于乡里的妇人。「能号令天雨、就是黑暗与邪恶」这类罪名，正是当年强加于她们的典型指控。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Witch_trials_in_the_early_modern_period\" target=\"_blank\" rel=\"noopener\">Witch trials in the early modern period</a></span>",
         lyrics: [
           { role:"Couplet 1", chorus:false,
             orig:["Quand le jour s'achève","Sur le monde ici-bas","Quand la lune est ronde","Il y a des ombres","Mêlées à mes pas","Des tapis de brume"],
@@ -463,6 +466,7 @@ window.ALBUMS = [
       {
         t:"Painted Veil", lang:["EN"],
         note:"「画中面纱」——迷恋于虚妄幻影的三重变奏：老实人爱上一位姑娘、高贵者觊觎财富、少女沉溺于水中自己的倒影。三者都爱上了一个影子、一层画出来的面纱，把爱人囚于金笼，多年绝望，到头来连对方的名字都不知道。",
+        lore:"全曲三段都在咏叹「爱上一个影子」的虚妄。第三段「少女日复一日凝望水中自己的脸」直接呼应希腊神话里的那喀索斯（Narcissus）——那位俊美青年迷恋上水中自己的倒影，凝视至死，化为水仙花，「自恋」（narcissism）一词即由此而来。歌名「画中面纱」（painted veil）则令人想起雪莱同名十四行诗对世人所披幻象的吟咏。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Narcissus_(mythology)\" target=\"_blank\" rel=\"noopener\">Narcissus (那喀索斯)</a></span>",
         lyrics: [
           { role:"Verse 1 — 老实人", chorus:false,
             orig:["Once there was an honest man","Fallen in love with a bonny maid","He spread gold and flowers in her hair","A painted veil","She's a painted veil"],
@@ -487,6 +491,7 @@ window.ALBUMS = [
       {
         t:"I See the Great Mountains", lang:["GD","EN"],
         note:"改编自苏格兰盖尔语思乡名谣《Chì Mi na Mòrbheanna》（John Cameron 作，「远方的山」）。盖尔语叠句 O chì, chì mi na mòrbheanna 意为「我望见，我望见那壮阔的群山」；主歌为英译，游子遥望故乡的荒野、森林、雾中的鹿群，听见母语之声，那比黄金更珍贵。",
+        lore:"这首歌改编自苏格兰盖尔语思乡名谣《Chì Mi na Mòrbheanna》（英语又名「The Mist Covered Mountains」雾锁群山），由巴拉胡利什（Ballachulish）的高地人约翰·卡梅伦（John Cameron / Iain Camshron）作于 1856 年。它唱尽离乡苏格兰高地人对故土山川的眷恋——苏格兰盖尔语是高地与赫布里底群岛的母语，在「高地清洗」等历史变迁后使用者锐减，这类思乡歌谣也因而格外深情。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Scottish_Gaelic\" target=\"_blank\" rel=\"noopener\">Scottish Gaelic</a> · <a href=\"https://en.wikipedia.org/wiki/Highland_Clearances\" target=\"_blank\" rel=\"noopener\">Highland Clearances</a></span>",
         lyrics: [
           { role:"Refrain 盖尔语叠句", chorus:true,
             orig:["O chi chi mi na morbheanna","O chi chi mi na corrbheanna","O chi chi mi na coireachan","Chi mi na sgorran fo cheo"],
@@ -502,6 +507,7 @@ window.ALBUMS = [
       {
         t:"En la mar", lang:["ES"],
         note:"西班牙语（塞法迪犹太/地中海传统风）情谣。海中一座塔，塔上一扇窗，窗里一位爱慕水手的姑娘。「给我你的手，鸽子」——求登上她的巢，与独眠的她相伴。",
+        lore:"这首西班牙语情谣带有浓郁的塞法迪（Sephardi）地中海歌谣风味。塞法迪犹太人被逐出西班牙后，把古西班牙语（拉迪诺语）与伊比利亚的旋律带往地中海沿岸，在那里与当地曲调交融，形成缠绵悠远的塞法迪歌谣传统——海、塔、窗与思慕水手的姑娘，正是其中反复出现的意象。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Sephardic_music\" target=\"_blank\" rel=\"noopener\">Sephardic music</a></span>",
         lyrics: [
           { role:"Copla 1", chorus:false,
             orig:["En la mar hay una torre","En la torre una ventana","En la ventana hay una hija","Que a los marineros ama"],
@@ -522,6 +528,7 @@ window.ALBUMS = [
       },
       { t:"Mary", lang:["EN"],
         note:"vol.2 第 1 曲。女水手玛丽的叙事悲歌。玛丽是个水手、梦想北方的海岸与失落的宝藏，一个男人一次次来敲门求婚——「来了、试过、又转身离去」，一遍遍问「玛丽，你愿嫁给我吗？」。可有一天玛丽出海溺亡、长眠海底；男人苦苦等待、思念她的脸，爱人从此永不能与他成婚。副歌「Knockin' on the door…」全曲反复，此处只列一次。",
+        lore:"这是 Cécile 自己写的一则海事悲歌，却承袭了不列颠群岛「水手民谣」（sea shanty / sea song）的古老母题：出海、思念、以及最教人心碎的「爱人溺亡海底、生者苦等不归」。把心上人设为女水手、女海盗，则为这一传统添了一抹反转。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Sea_shanty\" target=\"_blank\" rel=\"noopener\">Sea shanty &amp; sea songs</a></span>",
         lyrics: [
           { role:"Verse 1", chorus:false,
             orig:["Mary is a sailor","Dreaming of northern shores","Lost galleons on the sea","Mary ever on her way"],
@@ -577,6 +584,7 @@ window.ALBUMS = [
         ] },
       { t:"The Great Selkie", lang:["EN"],
         note:"vol.2 第 10 曲。著名的苏格兰／奥克尼传统谣（The Great Silkie of Sule Skerry）——海豹人（selkie / silkie）传说：一位人间乳母独自唱着摇篮曲，孩子的父亲忽然现身，自陈「我在陆上是人，在海里是海豹，家在苏尔礁（Sule Skerry）」；他留下一袋金子换走幼子，说某个晴朗夏晨会回来带走儿子、教他游泳踏浪。原文保留 Scots 古拼写（bairn=孩子、na weel=不好、quothe=说道）。",
+        lore:"这首歌即苏格兰奥克尼、设得兰群岛的古民谣《The Great Silkie of Sule Skerry》（柴尔德民谣第 113 号），讲的是海豹人（selkie / silkie）传说：这种生灵在海中是海豹、上岸即脱皮化为人形。歌中海豹人留金换走与人间女子所生的孩子，并预言孩子日后会随他入海——selkie 故事多以人神殊途的哀伤收场，是苏格兰海岛文化里最动人的母题之一。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/The_Great_Silkie_of_Sule_Skerry\" target=\"_blank\" rel=\"noopener\">The Great Silkie of Sule Skerry</a> · <a href=\"https://en.wikipedia.org/wiki/Selkie\" target=\"_blank\" rel=\"noopener\">Selkie</a></span>",
         lyrics: [
           { role:"", chorus:false,
             orig:["An earthly nurse she sits and sings","And aye she sings, \"Ba lily wein","Little I know my bairn's father","Far less the land that he lives in.\""],
@@ -599,6 +607,7 @@ window.ALBUMS = [
         ] },
       { t:"Raggle Taggle Gypsy", lang:["EN"],
         note:"vol.2 第 11 曲。著名的英／爱传统谣。三个吉普赛人来到门前唱歌，贵妇换上皮衣随他们私奔；领主归来追寻，骑遍东西南北，终在旷野寻见她。他质问她怎能抛下鹅绒床、新婚夫君与家产钱财，她答「这些我都不在乎，今夜我宁躺在旷野、在吉普赛人怀里，只求那黄脸吉普赛人一个吻」。「raggle taggle」意为衣衫褴褛、放荡不羁。",
+        lore:"这是不列颠群岛最脍炙人口的叙事民谣之一（柴尔德民谣第 200 号，又名 The Gypsy Laddie、Black Jack Davy 等），在英格兰、苏格兰、爱尔兰乃至北美有无数变体。贵妇抛下锦衣玉食与明媒正娶的夫君、随流浪的吉普赛人私奔——以自由对抗门第与财富的诱惑，正是它历久不衰的魅力所在。「raggle taggle」意为衣衫褴褛、放荡不羁。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/The_Raggle_Taggle_Gypsy\" target=\"_blank\" rel=\"noopener\">The Raggle Taggle Gypsy</a></span>",
         lyrics: [
           { role:"Verse 1", chorus:false,
             orig:["There were three old gypsies came to our house door","They came brave and boldly-o","And one sang high and the other sang low","And the other sang a raggle taggle gypsy-o"],
@@ -630,6 +639,7 @@ window.ALBUMS = [
         ] },
       { t:"Corpus Christi Carol", lang:["EN"],
         note:"vol.2 第 12 曲。中世纪英语圣诗（约 16 世纪）。神秘而朦胧的意象：一只猎鹰衔走了「我的爱侣」，把她带进一座果园；园中一座紫金帷幔的厅堂，厅里一张红金织就的床，床上躺着一位日夜淌血的骑士，床边跪着一位昼夜哭泣的少女——历来多被解读为对基督受难与圣杯的隐喻。叠句「Lu-li-lu-lay」是古摇篮曲式的吟唱衬词。原文保留中古/仿古英语拼写。",
+        lore:"《基督圣体颂》（Corpus Christi Carol）是一首中古英语圣诗，最早由一位名叫理查德·希尔的杂货学徒在 1504–1536 年间抄录下来。诗中淌血不止的骑士、哭泣的少女与神秘果园，历来多被解读为对基督受难与圣杯的隐喻（床上骑士即基督，少女或为圣母或抹大拉的马利亚）。它在民间流传中还衍生出圣诞颂歌《Down in Yon Forest》。Jeff Buckley 的翻唱使它为当代听众所熟知。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Corpus_Christi_Carol\" target=\"_blank\" rel=\"noopener\">Corpus Christi Carol</a></span>",
         lyrics: [
           { role:"Intro", chorus:false,
             orig:["He bear her off, he bear her down","He bear her into an orchard ground"],
