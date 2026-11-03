@@ -808,6 +808,7 @@ window.ALBUMS = [
       {
         t:"Les Capitaines", lang:["FR"],
         note:"法语。孤独的水手向月亮微笑，眼里只映着大海；远航的船长们一去不返。她盼有一天他能爱上自己，却又劝人别听浪谷深处海妖的歌声——「笔直而骄傲，大海的骑士」。",
+        lore:"副歌里「别去听海妖的歌声」典出希腊神话的塞壬（Siren）——半人半鸟（后世多作人鱼）的海之精灵，以曼妙歌声诱使过往水手触礁丧命。《奥德赛》里奥德修斯命人以蜡封耳、将自己缚于桅杆，才得以听其歌而不至丧命。这一「致命的歌声」早已成为「危险诱惑」的永恒象征，与歌中痴恋远航船长的孤独水手彼此映照。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Siren_(mythology)\" target=\"_blank\" rel=\"noopener\">Siren (塞壬)</a></span>",
         lyrics: [
           { role:"Couplet 1", chorus:false,
             orig:["Il sourit à la lune - elle est","Sa compagne d'infortune -- ce soir","Si dans ces yeux on voit la mer - souvent","C'est qu'il ne rêve que d'océan"],
@@ -831,6 +832,7 @@ window.ALBUMS = [
       },
       { t:"The Riddle", lang:["EN"],
         note:"Nik Kershaw 1984 年作品的翻唱。",
+        lore:"原曲是英国歌手尼克·克肖（Nik Kershaw）1984 年的热门单曲，曾登上英国榜前三。它最为人津津乐道的，是歌词的「无意义」之谜：当年唱片公司为造声势，暗示词中藏着待解的谜题，引得乐迷纷纷猜解；克肖本人后来澄清，这些句子是他随性拼凑、刻意不作铺陈的超现实意象，「根本没有谜底」。因此这首歌该当成一幅声音的拼贴来听，而非寻常叙事。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/The_Riddle_(Nik_Kershaw_song)\" target=\"_blank\" rel=\"noopener\">The Riddle (Nik Kershaw song)</a></span>",
         lyrics:[
           { role:"Verse 1", chorus:false,
             orig:[ "I've got two strong arms, blessings of Babylon", "It's time to carry on our try for sins and false alarms", "Sold in America the brave", "Wise men, save"],
@@ -872,6 +874,7 @@ window.ALBUMS = [
       {
         t:"Jenovefa", lang:["EN"],
         note:"布列塔尼传说悲歌（歌名 Jenovefa 即布列塔尼语的「热诺薇法／Geneviève」，歌词为英语）。康沃尔公爵之女热诺薇法深爱 Kerblez 的 Yannick，他却已成为 Nizon 的神父、归于上帝。她跪求无果，郁郁而终；此后神父常独立于墓碑之间，在她坟前哭泣。",
+        lore:"这首歌带有布列塔尼「gwerz」的叙事风味——gwerz 是布列塔尼语里专唱悲剧、惨祸与殉情的古老叙事歌谣，常取材于真实或传说中的不幸。歌名 Jenovefa 是布列塔尼语的「热诺薇法」（即 Geneviève），令人想起中世纪传说中蒙冤的布拉班特圣女热诺薇法；曲中尼宗（Nizon）确为布列塔尼真实地名，更添几分在地传说色彩。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Gwerz\" target=\"_blank\" rel=\"noopener\">Gwerz (布列塔尼叙事歌谣)</a> · <a href=\"https://en.wikipedia.org/wiki/Genevieve_of_Brabant\" target=\"_blank\" rel=\"noopener\">Genevieve of Brabant</a></span>",
         lyrics: [
           { role:"Verse 1", chorus:false,
             orig:["The Duke of Cornwall has pretty daughters","Jenovefa by far is the prettiest","She deeply loves Yannick of Kerblez","She has deeply loved him for many years"],
@@ -895,6 +898,7 @@ window.ALBUMS = [
       },
       { t:"Garden District", lang:["FR"],
         note:"vol.4 第 4 曲（歌名英语——新奥尔良的花园区，歌词法语）。一首关于占卜女巫的暗色歌：夜幕与征兆降临，她穿上「懂得起舞者」的灰袍，以纸牌、蜡与炭在暗中施术、凭空造出一个情人；「恶在我灵魂里燃烧，无火的燃烧」，画十字、在沙上留痕，牌里的王后、侍从与国王向她低语。",
+        lore:"歌名「花园区」（Garden District）是美国新奥尔良的著名街区，歌中「巫术玩偶、纸牌、蜡与炭、白魔法」等意象，指向当地独有的路易斯安那伏都教（Louisiana Voodoo）——它由西非约鲁巴信仰、海地伏都与天主教在克里奥尔社会中交融而成，以护身符、占卜和仪式著称。新奥尔良法语区浓郁的神秘氛围，正是这首暗色法语歌的底色。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Louisiana_Voodoo\" target=\"_blank\" rel=\"noopener\">Louisiana Voodoo</a></span>",
         lyrics: [
           { role:"", chorus:false,
             orig:["Vienne la nuit, viennent les signes","Poupée esprit, trois aiguilles fines","Je porte les robes grises de","Celles qui savent la danse"],
@@ -927,6 +931,7 @@ window.ALBUMS = [
         ] },
       { t:"Folia", lang:["Instr."],
         note:"vol.4 第 6 曲。纯器乐曲，无歌词。",
+        lore:"曲名 Folia（西语 La Folía）是欧洲音乐史上最古老、流传最广的一组固定和声进行之一，15 世纪末起源于伊比利亚半岛，最初是一种近乎癫狂的热烈舞曲（folía 本义即「疯狂」）。此后数百年里，科雷利、维瓦尔第、吕利等无数作曲家都以这组和声写过变奏，使它成为巴洛克音乐的标志性主题。Cécile 以竖琴奏此古调，正是向这一传统致意。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Folia\" target=\"_blank\" rel=\"noopener\">Folia (古老曲式)</a></span>",
         lyrics:[
           { role:"", chorus:false, orig:["（纯音乐 · 无词）"], trans:["—"] },
         ] },
@@ -956,6 +961,7 @@ window.ALBUMS = [
         ] },
       { t:"À Suivre", lang:["FR"],
         note:"vol.4 第 9 曲。标题意为「待续」。风把风暴抛向的地方，离散的恋人迷失了自己；那些缄口不言、藏起来的事，要在字里行间去读。我问过智者、问过书本，它们什么也没说；「而为了我们的故事，我写下『待续』——在菲尼斯泰尔（Finistère，布列塔尼语「大地尽头」），我等着雨落下」。桥段里她誓要驱走那些陌生的神、岛上所有的龙。副歌与副歌前段反复，此处只列一次。",
+        lore:"副歌里的菲尼斯泰尔（Finistère）是布列塔尼最西端的省份，名字源自拉丁语 finis terrae——「大地的尽头」，面朝大西洋，是法国本土最西的陆角，自古被视作已知世界的边界。Cécile 本人正是菲尼斯泰尔人。在「大地尽头」等一场雨、为未了的故事写下「待续」，地理的尽头与情感的悬念就此叠合。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Finist%C3%A8re\" target=\"_blank\" rel=\"noopener\">Finistère</a></span>",
         lyrics: [
           { role:"Verse", chorus:false,
             orig:["Là où le vent a jeté les orages","Se perdent les amants désunis","Ce que l'on tait ce que l'on cache","À lire entre les lignes"],
