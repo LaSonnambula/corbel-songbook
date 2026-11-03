@@ -1631,6 +1631,7 @@ window.ALBUMS = [
     songs: [
       { t:"Trois bateaux", lang:["FR","GA"],
         note:"专辑《Enfant du vent》（风之子）2019，多为轻盈的童谣、摇篮曲与合唱，含数首日文／宫崎骏动画相关曲。开篇「三条小船」——冬日清晨，海上驶来三艘满载金银的船，船长正是我的爱人。中间穿插的盖尔语「Dúlamán…」出自爱尔兰传统海藻歌，此处作衬词。",
+        lore:"「我看见海上有三艘船」的意象，呼应英语世界古老的圣诞颂歌《I Saw Three Ships》——同样以冬日清晨驶来的三船开篇、钟乐齐鸣迎所爱归来。中段穿插的盖尔语「Dúlamán na binne buí, dúlamán Gaelach」则取自爱尔兰传统海藻歌《Dúlamán》（dúlamán 意为可食的墨角藻），唱的是昔日爱尔兰海岸采海藻的生计。两股海洋民谣传统就此交织。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/D%C3%BAlam%C3%A1n\" target=\"_blank\" rel=\"noopener\">Dúlamán</a> · <a href=\"https://en.wikipedia.org/wiki/I_Saw_Three_Ships\" target=\"_blank\" rel=\"noopener\">I Saw Three Ships</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["J'ai vu trois bateaux sur la mer","Trois voiles au vent sur l'océan","J'ai vu trois bateaux sur la mer","Au premier matin de l'hiver"],
@@ -1656,6 +1657,7 @@ window.ALBUMS = [
         ] },
       { t:"Grains de sable", lang:["FR"],
         note:"「沙粒」，与 Chorale Anima 合唱团合作。一首哄睡的摇篮曲——写给在沙滩上堆城堡的野孩子，愿睡魔（marchand de sable，法语「撒沙人」即睡神）守护他入梦，母亲像谢赫拉查德一样讲不完的故事；而时光如沙般流走，孩子终会长大、去征服世界，忘了那些被浪拍碎的沙堡。",
+        lore:"歌中「撒沙人」（marchand de sable）是法语里的睡神——相传他趁孩子困倦时撒下魔沙，使人眼皮发涩、安然入梦，即英语世界的 Sandman。母亲「像谢赫拉查德一样讲不完的故事」则用典《一千零一夜》：宰相之女谢赫拉查德每夜向国王讲一个讲不完的故事，以悬念保住性命、连讲一千零一夜。沙、睡神与无尽的故事，共同织成这首哄睡曲。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Scheherazade\" target=\"_blank\" rel=\"noopener\">Scheherazade</a> · <a href=\"https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights\" target=\"_blank\" rel=\"noopener\">One Thousand and One Nights</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Toi mon bel enfant sauvage","Intrépide sur la plage","Tu bâtis éphémères sur le rivage","Des citadelles de vent","Des châteaux de sable","Battus par les vagues"],
@@ -1672,6 +1674,7 @@ window.ALBUMS = [
         ] },
       { t:"Vent frais", lang:["FR"],
         note:"「清新的风」，与 Chorale Anima 合唱团合作。法语经典轮唱童谣，短短一段反复吟唱、层层叠入。此处全曲反复六遍，只列一段。",
+        lore:"《Vent frais》是法语世界家喻户晓的轮唱（canon）童谣——同一段短短的旋律由数个声部先后错开进入、层层叠加，是教孩子合唱、感受和声的经典启蒙曲。词句极简：清晨的风、松树梢头、走进大风里的欢畅，纯是对自然与歌唱之乐的礼赞。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/French_folk_music\" target=\"_blank\" rel=\"noopener\">French folk music</a></span>",
         lyrics:[
           { role:"全曲反复", chorus:true,
             orig:["Vent frais,","vent du matin,","vent qui souffle aux sommets des grands pins.","Joie du vent qui souffle.","Allons dans le grand vent."],
@@ -1679,6 +1682,7 @@ window.ALBUMS = [
         ] },
       { t:"Petit fantôme", lang:["FR"],
         note:"「小幽灵」——一首极沉痛的歌。母亲对着一个被迫分离、如今只存于照片与记忆里的孩子低语。「Magdalene Laundry（抹大拉洗衣所）」指爱尔兰历史上强制收容未婚母亲、并夺走其婴儿的教会机构，是理解这首歌的关键背景。",
+        lore:"这首歌的沉痛来自一段真实的爱尔兰黑历史：「抹大拉洗衣所」（Magdalene Laundries）是 18 至 20 世纪由天主教修会经营的收容所，未婚先孕、被视作「堕落」的女性被强制送入、无偿劳作，她们的婴儿往往被强行带走、送养他人。歌中年轻母亲在戈尔韦产子、十年来只能对着照片思念被夺走的孩子，正是千万名受害女性的缩影。爱尔兰政府直到 2013 年才就此正式道歉。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Magdalene_laundries_in_Ireland\" target=\"_blank\" rel=\"noopener\">Magdalene laundries in Ireland</a></span>",
         lyrics:[
           { role:"Verse 1", chorus:false,
             orig:["T'es né sous un ciel gris","Dans la baie de Galway","J'étais jeune, si jeune et toi","Si petit, si petit"],
@@ -1710,6 +1714,7 @@ window.ALBUMS = [
         ] },
       { t:"Tonari No Totoro", lang:["JP"],
         note:"《龙猫》（となりのトトロ）片尾曲翻唱，与 Chorale Anima 合唱团合作。原曲作词宫崎骏、作曲久石让、原唱井上あずみ。（lyricstranslate 页面只收录了开头两段，此处仅录该部分。）",
+        lore:"这是吉卜力动画《龙猫》（となりのトトロ，1988，宫崎骏导演）的同名片尾曲，久石让作曲、宫崎骏作词、井上あずみ原唱。龙猫是只住在森林里、只有孩子才能看见的温柔精灵，早已成为吉卜力乃至整个日本动画的标志性形象。Cécile 本人正是宫崎骏的乐迷——她也为宫崎骏监制的《借东西的小人阿莉埃蒂》配乐并演唱主题曲，这首翻唱便是她对吉卜力的一次致敬。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/My_Neighbor_Totoro\" target=\"_blank\" rel=\"noopener\">My Neighbor Totoro</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["だれかが こっそり","小路に 木の実 うずめて","ちっさな芽 生えたら","秘密の暗号 森へのパスポート","すてきな冒険はじまる"],
@@ -1755,6 +1760,7 @@ window.ALBUMS = [
         ] },
       { t:"Sayonara No Natsu", lang:["JP","FR"],
         note:"「さよならの夏 ～コクリコ坂から～」，吉卜力动画《虞美人盛开的山坡》（来自虞美人之坂，2011）片尾曲，与岩佐美咲（Misaki Iwasa）合作的日／法双语版：日文原词与 Cécile 填的法文词交替吟唱。译文里日文段、法文段我都译出。",
+        lore:"这是吉卜力动画《虞美人盛开的山坡》（コクリコ坂から，英文名 From Up on Poppy Hill，2011，宫崎吾朗导演、宫崎骏编剧）的片尾曲《再见的夏天》。影片以 1963 年东京奥运前夕的横滨为背景，讲一对高中生在守护老校舍过程中萌生的青涩情愫。这首日／法双语版由 Cécile 与岩佐美咲合作，为这首怀旧的夏日恋歌添了一重法语的温柔。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/From_Up_on_Poppy_Hill\" target=\"_blank\" rel=\"noopener\">From Up on Poppy Hill</a></span>",
         lyrics:[
           { role:"（日）", chorus:false,
             orig:["光る海に","かすむ船は","さよならの汽笛","のこします"],
@@ -1795,6 +1801,7 @@ window.ALBUMS = [
         ] },
       { t:"V'là l'bon vent", lang:["FR"],
         note:"法语传统童谣「好风来了」，与 Natasha St Pier 合作。歌唱池塘边三只鸭子，国王之子用银枪射死了白鸭——被射中的白鸭眼里落出钻石、嘴里吐出金银。是法语世界家喻户晓的老儿歌。",
+        lore:"《V'là l'bon vent》（又名《Le canard blanc》白鸭）是一首至少三百年历史的法语-加拿大传统歌谣，属「三只鸭子」（trois canards）母题，异文多达上百种，由早年法国移民带往魁北克、世代传唱。欢快的曲调下其实藏着一则残酷的小寓言：王子射杀了心爱的白鸭，鸭子却从眼里落出钻石、嘴里吐出金银——童趣与哀婉奇妙交织。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/French_folk_music\" target=\"_blank\" rel=\"noopener\">French folk music</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Derrière chez nous y'a un étang,","Trois beaux canards s'y vont nageant."],
@@ -1861,6 +1868,7 @@ window.ALBUMS = [
         ] },
       { t:"Maypole", lang:["EN"],
         note:"英语。取材自电影《异教徒》（The Wicker Man）的「Maypole Song」，一首层层累加的生命循环歌谣：树→枝→杈→巢→蛋→鸟→羽→床→少女→男人→种子→男孩→男人→坟→树，如此周而复始。「summerisle」（夏日之岛）是片中地名。",
+        lore:"这首歌取自 1973 年英国民俗恐怖片经典《异教徒》（The Wicker Man）中的「Maypole Song」（Paul Giovanni 作）。影片讲一名警探前往苏格兰小岛「夏日之岛」（Summerisle）查案，却落入岛上异教徒以活人献祭丰收的圈套。五月柱（maypole）是欧洲古老的丰饶崇拜象征，歌词「树→鸟→床→少女→男人→坟→树」层层累加、循环不息，咏的正是生死轮转、生生不灭的自然信仰。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/The_Wicker_Man\" target=\"_blank\" rel=\"noopener\">The Wicker Man</a> · <a href=\"https://en.wikipedia.org/wiki/Maypole\" target=\"_blank\" rel=\"noopener\">Maypole</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["In the wood there grew a tree","And a fine, fine tree was he","On that tree, there was a limb","On that limb, there was a branch","On that branch, there was a nest","In that nest, there was an egg","In that egg, there was a bird","From that bird, a feather came","Of that feather was","A bed"],
@@ -1910,6 +1918,7 @@ window.ALBUMS = [
         ] },
       { t:"Le chant de l'alouette", lang:["FR"],
         note:"「云雀之歌」——法语／魁北克传统叠歌（chanson à répondre）。被差去树上采果，却光顾着找鸟窝，踩断了鹌鹑的翅膀，反被骂「臭丫头」还嘴。每段以固定叠句「听着云雀歌唱，我半醒半睡……」收束。此处叠句反复，按叙事分段。",
+        lore:"这是一首法语-加拿大的传统「应答歌」（chanson à répondre）——每段后半句重复前段，领唱与众人一唱一和、环环相扣，是魁北克民间聚会上最常见的歌唱形式，便于劳作或围炉时齐声接唱。歌里顽皮孩子上树不采果、反踩断鹌鹑翅膀还嘴的小插曲，配上「听着云雀我便睡着了」的叠句，童趣盎然。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/French_folk_music\" target=\"_blank\" rel=\"noopener\">French folk music</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["On m'envoie-t-à l'arbre, c'est pour y cueillir","On m'envoie-t-à l'arbre, c'est pour y cueillir","Je n'ai pas cueilli, j'ai cherché des nids"],
@@ -1944,6 +1953,7 @@ window.ALBUMS = [
         ] },
       { t:"Toutouig", lang:["BR"],
         note:"布列塔尼语传统摇篮曲，与 Chorale Anima 合唱团合作。「Toutouig la la」是哄睡的叠字衬词（相当于「睡吧睡吧、噜啦啦」），「va mabig」意为「我的小宝贝」。歌词大意：睡吧我的小宝贝，妈妈就在这儿摇着你；昨天你还哭得厉害，今天妈妈就对你笑了。",
+        lore:"《Toutouig》是布列塔尼最广为传唱的传统摇篮曲之一，源自北部的特雷吉耶（Tréguier）一带，以 6/8 拍的摇曳节奏和缓缓下行的旋律哄孩子入睡。它用布列塔尼语演唱——Cécile 家乡的凯尔特母语，如今已属濒危语言，这类从小传唱的摇篮曲也因而成了母语传承的温柔纽带。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Breton_language\" target=\"_blank\" rel=\"noopener\">Breton language</a> · <a href=\"https://en.wikipedia.org/wiki/Music_of_Brittany\" target=\"_blank\" rel=\"noopener\">Music of Brittany</a></span>",
         lyrics:[
           { role:"", chorus:true,
             orig:["Toutouig la la, va mabig","Toutouig la la","Toutouig la la, va mabig","Toutouig la la"],
@@ -1960,6 +1970,7 @@ window.ALBUMS = [
         ] },
       { t:"Joli whistle", lang:["FR"],
         note:"「漂亮的锡笛」——一首吉普赛小谣曲。绿眼吉普赛人家生的男孩，一辈子只想要一支锡笛（whistle）：父亲要给他马，家里发了财，美丽的吉普赛姑娘爱上他，他都只回一句「我更爱我的锡笛」。反复句「谁也改变不了他」贯穿全曲。",
+        lore:"歌名里的「whistle」是锡笛（tin whistle，又称便士笛）——一种六孔的小小哨笛，造价低廉却音色清亮，是爱尔兰与凯尔特传统音乐最具代表性的乐器之一。歌中男孩不要马、不要钱、不要美人，一辈子只守着一支锡笛，恰以这件最朴素的乐器，唱出了对纯粹与自由的执守。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Tin_whistle\" target=\"_blank\" rel=\"noopener\">Tin whistle (锡笛)</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Il était né dans une carriole","Chez des gitans aux yeux verts","Dans une famille un peu folle","Avec son père et sa mère"],
@@ -2022,6 +2033,7 @@ window.ALBUMS = [
         ] },
       { t:"Walking In The Air", lang:["EN"],
         note:"英语，翻唱自动画《雪人》（The Snowman，1982）的名曲，与 Chorale Anima 合唱团合作。男孩与雪人手牵手在月夜的空中飞行，越过沉睡的村庄、河流山峦，孩子们仰头惊望，最后惊醒了海底的巨兽。（原文取自同曲的合唱版，与 Corbel 版一致。）",
+        lore:"这是英国动画《雪人》（The Snowman，1982，据雷蒙德·布里格斯绘本改编）的主题曲《Walking in the Air》（Howard Blake 作）的翻唱。那部几乎没有对白的动画，正是靠这首纯净的男童高音传遍世界，唱的是小男孩与雪人在月夜飞越雪原的梦境。La Fiancée 专辑的《Breathing You》也曾化用过它的意象，这一回 Cécile 索性完整翻唱了原曲。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Walking_in_the_Air\" target=\"_blank\" rel=\"noopener\">Walking in the Air</a> · <a href=\"https://en.wikipedia.org/wiki/The_Snowman\" target=\"_blank\" rel=\"noopener\">The Snowman</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["We're walking in the air","We're floating in a moonlight sky","The people far below","Are sleeping as we fly"],
