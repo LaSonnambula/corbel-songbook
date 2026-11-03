@@ -2973,6 +2973,7 @@ window.ALBUMS = [
     songs: [
       { t:"Marie-Jeanne-Gabrielle", lang:["FR"],
         note:"专辑之外的单曲／翻唱（原唱 Louis Capart）。咏布列塔尼外海的桑岛（île de Sein）——一座饱受海风与惊涛拍打的小岛。副歌唤着岛的名字，说它「沉睡在美丽的传说里」，铭刻在世代守望出海水手的女人们记忆中；各段依次唱它的童年往事与圣约翰篝火、面朝大海唱的《圣母颂》、从生到死「老塔」（灯塔 la Vieille）灯火下的古老风俗（肉桂、烛香、对死亡道一声「亡者安喜」）、暮色里传说中带来厄运的魔船与一身黑衣的岛上女人，以及新时代里生活变迁——大海转过身背对新一代渔民，把他们从桑岛引向远方。副歌全曲反复，此处只列一次；末段副歌略有变化，单独列出。",
+        lore:"歌咏的桑岛（Île de Sein）是布列塔尼最西端外海的一座低矮小岛，与「世界尽头」拉兹角（Pointe du Raz）隔着凶险的桑岛海峡相望。它的传说深厚：相传古时岛上住着九位能预言未来、呼风唤雨、变化成各种动物的处女德鲁伊女祭司（Gallizenae）。它也以历史著称——1940 年二战期间，全岛男丁几乎倾巢而出、渡海投奔自由法国，成为抵抗运动的佳话。歌里守望出海水手的女人、面朝大海唱的圣母颂、与死亡相伴的古俗，正是这座小岛风土的写照。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/%C3%8Ele_de_Sein\" target=\"_blank\" rel=\"noopener\">Île de Sein</a></span>",
         lyrics:[
           { role:"Refrain（全曲反复）", chorus:true,
             orig:["Marie-Jeanne-Gabrielle","Entre la mer et le ciel","Battu par tous les vents","Au raz de l'océan","Ton pays","S'est endormi","Sur de belles légendes","Illuminant son histoire","Gravées dans la mémoire","Des femmes qui attendent","Les marins","D'île de Sein"],
@@ -2995,6 +2996,7 @@ window.ALBUMS = [
         ] },
       { t:"Bro Gozh ma Zadoù", lang:["BR"],
         note:"「我祖先的古老土地」——布列塔尼地区的颂歌（事实上的布列塔尼「国歌」），与威尔士、康沃尔国歌同曲。2017 年群星合唱版（Alan Stivell 领衔，Gilles Servat、Tri Yann、Louis Capart、Gwennyn、Clarisse Lavanant、Rozenn Talec、Cécile Corbel 等布列塔尼乐坛歌手同台）。歌颂布列塔尼（Armor / Armorica「海之国」）：圣徒与吟游诗人之乡，人民坚毅勇武；纵在往昔的大战中败北，她的语言与炽热的心永远鲜活，如今已然觉醒。「Diskan」为布列塔尼语「副歌」，每段后反复。中文据布列塔尼语原文与英／法译转出。",
+        lore:"《Bro Gozh ma Zadoù》（我祖先的古老土地）是布列塔尼事实上的「国歌」：词由弗朗索瓦·雅弗雷努（François Jaffrennou）1897 年填写，曲调直接采自威尔士国歌《Hen Wlad Fy Nhadau》——康沃尔国歌亦用同一曲，三首歌同宗同源，正是凯尔特诸民族血脉相连的明证，1903 年被定为布列塔尼颂歌、2021 年获官方正式确认。它与同碟其他歌一样，承载着布列塔尼强烈的语言与族群认同；这个群星合唱版几乎集结了当代布列塔尼乐坛的半壁江山。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Bro_Gozh_ma_Zado%C3%B9\" target=\"_blank\" rel=\"noopener\">Bro Gozh ma Zadoù</a></span>",
         lyrics:[
           { role:"I", chorus:false,
             orig:["Ni, Breizhiz a galon, karomp hon gwir vro!","Brudet eo an Arvor dre ar bed tro-dro.","Dispont 'kreiz ar brezel, hon tadoù ken mat,","A skuilhas eviti o gwad."],
@@ -3039,6 +3041,7 @@ window.ALBUMS = [
         ] },
       { t:"Femmes de Bretagne", lang:["FR"],
         note:"2012 年布列塔尼女歌手群体合作的公益单曲（主创 Clarisse Lavanant，Cécile Corbel 为合唱者之一，另有 Gwennyn、Gayane、Véronique Autret、Maria Desbordes、Eleanor Lehtela 等）。一首「布列塔尼自由女性」的自白：在大地尽头的荒野长大，母亲说这里的燕子比枪声更强、父亲说这里黑白分明比灰色更美；「我」是比外海的风更自由、更强的女人，把嗓音扎根在布列塔尼世代传唱的歌里。副歌以「Ma/Nos voix s'enracine(nt)」反复，末段转为复数、由姐姐嘱托妹妹「你能否活出自己的人生」，众女性齐声作结。",
+        lore:"这是 2012 年布列塔尼多位女歌手联袂录制的公益单曲，为慈善义演而作。歌名「布列塔尼的女人们」正呼应着布列塔尼漫长的航海传统里，世代留守岸上、守望出海丈夫与儿子的女性——「比外海的风更强」。歌里「黑与白比灰色更美」暗合布列塔尼的黑白纹章色，「把嗓音扎根在布列塔尼世代传唱的歌里」则是一曲献给故土、献给布列塔尼女性坚韧的赞歌。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Brittany\" target=\"_blank\" rel=\"noopener\">Brittany</a></span>",
         lyrics:[
           { role:"Verse 1", chorus:false,
             orig:["Celle que je suis","Qui peut le dire","Là-bas si loin de vous","Fille de feu","Femme fière","Au bout de la terre","Je donne à mon âme rendez-vous"],
