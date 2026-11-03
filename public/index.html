@@ -409,6 +409,51 @@
     display: block;
     margin-bottom: 4px;
   }
+  .note a, .lore a {
+    color: var(--sea);
+    text-decoration: none;
+    border-bottom: 1px solid var(--sea-deep);
+    transition: color .15s, border-color .15s;
+  }
+  .note a:hover, .lore a:hover {
+    color: var(--gold-bright);
+    border-bottom-color: var(--gold);
+  }
+  /* lore block — background / legend behind a song, with source links */
+  .lore {
+    background: #211c12;
+    border: 1px solid var(--edge);
+    border-left: 3px solid var(--gold);
+    border-radius: 4px;
+    padding: 14px 18px;
+    margin: 34px 0 10px;
+    font-family: var(--serif-zh);
+    font-size: 15px;
+    line-height: 1.85;
+    color: var(--text-soft);
+  }
+  .lore b {
+    color: var(--gold);
+    font-family: var(--serif-roman);
+    font-size: 11px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 6px;
+  }
+  .lore .src {
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+    color: var(--text-soft);
+  }
+  .lore .src b {
+    display: inline;
+    margin: 0 6px 0 0;
+    font-size: 10px;
+    color: var(--sea-deep);
+    letter-spacing: .12em;
+  }
 
   /* stanza grid */
   .lyrics { display: flex; flex-direction: column; gap: 26px; }
@@ -715,6 +760,10 @@ function selectSong(ai, si){
       <p>这首《${s.t}》还没有录入歌词。</p>
       <p class="how">把它的原文歌词贴给 Claude，就会翻译好、按原文／中文逐段对照填进这里。</p>
     </div>`;
+  }
+
+  if (s.lore) {
+    html += `<div class="lore"><b>Lore · 典故</b>${s.lore}</div>`;
   }
 
   main.innerHTML = html;

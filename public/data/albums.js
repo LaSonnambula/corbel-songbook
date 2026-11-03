@@ -2640,6 +2640,7 @@ window.ALBUMS = [
     songs: [
       { t:"Demoiselle (La Ballade de Viviane)", lang:["FR"],
         note:"专辑《Graal》以亚瑟王传说为主题，配以 Cécile 自绘的插画。开篇咏「湖中仙女」薇薇安（Viviane）——她把梅林锁在水底宫殿，又是引领骑士、把王者之剑交予亚瑟的那只手。",
+        lore:"「湖中仙女」（the Lady of the Lake）是亚瑟王传说中的水中精灵，名字有薇薇安（Viviane / Nimue）等多种写法。她养育了兰斯洛特，把王者之剑（Excalibur）交到亚瑟手中，又用计把魔法师梅林永远囚禁在树下或水底宫殿里——歌里「困在诸世界交界的宫殿」即指此。她的形象综合了凯尔特水泽女神与中世纪骑士文学。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Lady_of_the_Lake\" target=\"_blank\" rel=\"noopener\">Lady of the Lake</a> · <a href=\"https://en.wikipedia.org/wiki/Excalibur\" target=\"_blank\" rel=\"noopener\">Excalibur</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Au fond de l'eau demoiselle sorcière","Dans un reflet, cachée dans l'onde","Resteras-tu à jamais prisonnière","De ton palais à la croisée des mondes"],
@@ -2659,6 +2660,7 @@ window.ALBUMS = [
         ] },
       { t:"Morgane", lang:["FR"],
         note:"咏亚瑟王同母异父的姐姐、女巫摩根（Morgane / Morgan le Fay）。她生于大海、统治繁花之岛，纵为女王却无人能慰她的痛；她有两副面孔——慈爱或明智、善或恶、能治愈也能当场取你性命，与她相伴的是黑夜和月亮。末段：无人能破解那困住恋人的魔咒，而在「无归之谷」（Val sans retour），摩根你自己也被爱囚禁、一同被判了刑。",
+        lore:"摩根·勒菲（Morgan le Fay）是亚瑟王传说中最复杂的女性角色，既是精通医术、统治仙岛阿瓦隆的疗愈者，又在后世文本里渐渐被写成与亚瑟为敌的女巫。歌末的「无归之谷」（Val sans retour）出自《散文版兰斯洛特》：摩根在此设下魔咒，囚禁所有对爱不忠的骑士，而她自己也因兰斯洛特的拒绝困在对爱的执念里。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Morgan_le_Fay\" target=\"_blank\" rel=\"noopener\">Morgan le Fay</a> · <a href=\"https://en.wikipedia.org/wiki/Avalon\" target=\"_blank\" rel=\"noopener\">Avalon</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Morgane en sa demeure","Maîtresse enchanteresse","Règne sur l'île aux fleurs","Elle est nymphe des vagues","Enfant née de la mer","Mais son cœur est amer"],
@@ -2678,6 +2680,7 @@ window.ALBUMS = [
         ] },
       { t:"Folle Pensée (Merlin)", lang:["FR"],
         note:"咏预言者、术士梅林（Merlin），标题意为「疯狂的念头／痴想」。全曲是梅林自问「我究竟叫什么名字」——能呼风唤雨、通晓命运，却认不清自己是人还是术士，直到最后世人才唤他梅林。",
+        lore:"梅林（Merlin）是亚瑟王传说中的大预言家与术士，辅佐亚瑟登上王位。传说他有一半魔鬼血统，因此兼具凡人的迷惘与超凡的法力。歌中「与飞鸟、麋鹿交谈」「循群狼去路」呼应了另一支传统——「野人梅林」（Myrddin Wyllt）：他在一场战役后发疯遁入森林，与野兽为伴、获得预言之力。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Merlin\" target=\"_blank\" rel=\"noopener\">Merlin</a></span>",
         lyrics:[
           { role:"Verse 1", chorus:false,
             orig:["La terre gronde sous mes pas","Je commande l'autre monde","J'ordonne la pluie le froid","Mais quel est mon nom","Quel est mon nom"],
@@ -2697,6 +2700,7 @@ window.ALBUMS = [
         ] },
       { t:"Tristan & Yseult", lang:["FR"],
         note:"咏崔斯坦与伊索尔德（Tristan et Yseult）的悲恋传说：崔斯坦奉王命渡海去接未婚妻伊索尔德，二人却在不知情中误饮了那杯完美的爱情魔药，从此万劫不复。末段二人长眠于森林深处，坟上长出两株荆棘缠绕相连，永为恋人。「荆棘」意象源自传说——斩断又生。",
+        lore:"崔斯坦与伊索尔德是中世纪欧洲最著名的爱情悲剧之一，比亚瑟王圆桌骑士的故事更古老，后被并入亚瑟王传说。崔斯坦替叔父马克王（King Mark）去爱尔兰迎娶伊索尔德，归途中二人误饮了本为新婚夫妇准备的爱情魔药，自此不可自拔。歌末坟上荆棘缠绕、斩而复生的意象出自诺曼诗人贝鲁尔（Béroul）等早期版本，象征死亡也无法割断的爱。这个传说也是瓦格纳歌剧《特里斯坦与伊索尔德》的蓝本。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Tristan_and_Iseult\" target=\"_blank\" rel=\"noopener\">Tristan and Iseult</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["On raconte en Bretagne,","L'histoire de deux amants,","Que l'amour accompagne","Même au-delà du temps","Même au-delà du temps"],
@@ -2713,6 +2717,7 @@ window.ALBUMS = [
         ] },
       { t:"Le Roi s'en va Chasser", lang:["FR"],
         note:"意为「国王出猎去」。一位嗜猎成癖、日夜追杀猎物的国王：一头红毛野兔引众人穷追，忽然化作一头银霜色、缎子般眼睛的白鹿；白鹿中箭倒在王前，鹿角间竟闪耀着一个十字架，众人哗然。鹿开口道：「大王，请饶了这头兽吧——你在这尘世为王，我也是王，在远比你所辖更广的土地上。」这是圣于贝尔（St Hubert）／圣厄斯塔什（St Eustace）狩猎见十字架显灵的传说。副歌「留神——盛大的围猎来了……午夜钟声，猎杀吧、直到黎明消殒，这是受诅咒的时辰，国王出猎去」全曲反复，此处只列一次。",
+        lore:"「鹿角间显现十字架」的传说最早属于圣厄斯塔什（St Eustace），15 世纪后被移植到狩猎主保圣人圣于贝尔（St Hubert）身上：他本是沉迷田猎的贵族，某个受难日追鹿时，见一头白鹿角间显出耶稣受难像，受此感召而皈依。歌中「受诅咒的时辰」「盛大的围猎」也呼应欧洲广为流传的「幽灵猎队」（Wild Hunt）母题——亡灵或受罚的猎人在夜空中永不停歇地狩猎。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Hubertus\" target=\"_blank\" rel=\"noopener\">Saint Hubertus</a> · <a href=\"https://en.wikipedia.org/wiki/Saint_Eustace\" target=\"_blank\" rel=\"noopener\">Saint Eustace</a> · <a href=\"https://en.wikipedia.org/wiki/Wild_Hunt\" target=\"_blank\" rel=\"noopener\">Wild Hunt</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Il y avait un roi qui n'aimait rien tant","Que de chasser toujours, et la nuit et le jour","Chevauchant à sa suite, des soldats et des pages","Venait sous sa conduite, un immense équipage"],
@@ -2738,6 +2743,7 @@ window.ALBUMS = [
         ] },
       { t:"Le Roi Pêcheur", lang:["FR"],
         note:"咏「渔王」（Fisher King）：守护圣杯、身负旧伤的国王，唯有心地纯净者才能望见他隐于迷雾中的城堡。宫中大摆宴席，可国王伤重得既不能饮也不能食，痛苦深重、国土荒凉；果园尽枯、飞鸟不再歌唱，侵蚀国王与国土的痼疾如噩梦般夜夜滋长。副歌一遍遍「为国王的健康干杯」「为忘却而痛饮，从冬到夏，仿佛什么都不曾发生」，末段唱「国王已死、已下葬」——荒凉与麻木的反讽。",
+        lore:"渔王（Fisher King）是圣杯传说中守护圣杯的最后一位国王。他腿部（一说下身）受了无法愈合的伤，只能靠垂钓度日，故名「渔王」。按「荒原」（Waste Land）母题，国王的伤与国土的荒芜互为一体：唯有纯净的骑士（帕西法尔）向他问出那句关键的问题，国王才能痊愈、land 才能复苏。这一意象经魏斯顿《从仪式到传奇》影响了艾略特的长诗《荒原》。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Fisher_King\" target=\"_blank\" rel=\"noopener\">Fisher King</a> · <a href=\"https://en.wikipedia.org/wiki/Holy_Grail\" target=\"_blank\" rel=\"noopener\">Holy Grail</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Sur des terres lointaines dans un endroit secret","Enfermé dans la brume il y a un palais","Peu d'hommes y sont entrés car il faut un cœur pur","Pour pouvoir distinguer ses tours et ses murs"],
@@ -2757,6 +2763,7 @@ window.ALBUMS = [
         ] },
       { t:"Trois Gouttes de Sang (Perceval)", lang:["FR"],
         note:"咏帕西法尔（Perceval）。「雪上三滴血」是传说中的经典一幕：他见野雁被猎鹰所伤，血滴落在雪上，红白相映，令他忆起爱人的容颜，怔立雪中不能自已。歌里把这一幕化作离别之痛——雪上的红像「我们的爱」，「远离你，我随意走去，人说这就是命；但愿能抹去悔恨，可天已晚，夜色早已把一切覆盖」。",
+        lore:"帕西法尔（Perceval，德语作 Parzival）是圣杯传说的核心骑士，最早见于克雷蒂安·德·特鲁瓦 12 世纪末的《故事中的帕西瓦尔，或圣杯的故事》。「雪上三滴血」是其中名场面：他看见雪地上一只被猎鹰扑伤的雁，红血映着白雪与黑羽，三种颜色恰似爱人布兰什弗勒的面容，令他出神伫立、浑然忘我。这一幕是中世纪文学里「爱的出神」最著名的意象之一。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Perceval,_the_Story_of_the_Grail\" target=\"_blank\" rel=\"noopener\">Perceval, the Story of the Grail</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Sur le chemin","Dans le soleil d'hiver","Je marchais sans repos","Quand j'ai vu soudain","Baissant les yeux à terre","Le sang d'un oiseau"],
@@ -2779,6 +2786,7 @@ window.ALBUMS = [
         ] },
       { t:"Dans les Yeux de ma Belle (Lancelot)", lang:["FR"],
         note:"咏圆桌骑士兰斯洛特（Lancelot），标题意为「在我爱人的眼眸里」——他夹在理智与炽烈的爱欲之间（一条路、一位王后），终于全盘皆输。「一位王后」指他所爱的桂妮薇儿。副歌唱在爱人的眼里有永恒、有为他引路的燕群，可那双眼也美得令他万劫不复，把他献祭在「破灭幻梦的祭坛」上。末段把「两条路」换作「两个誓言、一个秘密」，光与影相互撕扯，骑士依旧不幸。",
+        lore:"兰斯洛特（Lancelot）是圆桌骑士中武艺最高强的一位，由湖中仙女养大，故又称「湖上的兰斯洛特」（Lancelot du Lac）。他与亚瑟王的王后桂妮薇儿（Guinevere）相恋——这段违背骑士誓言与君臣忠诚的禁忌之恋，最终撕裂了圆桌骑士团，成为亚瑟王国覆灭的导火索。歌中「两个誓言、一个秘密」正指他夹在对王的忠诚与对王后的爱之间的两难。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Lancelot\" target=\"_blank\" rel=\"noopener\">Lancelot</a> · <a href=\"https://en.wikipedia.org/wiki/Guinevere\" target=\"_blank\" rel=\"noopener\">Guinevere</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Deux chemins, une peine,","Comment choisir","Un destin, une reine","Entre les deux","Quand la raison se mêle d'ardent désir","Le chevalier est malheureux"],
@@ -2795,6 +2803,7 @@ window.ALBUMS = [
         ] },
       { t:"Arthur", lang:["FR"],
         note:"咏亚瑟王本人——长眠于亡者之岛阿瓦隆（Avalon），词中问他可还看得见人世间国王们喧嚣的疯狂、可愿重返人间；又问他梦中是否见到湖中仙女为他佩上那柄光华无双的金剑。",
+        lore:"亚瑟王（King Arthur）是不列颠传说中的中心人物，据传率圆桌骑士抵御撒克逊人入侵。他在卡姆兰战役中身负重伤后，被送往仙岛阿瓦隆（Avalon）疗伤——传说他并未真正死去，而是长眠于此，将在不列颠最危难时归来，故有「永恒之王」（the once and future king）之称。歌中「仙女为他佩上金剑」即指湖中仙女授予王者之剑的一幕。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/King_Arthur\" target=\"_blank\" rel=\"noopener\">King Arthur</a> · <a href=\"https://en.wikipedia.org/wiki/Avalon\" target=\"_blank\" rel=\"noopener\">Avalon</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Arthur depuis l'autre monde","Vois-tu les hommes et les rois","Vois-tu leur folie qui gronde","Reviendrais-tu ici-bas?"],
@@ -2811,6 +2820,7 @@ window.ALBUMS = [
         ] },
       { t:"Une Reine", lang:["FR"],
         note:"意为「一位王后」——多半咏桂妮薇儿（Guenièvre）。以「奖章的背面／镜中的倒影／万物的反面」起兴，写真与假、光与影之间的自我：我梦见过一柄剑，不为播撒仇恨，只为在害怕、泪水将涌时为我指路。从早到晚、或笑或哭，一切迟早都会成真，可我必须抉择——是沉默还是炽烈，是隐没还是在场。「若我有一柄剑，我便会觉得自己像个王后，我要斩断那些煎熬，像剪断丝线、羊毛的缎带，在层层倒影里，挑出那个值得的。」如今万物交融：未来与过往、太阳与风、爱与恨、冬与夏、喜与悲。",
+        lore:"曲名「一位王后」在《Graal》的亚瑟王语境中，一般认为指亚瑟王的王后桂妮薇儿（Guinevere，法语 Guenièvre）。她是传说中容貌绝世的王后，却因与兰斯洛特的恋情而成为王国倾覆的关键，形象历来在「贤后」与「失贞者」两极之间被反复书写——正与歌中「奖章的背面／万物的反面／光与影之间」的双面自我相呼应。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Guinevere\" target=\"_blank\" rel=\"noopener\">Guinevere</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["La médaille a son revers","Chaque miroir, son reflet","Toute chose, son contraire","Entre le faux et le vrai"],
@@ -2833,6 +2843,7 @@ window.ALBUMS = [
         ] },
       { t:"Le Roi des Fées", lang:["FR"],
         note:"副标题「La Légende de Thomas le Rhymer」——即托马斯·莱莫（True Thomas）传说的法语版，与 SongBook vol.1《The King of the Fairies》同源：他随精灵入另一个世界为王，七年后归来，人间的门已永远关上，唯余风声呼唤。故事里他不可泄露仙境的秘密，须始终缄默。",
+        lore:"托马斯·莱莫（Thomas the Rhymer，又称 True Thomas，约 13 世纪）是苏格兰边境厄尔斯顿（Earlston，古称 Erceldoune）的真实人物与传说诗人。相传他在艾尔顿山（Eildon）的树下遇见仙后，被带入仙境，归来时已过七年，并获赠「不能说谎之舌」——从此预言无不应验。歌中金竖琴、七年、艾尔顿橡树、须永守缄默等细节均出自这则民谣（即柴尔德民谣第 37 号）。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Thomas_the_Rhymer\" target=\"_blank\" rel=\"noopener\">Thomas the Rhymer</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["Dans la ville d'Earlston","Un homme joue sur sa harpe d'or","Mais il ne joue pour personne","Jour et nuit encor et encor"],
@@ -2858,6 +2869,7 @@ window.ALBUMS = [
         ] },
       { t:"La Porte est en Dedans", lang:["FR"],
         note:"专辑收尾曲，标题意为「那扇门在里面」——古老王国之门立于天地之间，闪着黄金与翡翠的光，而寻常人在世界的狂奔里视而不见；要寻见内心的光，须知那扇门朝内而开。「饮下那位献出生命者的杯」呼应圣杯主题。",
+        lore:"作为《Graal》的收尾曲，这首歌把贯穿全碟的「圣杯追寻」从外在冒险收束为内在的灵性之旅。圣杯（Holy Grail）在传说中既是基督最后的晚餐所用、又盛接其受难之血的圣物，寻杯因而成为追寻救赎与真理的象征。「饮下那位献出了生命者的杯」直指这层基督教意涵；而「那扇门朝内而开」则把追寻的终点指向人的内心。<span class=\"src\"><b>WIKI</b><a href=\"https://en.wikipedia.org/wiki/Holy_Grail\" target=\"_blank\" rel=\"noopener\">Holy Grail</a></span>",
         lyrics:[
           { role:"", chorus:false,
             orig:["C'est la porte d'un ancien royaume","Entre le Ciel et la Terre","Où brillent l'or et les émeraudes","Où bat le sang où vit le mystère"],
